@@ -46,7 +46,7 @@ service you have to run, no key you have to buy.
                                     │
                     ┌───────────────▼───────────────┐
    what they    ───►│  CONNECTORS   telegram-mcp-kit │  your own Telegram, in ~15 minutes
-   reach into       │                                │  (whatsapp-mcp-kit next)
+   reach into       │               whatsapp-mcp-kit │  your own WhatsApp, in ~20 minutes
                     └───────────────┬───────────────┘
                                     │
                     ┌───────────────▼───────────────┐
@@ -98,6 +98,8 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | Repo | What it is | Take it if |
 |---|---|---|
 | **[telegram-mcp-kit](https://github.com/Palo-Alto-AI-Research-Lab/telegram-mcp-kit)** | Connect Claude to **your own** Telegram account in ~15 minutes: a paste-in install prompt for Claude Code/Codex, the patches we run in production (one shared daemon per machine instead of a copy per session, six extra search tools, multi-account), a watchdog, and ten dated gotchas. Built on upstream [`chigwell/telegram-mcp`](https://github.com/chigwell/telegram-mcp) | Your agent writes code all day but cannot read the chat where the work is actually decided |
+
+| **[whatsapp-mcp-kit](https://github.com/Palo-Alto-AI-Research-Lab/whatsapp-mcp-kit)** | Link WhatsApp to Claude in ~20 minutes: a live self-refreshing QR page that makes pairing actually work, production patches, and twelve field gotchas. Built on upstream [`sjawhar/whatsapp-mcp`](https://github.com/sjawhar/whatsapp-mcp) | Pairing keeps timing out and you cannot tell whether the QR is stale or your session is |
 
 ## In public — the work, said out loud
 
