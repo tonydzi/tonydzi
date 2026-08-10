@@ -24,7 +24,7 @@
 
 > 👤 **Hiring manager or engineer? [START HERE — one page of proof →](https://palo-alto-ai-research-lab.github.io/)**
 >
-> 🧩 **Everything we built, part by part → [SYSTEM.md](https://github.com/Palo-Alto-AI-Research-Lab/Palo-Alto-AI-Research-Lab/blob/main/SYSTEM.md)** — 18 repos, what each one does, how they fit together.
+> 🧩 **Everything we built, part by part → [SYSTEM.md](https://github.com/Palo-Alto-AI-Research-Lab/Palo-Alto-AI-Research-Lab/blob/main/SYSTEM.md)** — 19 repos, what each one does, how they fit together.
 >
 > 📄 Resume: **[PDF](https://palo-alto-ai-research-lab.github.io/resume.pdf)** · [JSON Resume](https://palo-alto-ai-research-lab.github.io/resume.json) — 🎓 Research: **[academic profile](https://palo-alto-ai-research-lab.github.io/scholar/)** · [full publication list](https://palo-alto-ai-research-lab.github.io/scholar/publications/)
 
