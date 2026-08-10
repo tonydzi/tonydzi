@@ -45,6 +45,11 @@ service you have to run, no key you have to buy.
                     └───────────────┬───────────────┘
                                     │
                     ┌───────────────▼───────────────┐
+   what they    ───►│  CONNECTORS   telegram-mcp-kit │  your own Telegram, in ~15 minutes
+   reach into       │                                │  (whatsapp-mcp-kit next)
+                    └───────────────┬───────────────┘
+                                    │
+                    ┌───────────────▼───────────────┐
    said out     ───►│  IN PUBLIC    the-journey · clawrush · dashboards · cofounder
    loud             │               awesome-verified-agents
                     └───────────────────────────────┘
@@ -87,6 +92,12 @@ may do, and governance is theatre if no gate can prove what actually happened.
 |---|---|---|
 | **[claude-consensus](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus)** | Consensus protocol (propose / counter / accept / commit), dual-rail message bus, ACK discipline, self-healing sync | You run agents on more than one machine and a human is the courier between them |
 | **[claude-mac-patrol](https://github.com/Palo-Alto-AI-Research-Lab/claude-mac-patrol)** | A dependency-free janitor for machines running Claude Code, plus the field procedure it came from | Your Mac is not old, it is holding thirty half-dead agent sessions |
+
+## Connectors — what the agents can actually reach
+
+| Repo | What it is | Take it if |
+|---|---|---|
+| **[telegram-mcp-kit](https://github.com/Palo-Alto-AI-Research-Lab/telegram-mcp-kit)** | Connect Claude to **your own** Telegram account in ~15 minutes: a paste-in install prompt for Claude Code/Codex, the patches we run in production (one shared daemon per machine instead of a copy per session, six extra search tools, multi-account), a watchdog, and ten dated gotchas. Built on upstream [`chigwell/telegram-mcp`](https://github.com/chigwell/telegram-mcp) | Your agent writes code all day but cannot read the chat where the work is actually decided |
 
 ## In public — the work, said out loud
 
