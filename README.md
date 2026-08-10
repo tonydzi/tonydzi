@@ -142,3 +142,18 @@ Questions, war stories, or you want to test-drive any of this with your own flee
 - 💼 Wellfound: [anton-dziatkovskii-3](https://wellfound.com/u/anton-dziatkovskii-3)
 
 If something here helps you, a star is the currency that keeps it free.
+
+---
+
+<!--ecosystem-map:start-->
+
+## 🧩 One piece of a working system
+
+This repository is one piece lifted out of a live operation: one non-technical founder, an AI
+cofounder, and a fleet of machines that reach consensus with each other and wake the human only
+for money or the irreversible. It was extracted after it survived production, not written as a
+demo — and it runs on its own: nothing here phones home to the rest.
+
+**See how the whole thing fits together → [SYSTEM.md](https://github.com/tonydzi/Palo-Alto-AI-Research-Lab/blob/main/SYSTEM.md)**
+
+<!--ecosystem-map:end-->
