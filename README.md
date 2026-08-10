@@ -1,7 +1,7 @@
 <!--
-  This is the profile README of github.com/Palo-Alto-AI-Research-Lab.
+  This is the profile README of github.com/tonydzi.
   Heads-up for whoever renames the account: every badge, widget and raw URL below
-  hard-codes the login "Palo-Alto-AI-Research-Lab". A rename silently breaks them
+  hard-codes the login "tonydzi". A rename silently breaks them
   (shields.io and the stats widgets just render an error card). Grep for the login
   and rewrite it in the same commit as the rename.
   The "Latest writing" block is generated — see .github/workflows/blog-post-workflow.yml.
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Palo-Alto-AI-Research-Lab?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/Palo-Alto-AI-Research-Lab?style=flat-square&logo=github&label=followers&color=1f6feb"></a>
+  <a href="https://github.com/tonydzi?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/tonydzi?style=flat-square&logo=github&label=followers&color=1f6feb"></a>
   <a href="https://orcid.org/0000-0001-7408-3054"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-0000--0001--7408--3054-a6ce39?style=flat-square&logo=orcid&logoColor=white"></a>
   <a href="https://x.com/Tony_Stef_"><img alt="X" src="https://img.shields.io/badge/X-@Tony__Stef__-000000?style=flat-square&logo=x&logoColor=white"></a>
   <a href="https://t.me/ClawEng"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@ClawEng-229ED9?style=flat-square&logo=telegram&logoColor=white"></a>
@@ -24,7 +24,7 @@
 
 > 👤 **Hiring manager or engineer? [START HERE — one page of proof →](https://palo-alto-ai-research-lab.github.io/)**
 >
-> 🧩 **Everything we built, part by part → [SYSTEM.md](https://github.com/Palo-Alto-AI-Research-Lab/Palo-Alto-AI-Research-Lab/blob/main/SYSTEM.md)** — 20 repos, what each one does, how they fit together.
+> 🧩 **Everything we built, part by part → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)** — 20 repos, what each one does, how they fit together.
 >
 > 📄 Resume: **[PDF](https://palo-alto-ai-research-lab.github.io/resume.pdf)** · [JSON Resume](https://palo-alto-ai-research-lab.github.io/resume.json) — 🎓 Research: **[academic profile](https://palo-alto-ai-research-lab.github.io/scholar/)** · [full publication list](https://palo-alto-ai-research-lab.github.io/scholar/publications/)
 
@@ -32,23 +32,23 @@
 
 ## 🔨 What I'm building right now
 
-- **A second brain that survives a context reset** — facts in SQL, meaning in embeddings, relations in a graph, one SQLite file, no infrastructure. → [`sqlite-graph-memory`](https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory)
-- **A fleet that negotiates instead of drifting** — hub, laptops, family machines and a VPS anchor run propose → counter → accept → commit, and wake the human only for money or the irreversible. → [`claude-consensus`](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus)
-- **Deterministic gates around the model, not better prompts inside it** — citation checks, authority routing, an 8-domain leash for delegated authority. → [`verbatim-citation-gate`](https://github.com/Palo-Alto-AI-Research-Lab/verbatim-citation-gate) · [`agent-leash`](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash)
-- **A reliability bench for agent runtimes** — replay, idempotency and consensus-integrity scenarios distilled from real fleet incidents, not from a whiteboard. → [`agent-runtime-integrity-bench`](https://github.com/Palo-Alto-AI-Research-Lab/agent-runtime-integrity-bench)
-- **The whole thing written down as it happens** — a build-in-public book and an English diary, updated the day something breaks. → [`the-journey`](https://github.com/Palo-Alto-AI-Research-Lab/the-journey) · [`clawrush`](https://github.com/Palo-Alto-AI-Research-Lab/clawrush)
+- **A second brain that survives a context reset** — facts in SQL, meaning in embeddings, relations in a graph, one SQLite file, no infrastructure. → [`sqlite-graph-memory`](https://github.com/tonydzi/sqlite-graph-memory)
+- **A fleet that negotiates instead of drifting** — hub, laptops, family machines and a VPS anchor run propose → counter → accept → commit, and wake the human only for money or the irreversible. → [`claude-consensus`](https://github.com/tonydzi/claude-consensus)
+- **Deterministic gates around the model, not better prompts inside it** — citation checks, authority routing, an 8-domain leash for delegated authority. → [`verbatim-citation-gate`](https://github.com/tonydzi/verbatim-citation-gate) · [`agent-leash`](https://github.com/tonydzi/agent-leash)
+- **A reliability bench for agent runtimes** — replay, idempotency and consensus-integrity scenarios distilled from real fleet incidents, not from a whiteboard. → [`agent-runtime-integrity-bench`](https://github.com/tonydzi/agent-runtime-integrity-bench)
+- **The whole thing written down as it happens** — a build-in-public book and an English diary, updated the day something breaks. → [`the-journey`](https://github.com/tonydzi/the-journey) · [`clawrush`](https://github.com/tonydzi/clawrush)
 
 ## 📌 Four to start with
 
 | | What it is | Why you'd care |
 |---|---|---|
-| **[claude-bible](https://github.com/Palo-Alto-AI-Research-Lab/claude-bible)** | One behavioral rulebook every actor obeys — the founder, human assistants, and every Claude in the fleet | Your agents behave the same across repos, sessions and people, because the law lives outside the prompt |
-| **[claude-consensus](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus)** | Cross-machine consensus protocol: dual-rail bus, ACK discipline, heartbeat failover, self-healing sync | Run agents on several machines without state drift, and without a human courier between them |
-| **[sqlite-graph-memory](https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory)** | Graph RAG on plain SQLite: vector retrieval + curated wiki-links, zero infra | Agent memory that outlives the context window and that you can open with `sqlite3` |
-| **[verbatim-citation-gate](https://github.com/Palo-Alto-AI-Research-Lab/verbatim-citation-gate)** | Zero-token verbatim check + burden-of-proof judge for RAG answers | Fabricated citations get caught before the user sees them; framework-agnostic, MIT |
-| **[verdict-contract](https://github.com/Palo-Alto-AI-Research-Lab/verdict-contract)** | Your LLM reviewer said APPROVE - did it? Prompt rule, parser and exit-code gate in one stdlib file | A review whose verdict never reaches the exit status is a log line, not a gate. 42 counterexamples included |
+| **[claude-bible](https://github.com/tonydzi/claude-bible)** | One behavioral rulebook every actor obeys — the founder, human assistants, and every Claude in the fleet | Your agents behave the same across repos, sessions and people, because the law lives outside the prompt |
+| **[claude-consensus](https://github.com/tonydzi/claude-consensus)** | Cross-machine consensus protocol: dual-rail bus, ACK discipline, heartbeat failover, self-healing sync | Run agents on several machines without state drift, and without a human courier between them |
+| **[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)** | Graph RAG on plain SQLite: vector retrieval + curated wiki-links, zero infra | Agent memory that outlives the context window and that you can open with `sqlite3` |
+| **[verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate)** | Zero-token verbatim check + burden-of-proof judge for RAG answers | Fabricated citations get caught before the user sees them; framework-agnostic, MIT |
+| **[verdict-contract](https://github.com/tonydzi/verdict-contract)** | Your LLM reviewer said APPROVE - did it? Prompt rule, parser and exit-code gate in one stdlib file | A review whose verdict never reaches the exit status is a log line, not a gate. 42 counterexamples included |
 
-Also here: [`agent-leash`](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash) (LEASH-8 control model) · [`charm-os`](https://github.com/Palo-Alto-AI-Research-Lab/charm-os) (MCP read-broker) · [`second-brain-starter-kit`](https://github.com/Palo-Alto-AI-Research-Lab/second-brain-starter-kit) (101 skills + a working CRM engine).
+Also here: [`agent-leash`](https://github.com/tonydzi/agent-leash) (LEASH-8 control model) · [`charm-os`](https://github.com/tonydzi/charm-os) (MCP read-broker) · [`second-brain-starter-kit`](https://github.com/tonydzi/second-brain-starter-kit) (101 skills + a working CRM engine).
 
 ## 🧰 Stack
 
@@ -70,18 +70,18 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 ## ✍️ Latest writing
 
-Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/Palo-Alto-AI-Research-Lab/clawrush) ([RSS](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml)).
+Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [Agent Interface, Not User Interface](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/agent-interface-not-user-interface.md) &nbsp;<sub>Aug 7, 2026</sub>
-- [Make Your AI Admit It Failed](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/make-your-ai-admit-it-failed.md) &nbsp;<sub>Aug 7, 2026</sub>
-- [Letting Someone Else&#39;s Agent Into Your Database](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/letting-someone-elses-agent-in.md) &nbsp;<sub>Aug 7, 2026</sub>
-- [The Live Show Pipeline](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-live-show-pipeline.md) &nbsp;<sub>Aug 7, 2026</sub>
-- [Finding What Actually Happens Around You](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/finding-what-happens-around-you.md) &nbsp;<sub>Aug 7, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [Agent Interface, Not User Interface](https://github.com/tonydzi/clawrush/blob/main/longreads/agent-interface-not-user-interface.md) &nbsp;<sub>Aug 7, 2026</sub>
+- [Make Your AI Admit It Failed](https://github.com/tonydzi/clawrush/blob/main/longreads/make-your-ai-admit-it-failed.md) &nbsp;<sub>Aug 7, 2026</sub>
+- [Letting Someone Else&#39;s Agent Into Your Database](https://github.com/tonydzi/clawrush/blob/main/longreads/letting-someone-elses-agent-in.md) &nbsp;<sub>Aug 7, 2026</sub>
+- [The Live Show Pipeline](https://github.com/tonydzi/clawrush/blob/main/longreads/the-live-show-pipeline.md) &nbsp;<sub>Aug 7, 2026</sub>
+- [Finding What Actually Happens Around You](https://github.com/tonydzi/clawrush/blob/main/longreads/finding-what-happens-around-you.md) &nbsp;<sub>Aug 7, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
 
-**[相棒 AIBŌ · The Partner](https://github.com/Palo-Alto-AI-Research-Lab/the-journey)** — a build-in-public book of the whole journey, day by day, since 2026-05-27. How a non-technical founder and an AI built a second brain: what we tried, what broke, what we learned. Two forms side by side: a story for humans (RU/EN) and [`llms-full.txt`](https://github.com/Palo-Alto-AI-Research-Lab/the-journey/blob/main/llms-full.txt) for machines — point your coding agent at it and it inherits our patterns and skips our mistakes.
+**[相棒 AIBŌ · The Partner](https://github.com/tonydzi/the-journey)** — a build-in-public book of the whole journey, day by day, since 2026-05-27. How a non-technical founder and an AI built a second brain: what we tried, what broke, what we learned. Two forms side by side: a story for humans (RU/EN) and [`llms-full.txt`](https://github.com/tonydzi/the-journey/blob/main/llms-full.txt) for machines — point your coding agent at it and it inherits our patterns and skips our mistakes.
 
 ## 🔁 Contributing upstream
 
@@ -112,7 +112,7 @@ The most useful response so far was a rejection: [deepset-ai/haystack#12142](htt
   <img alt="GitHub activity, community and repository stats" src="/metrics.svg">
 </p>
 
-<sub>Rendered nightly from the GitHub API by <a href="https://github.com/Palo-Alto-AI-Research-Lab/Palo-Alto-AI-Research-Lab/blob/main/.github/workflows/metrics.yml">a workflow in this repo</a> and committed as an SVG — not hotlinked from a public widget host, because on 2026-08-01 the usual two (github-readme-stats, github-profile-trophy) were answering 503 and 402. Achievement badges are GitHub's own, on the profile sidebar. The full contribution record is on <a href="https://palo-alto-ai-research-lab.github.io/contributions/">the contributions page</a>, generated straight from the API.</sub>
+<sub>Rendered nightly from the GitHub API by <a href="https://github.com/tonydzi/tonydzi/blob/main/.github/workflows/metrics.yml">a workflow in this repo</a> and committed as an SVG — not hotlinked from a public widget host, because on 2026-08-01 the usual two (github-readme-stats, github-profile-trophy) were answering 503 and 402. Achievement badges are GitHub's own, on the profile sidebar. The full contribution record is on <a href="https://palo-alto-ai-research-lab.github.io/contributions/">the contributions page</a>, generated straight from the API.</sub>
 
 ## 👤 Who's behind this
 
@@ -130,7 +130,7 @@ This project is built by a human + AI team, and the git log says so: Claude
 writes most of the code, Codex and Grok review it, Gemini feeds the research.
 Each is credited on a commit **only if its output changed that commit's
 content** — no decorative credits. Lab-wide policy, one source for every repo:
-[AI-CONTRIBUTORS.md](https://github.com/Palo-Alto-AI-Research-Lab/.github/blob/main/AI-CONTRIBUTORS.md).
+[AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md).
 
 ## 📬 Contact
 
@@ -154,6 +154,6 @@ cofounder, and a fleet of machines that reach consensus with each other and wake
 for money or the irreversible. It was extracted after it survived production, not written as a
 demo — and it runs on its own: nothing here phones home to the rest.
 
-**See how the whole thing fits together → [SYSTEM.md](https://github.com/tonydzi/Palo-Alto-AI-Research-Lab/blob/main/SYSTEM.md)**
+**See how the whole thing fits together → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)**
 
 <!--ecosystem-map:end-->
