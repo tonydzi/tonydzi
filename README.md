@@ -93,11 +93,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [The 32,000-star repo was empty. The 118-star repo had the gold.](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/stars-are-not-alpha-mining-your-own-comments.md) &nbsp;<sub>Aug 10, 2026</sub>
-- [Routines That Repair Themselves](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/routines-that-repair-themselves.md) &nbsp;<sub>Aug 10, 2026</sub>
-- [Audit for Work Nobody Consumes](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/audit-for-work-nobody-consumes.md) &nbsp;<sub>Aug 10, 2026</sub>
-- [Inbound Robots in Every Messenger](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/inbound-robots-in-every-messenger.md) &nbsp;<sub>Aug 10, 2026</sub>
-- [Do Not Sanitise My Voice](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/no-sanitizing-my-voice.md) &nbsp;<sub>Aug 10, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [The 32,000-star repo was empty. The 118-star repo had the gold.](https://github.com/tonydzi/clawrush/blob/main/longreads/stars-are-not-alpha-mining-your-own-comments.md) &nbsp;<sub>Aug 10, 2026</sub>
+- [Routines That Repair Themselves](https://github.com/tonydzi/clawrush/blob/main/longreads/routines-that-repair-themselves.md) &nbsp;<sub>Aug 10, 2026</sub>
+- [Audit for Work Nobody Consumes](https://github.com/tonydzi/clawrush/blob/main/longreads/audit-for-work-nobody-consumes.md) &nbsp;<sub>Aug 10, 2026</sub>
+- [Inbound Robots in Every Messenger](https://github.com/tonydzi/clawrush/blob/main/longreads/inbound-robots-in-every-messenger.md) &nbsp;<sub>Aug 10, 2026</sub>
+- [Do Not Sanitise My Voice](https://github.com/tonydzi/clawrush/blob/main/longreads/no-sanitizing-my-voice.md) &nbsp;<sub>Aug 10, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
