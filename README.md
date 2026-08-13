@@ -93,11 +93,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [TRIZ Meets the AK-47 Rule](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/triz-meets-ak47.md) &nbsp;<sub>Aug 11, 2026</sub>
-- [A Publication Backlog Made of Folders](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/content-backlog-as-folders.md) &nbsp;<sub>Aug 11, 2026</sub>
-- [Teaching Claude to Like](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/teaching-claude-to-like.md) &nbsp;<sub>Aug 11, 2026</sub>
-- [Five Whys, Run Over a Series of Sessions](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/five-whys-on-a-series.md) &nbsp;<sub>Aug 11, 2026</sub>
-- [We Said We Would Measure It in a Month](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/task-registry-with-a-recheck-date.md) &nbsp;<sub>Aug 11, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [Two Days to Burn a Subscription](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/session-map-and-burning-limits.md) &nbsp;<sub>Aug 13, 2026</sub>
+- [A Recipe Beats a Prohibition](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/superpowers-measured-their-rules.md) &nbsp;<sub>Aug 13, 2026</sub>
+- [n8n or a Session: Where the Line Actually Falls](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/n8n-or-a-session.md) &nbsp;<sub>Aug 13, 2026</sub>
+- [Link the Sessions, Not the Notes](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/link-sessions-not-notes.md) &nbsp;<sub>Aug 12, 2026</sub>
+- [Where My Sessions Went](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/where-my-sessions-went.md) &nbsp;<sub>Aug 12, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
