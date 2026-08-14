@@ -50,6 +50,26 @@
 
 Also here: [`agent-leash`](https://github.com/tonydzi/agent-leash) (LEASH-8 control model) · [`charm-os`](https://github.com/tonydzi/charm-os) (MCP read-broker) · [`second-brain-starter-kit`](https://github.com/tonydzi/second-brain-starter-kit) (101 skills + a working CRM engine).
 
+## ⚡ 25 skills, one command each
+
+The whole set is installable in one line — `npx skills add tonydzi/second-brain-starter-kit`
+or `/plugin marketplace add tonydzi/second-brain-starter-kit` inside Claude Code. These 25 are
+where I'd start. Full map of all 101 → [skills/INDEX.md](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/INDEX.md).
+
+**Quality & review:** [`/tt`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/tt/SKILL.md) prove-it-works gate · [`/secondop`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/secondop/SKILL.md) multi-vendor review panel · [`/taste-check`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/taste-check/SKILL.md) content gate · [`/issue-match`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/issue-match/SKILL.md) measure a repo's queue before spending a PR
+
+**Memory & recall:** [`/ask`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/ask/SKILL.md) semantic vault search · [`/search`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/search/SKILL.md) full-text across every chat · [`/chat-search`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/chat-search/SKILL.md) find the past session · [`/brain`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/brain/SKILL.md) RAG-stack health · [`/dedup`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/dedup/SKILL.md) merge near-duplicates
+
+**Session continuity:** [`/retro`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/retro/SKILL.md) route what survives · [`/handoff`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/handoff/SKILL.md) a semicolon for the next session · [`/resume-last`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/resume-last/SKILL.md) continue after a crash · [`/1`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/1/SKILL.md) hard-crash recovery
+
+**Decisions:** [`/precedent`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/precedent/SKILL.md) did we decide this already · [`/declined`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/declined/SKILL.md) what we already rejected · [`/research-swarm`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/research-swarm/SKILL.md) 5-lens argument map · [`/last30days`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/last30days/SKILL.md) what changed this month
+
+**Fleet & infra:** [`/arch`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/arch/SKILL.md) map of the whole system · [`/sync-check`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/sync-check/SKILL.md) fleet sync green/red · [`/quarantine`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/quarantine/SKILL.md) fail-closed inbox for unsigned deliverables · [`/mcp`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/mcp/SKILL.md) connector health
+
+**Knowledge in:** [`/obsidian-ingest`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/obsidian-ingest/SKILL.md) any source → linked notes · [`/defuddle`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/defuddle/SKILL.md) clean web→markdown · [`/intake`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/intake/SKILL.md) route a new rule to every home · [`/skill-gap`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/skill-gap/SKILL.md) which skill to build next
+
+🧪 **Engineers:** try any of them and tell me what broke — I hand out free starter seeds to people who test and report back. Telegram [@tonydzi](https://t.me/tonydzi) · WhatsApp [+1 341 222 9178](https://wa.me/13412229178).
+
 <!--kits-series:start-->
 
 ## 🧰 Connector & Ops Kits
