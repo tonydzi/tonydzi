@@ -113,11 +113,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [Every Peer Exports Its Own LLMs](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/every-peer-exports-its-own-llms.md) &nbsp;<sub>Aug 14, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [One Ultracode Session Eats the Whole Window](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ultracode-burns-the-window.md) &nbsp;<sub>Aug 14, 2026</sub>
+- [Every Peer Exports Its Own LLMs](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/every-peer-exports-its-own-llms.md) &nbsp;<sub>Aug 14, 2026</sub>
 - [&quot;Did You Book the Call?&quot; — the Automation, and the Five Ways It Lied](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/did-you-book-the-call.md) &nbsp;<sub>Aug 13, 2026</sub>
 - [Backlog Versus Roadmap: One Field Separates Them](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/backlog-versus-roadmap.md) &nbsp;<sub>Aug 13, 2026</sub>
 - [Cover Everything With Tests, on Subscriptions That Are Idle Anyway](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/tests-on-idle-subscriptions.md) &nbsp;<sub>Aug 13, 2026</sub>
-- [Alpha Equals Deep Research](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/alpha-equals-deep-research.md) &nbsp;<sub>Aug 13, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
