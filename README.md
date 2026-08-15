@@ -22,11 +22,11 @@
   <img alt="License" src="https://img.shields.io/badge/everything%20here-MIT-3da639?style=flat-square&logo=opensourceinitiative&logoColor=white">
 </p>
 
-> 👤 **Hiring manager or engineer? [START HERE — one page of proof →](https://palo-alto-ai-research-lab.github.io/)**
+> 👤 **Hiring manager or engineer? [START HERE — one page of proof →](https://tonydzi.github.io/)**
 >
 > 🧩 **Everything we built, part by part → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)** — 20 repos, what each one does, how they fit together.
 >
-> 📄 Resume: **[PDF](https://palo-alto-ai-research-lab.github.io/resume.pdf)** · [JSON Resume](https://palo-alto-ai-research-lab.github.io/resume.json) — 🎓 Research: **[academic profile](https://palo-alto-ai-research-lab.github.io/scholar/)** · [full publication list](https://palo-alto-ai-research-lab.github.io/scholar/publications/)
+> 📄 Resume: **[PDF](https://tonydzi.github.io/resume.pdf)** · [JSON Resume](https://tonydzi.github.io/resume.json) — 🎓 Research: **[academic profile](https://tonydzi.github.io/scholar/)** · [full publication list](https://tonydzi.github.io/scholar/publications/)
 
 ---
 
@@ -128,7 +128,7 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 **37 pull requests into 26 repositories across 24 organisations** — Anthropic, OpenAI, Google, Microsoft, Mistral, Cohere, Hugging Face, xAI, Qwen, deepset, and the agent-ecosystem lists. 33 open, 4 closed, **0 merged so far** *(verified 2026-08-01)*.
 
-📋 **[The full list, with live status →](https://palo-alto-ai-research-lab.github.io/contributions/)** — generated straight from the GitHub API, closed ones included. Nothing is left off it to make the record look better.
+📋 **[The full list, with live status →](https://tonydzi.github.io/contributions/)** — generated straight from the GitHub API, closed ones included. Nothing is left off it to make the record look better.
 
 Representative work in flight:
 
@@ -153,13 +153,13 @@ The most useful response so far was a rejection: [deepset-ai/haystack#12142](htt
   <img alt="GitHub activity, community and repository stats" src="/metrics.svg">
 </p>
 
-<sub>Rendered nightly from the GitHub API by <a href="https://github.com/tonydzi/tonydzi/blob/main/.github/workflows/metrics.yml">a workflow in this repo</a> and committed as an SVG — not hotlinked from a public widget host, because on 2026-08-01 the usual two (github-readme-stats, github-profile-trophy) were answering 503 and 402. Achievement badges are GitHub's own, on the profile sidebar. The full contribution record is on <a href="https://palo-alto-ai-research-lab.github.io/contributions/">the contributions page</a>, generated straight from the API.</sub>
+<sub>Rendered nightly from the GitHub API by <a href="https://github.com/tonydzi/tonydzi/blob/main/.github/workflows/metrics.yml">a workflow in this repo</a> and committed as an SVG — not hotlinked from a public widget host, because on 2026-08-01 the usual two (github-readme-stats, github-profile-trophy) were answering 503 and 402. Achievement badges are GitHub's own, on the profile sidebar. The full contribution record is on <a href="https://tonydzi.github.io/contributions/">the contributions page</a>, generated straight from the API.</sub>
 
 ## 👤 Who's behind this
 
 **Anton Dziatkovskii** (Tony) — founder, non-technical — and **Mike**, his AI cofounder running on Claude Code. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
 
-Anton has done developer activation for a frontier platform before — when smart contracts were where LLM agents are now: Solidity curricula and a dev incubator with 40+ engineers across APAC, hackathons and cohorts at Platinum VC & Incubator ($35M AUM). CS security (MEPhI), ~20 academic papers, PhD in Education (IT). Full page: [palo-alto-ai-research-lab.github.io](https://palo-alto-ai-research-lab.github.io/) · [resume (PDF)](https://palo-alto-ai-research-lab.github.io/resume.pdf) · [academic profile](https://palo-alto-ai-research-lab.github.io/scholar/).
+Anton has done developer activation for a frontier platform before — when smart contracts were where LLM agents are now: Solidity curricula and a dev incubator with 40+ engineers across APAC, hackathons and cohorts at Platinum VC & Incubator ($35M AUM). CS security (MEPhI), ~20 academic papers, PhD in Education (IT). Full page: [tonydzi.github.io](https://tonydzi.github.io/) · [resume (PDF)](https://tonydzi.github.io/resume.pdf) · [academic profile](https://tonydzi.github.io/scholar/).
 
 Academic identity: Anton publishes as **Anton Dziatkovskii** ([ORCID 0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054), [Google Scholar](https://scholar.google.com/citations?user=b8gKHiMAAAAJ), [Academia.edu](https://tylip.academia.edu/AntonDziatkovskii)).
 
