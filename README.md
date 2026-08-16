@@ -113,11 +113,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [One Ultracode Session Eats the Whole Window](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ultracode-burns-the-window.md) &nbsp;<sub>Aug 14, 2026</sub>
-- [Every Peer Exports Its Own LLMs](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/every-peer-exports-its-own-llms.md) &nbsp;<sub>Aug 14, 2026</sub>
-- [&quot;Did You Book the Call?&quot; — the Automation, and the Five Ways It Lied](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/did-you-book-the-call.md) &nbsp;<sub>Aug 13, 2026</sub>
-- [Backlog Versus Roadmap: One Field Separates Them](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/backlog-versus-roadmap.md) &nbsp;<sub>Aug 13, 2026</sub>
-- [Cover Everything With Tests, on Subscriptions That Are Idle Anyway](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/tests-on-idle-subscriptions.md) &nbsp;<sub>Aug 13, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [Consulting-grade research for the price of three AI subscriptions](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/consulting-grade-research-for-the-price-of-subscriptions.md) &nbsp;<sub>Aug 15, 2026</sub>
+- [git worktree quietly poisoned my AI fleet &lpar;and Syncthing helped&rpar;](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/git-worktree-poisoned-my-ai-fleet.md) &nbsp;<sub>Aug 15, 2026</sub>
+- [I handed company operations to a fleet of AI agents. Honest results, failures included](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-gave-operations-to-a-fleet-of-agents.md) &nbsp;<sub>Aug 15, 2026</sub>
+- [Why my crons could not see a key that was lying right there](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-crons-signed-with-an-invisible-key.md) &nbsp;<sub>Aug 15, 2026</sub>
+- [The night shift: what my AI agents do while I sleep](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-night-shift.md) &nbsp;<sub>Aug 15, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
