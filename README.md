@@ -113,11 +113,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [Consulting-grade research for the price of three AI subscriptions](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/consulting-grade-research-for-the-price-of-subscriptions.md) &nbsp;<sub>Aug 15, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [The Failure Was Saving](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/fable-95-percent-unspent.md) &nbsp;<sub>Aug 16, 2026</sub>
+- [Lost Sessions Get a Lightweight Retro](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/lost-sessions-get-a-lightweight-retro.md) &nbsp;<sub>Aug 16, 2026</sub>
+- [Consulting-grade research for the price of three AI subscriptions](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/consulting-grade-research-for-the-price-of-subscriptions.md) &nbsp;<sub>Aug 15, 2026</sub>
 - [git worktree quietly poisoned my AI fleet &lpar;and Syncthing helped&rpar;](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/git-worktree-poisoned-my-ai-fleet.md) &nbsp;<sub>Aug 15, 2026</sub>
 - [I handed company operations to a fleet of AI agents. Honest results, failures included](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-gave-operations-to-a-fleet-of-agents.md) &nbsp;<sub>Aug 15, 2026</sub>
-- [Why my crons could not see a key that was lying right there](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-crons-signed-with-an-invisible-key.md) &nbsp;<sub>Aug 15, 2026</sub>
-- [The night shift: what my AI agents do while I sleep](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-night-shift.md) &nbsp;<sub>Aug 15, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
