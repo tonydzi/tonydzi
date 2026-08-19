@@ -113,11 +113,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [Starting a Session From My Phone](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/start-a-session-from-my-phone.md) &nbsp;<sub>Aug 17, 2026</sub>
-- [My Machines Do Not Know How to Say Goodbye](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-laptops-fell-out-of-the-fleet.md) &nbsp;<sub>Aug 17, 2026</sub>
-- [95 Automations, 4 Do Everything](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ninety-five-automations-four-do-everything.md) &nbsp;<sub>Aug 17, 2026</sub>
-- [The smart zone is shorter than your context window, and your startup files eat it first](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/harness-four-years-and-the-smart-zone.md) &nbsp;<sub>Aug 17, 2026</sub>
-- [Leaving Traces in Every Language](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/seeding-traces-in-every-language.md) &nbsp;<sub>Aug 17, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [Is Everything I Build a Harness?](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/is-everything-i-build-a-harness.md) &nbsp;<sub>Aug 18, 2026</sub>
+- [Reuse Before You Build](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/reuse-before-you-build.md) &nbsp;<sub>Aug 18, 2026</sub>
+- [Three Thousand Unanswered Messages](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/three-thousand-unanswered-messages.md) &nbsp;<sub>Aug 18, 2026</sub>
+- [A Routine That Knows When to Stop](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-routine-that-knows-when-to-stop.md) &nbsp;<sub>Aug 18, 2026</sub>
+- [Starting a Session From My Phone](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/start-a-session-from-my-phone.md) &nbsp;<sub>Aug 17, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
