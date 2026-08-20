@@ -113,11 +113,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [Is Everything I Build a Harness?](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/is-everything-i-build-a-harness.md) &nbsp;<sub>Aug 18, 2026</sub>
-- [Reuse Before You Build](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/reuse-before-you-build.md) &nbsp;<sub>Aug 18, 2026</sub>
-- [Three Thousand Unanswered Messages](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/three-thousand-unanswered-messages.md) &nbsp;<sub>Aug 18, 2026</sub>
-- [A Routine That Knows When to Stop](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-routine-that-knows-when-to-stop.md) &nbsp;<sub>Aug 18, 2026</sub>
-- [Starting a Session From My Phone](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/start-a-session-from-my-phone.md) &nbsp;<sub>Aug 17, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [Write Content on the Smartest Model](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/content-on-the-smartest-model.md) &nbsp;<sub>Aug 19, 2026</sub>
+- [To Make the Rule True, Take the Tool Away](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/take-the-tool-away.md) &nbsp;<sub>Aug 19, 2026</sub>
+- [Agents in Other People&#39;s Group Chats](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/agents-in-other-peoples-groups.md) &nbsp;<sub>Aug 19, 2026</sub>
+- [Where the Co-founder&#39;s Personality Should Live](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/where-the-cofounder-personality-lives.md) &nbsp;<sub>Aug 19, 2026</sub>
+- [Why the Mail Routine Works and the Messenger One Does Not](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/why-mail-works-and-messengers-do-not.md) &nbsp;<sub>Aug 19, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
