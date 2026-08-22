@@ -113,11 +113,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [Can a Community Swarm Match an AI Data Center?](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/community-swarm-vs-ai-datacenter.md) &nbsp;<sub>Aug 20, 2026</sub>
-- [What If I Am the NPC?](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/what-if-i-am-the-npc.md) &nbsp;<sub>Aug 20, 2026</sub>
-- [Session Drift Creates Lost Branches](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/session-drift-lost-branches.md) &nbsp;<sub>Aug 20, 2026</sub>
-- [One Model Writes. Three Models Try to Break It.](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/multi-llm-council-as-qa.md) &nbsp;<sub>Aug 20, 2026</sub>
-- [Write Content on the Smartest Model](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/content-on-the-smartest-model.md) &nbsp;<sub>Aug 19, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [August 22, 2026](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260822.md) &nbsp;<sub>Aug 21, 2026</sub>
+- [August 21, 2026](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260821.md) &nbsp;<sub>Aug 21, 2026</sub>
+- [Do AI Co-Founders Dream of Electric Sheep?](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/do-ai-cofounders-dream-of-electric-sheep.md) &nbsp;<sub>Aug 21, 2026</sub>
+- [Can You Detect an LLM&#39;s Data Diet From Its Answers?](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/grok-x-reddit-training-data-benchmark.md) &nbsp;<sub>Aug 21, 2026</sub>
+- [Can an AI have hormones?](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/can-ai-have-hormones.md) &nbsp;<sub>Aug 21, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
