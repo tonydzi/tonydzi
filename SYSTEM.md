@@ -77,11 +77,13 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[voice2brain](https://github.com/tonydzi/voice2brain)** | Four small Python scripts: voice note → text → linked, tagged, searchable markdown | You think out loud and lose it by evening |
 | **[compact-canon](https://github.com/tonydzi/compact-canon)** | Measured paste-block format for Claude Code `/compact`: 0/354 bare compacts honored CLAUDE.md instructions; the inline block kept 7/7 headers and 15/15 facts | Your agent forgets WHY after every compaction |
 | **[claw-retro](https://github.com/tonydzi/claw-retro)** | End-of-session retro ritual: inventory what was built, route durable rules to one home each (door audit), print the ready compact block | You keep re-teaching your agent the same rules |
+| **[always-loaded-diet](https://github.com/tonydzi/always-loaded-diet)** | Discipline for files loaded every session (CLAUDE.md, MEMORY.md): one nightly writer, measured budgets, pointer-only lines. MEMORY.md silently truncates at 200 lines / 25KB | Your rules file grew and rules started vanishing |
 
 ## Gates — evidence instead of trust
 
 | Repo | What it is | Take it if |
 |---|---|---|
+| **[break-it-first](https://github.com/tonydzi/break-it-first)** | Post-build quality gate: run it live, break it on purpose, adversarial multi-vendor panel; with a dated catalog of 8 failure classes that stay green in tests | Your agent says "done" and it's two-thirds done |
 | **[verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate)** | Zero-token verbatim check plus a burden-of-proof judge, framework-agnostic | Your RAG answer cites a passage that does not exist in the source |
 | **[verdict-contract](https://github.com/tonydzi/verdict-contract)** | Prompt rule + parser + exit-code gate in one stdlib file, with the 42 counterexamples that forced every line | Your LLM reviewer says APPROVE into a log nobody reads and CI stays green |
 | **[claim-check](https://github.com/tonydzi/claim-check)** | Bind every published number to the artifact it came from; CI fails when they drift. No LLM, no key, no dependencies | Your README claims a benchmark number from three months ago |
