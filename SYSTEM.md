@@ -75,6 +75,8 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)** | Graph RAG on plain SQLite: vector retrieval + a hand-curated wikilink graph + cross-encoder rerank, plus a zero-token per-turn ledger | You want agent memory you can open with `sqlite3` and no vector database to operate |
 | **[second-brain-starter-kit](https://github.com/tonydzi/second-brain-starter-kit)** | The method, not the data: 101 skills, a working CRM engine, vault templates, the handover map | You want to run Claude Code as a second brain and would rather not rediscover the layout |
 | **[voice2brain](https://github.com/tonydzi/voice2brain)** | Four small Python scripts: voice note → text → linked, tagged, searchable markdown | You think out loud and lose it by evening |
+| **[compact-canon](https://github.com/tonydzi/compact-canon)** | Measured paste-block format for Claude Code `/compact`: 0/354 bare compacts honored CLAUDE.md instructions; the inline block kept 7/7 headers and 15/15 facts | Your agent forgets WHY after every compaction |
+| **[claw-retro](https://github.com/tonydzi/claw-retro)** | End-of-session retro ritual: inventory what was built, route durable rules to one home each (door audit), print the ready compact block | You keep re-teaching your agent the same rules |
 
 ## Gates — evidence instead of trust
 
@@ -146,3 +148,4 @@ Want to run any of this on your own fleet, or have a war story to trade:
 - 📣 Telegram [@ClawEng](https://t.me/ClawEng) (EN) · [@ClawRus](https://t.me/ClawRus) (RU)
 - 🐦 X [@Tony_Stef_](https://x.com/Tony_Stef_)
 - 🌐 [palo-alto.ai](https://palo-alto.ai) · [START HERE — one page of proof](https://palo-alto-ai-research-lab.github.io/)
+
