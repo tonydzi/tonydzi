@@ -21,7 +21,7 @@ jobs:
       - name: Pull latest essays into the README
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml"
+          feed_list: "https://github.com/tonydzi/clawrush/raw/main/feed.xml"
           max_post_count: 5
           template: "- [$title]($url) &nbsp;<sub>$date</sub>$newline"
           date_format: "mmm d, yyyy"
