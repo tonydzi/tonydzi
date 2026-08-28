@@ -126,18 +126,31 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 ## 🔁 Contributing upstream
 
-**37 pull requests into 26 repositories across 24 organisations** — Anthropic, OpenAI, Google, Microsoft, Mistral, Cohere, Hugging Face, xAI, Qwen, deepset, and the agent-ecosystem lists. 33 open, 4 closed, **0 merged so far** *(verified 2026-08-01)*.
+**83 pull requests into 62 repositories across 52 organisations** — Google, Anthropic, OpenAI, Microsoft, Pydantic, the Model Context Protocol project, deepset, Hugging Face, xAI, Qwen, and the agent-ecosystem lists. 40 open, 18 closed, **25 merged** *(verified 2026-08-28)*.
+
+Of the 25 merged, **15 landed in code and documentation of upstream projects** and 10 are entries in ecosystem lists. Those are different kinds of contribution and are counted separately on purpose.
 
 📋 **[The full list, with live status →](https://tonydzi.github.io/contributions/)** — generated straight from the GitHub API, closed ones included. Nothing is left off it to make the record look better.
 
-Representative work in flight:
+Merged into upstream code:
+
+| PR | What it fixed |
+|---|---|
+| [google-gemini/cookbook#1296](https://github.com/google-gemini/cookbook/pull/1296) | Example: checking citation faithfulness in RAG. |
+| [modelcontextprotocol/go-sdk#1142, #1148, #1159, #1196](https://github.com/modelcontextprotocol/go-sdk/pulls?q=is%3Apr+author%3Atonydzi) | Four fixes in the official MCP Go SDK — an unbuildable quick start, a wrong client snippet, dead links, a broken table of contents. |
+| [agno-agi/agno#9498](https://github.com/agno-agi/agno/pull/9498) | Four cookbook imports that did not resolve. |
+| [pydantic/logfire#2197](https://github.com/pydantic/logfire/pull/2197) | Install instructions naming extras the package does not have. |
+| [basicmachines-co/basic-memory#1179](https://github.com/basicmachines-co/basic-memory/pull/1179) | Subprocesses inheriting the wrong Python environment. |
+| [punkpeye/fastmcp#311, #325](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+author%3Atonydzi) | An OAuth example that did not compile; JSON-mode POSTs left unanswered. |
+| [deepset-ai/haystack-integrations#566](https://github.com/deepset-ai/haystack-integrations/pull/566) | Discontinuation note on the Meta Llama API integration. |
+
+Representative work still in flight:
 
 | PR | What it proposes |
 |---|---|
 | [anthropics/claude-cookbooks#787](https://github.com/anthropics/claude-cookbooks/pull/787) | Authority routing — ADVISE / EXECUTE / DEFER / STOP as a gate on agent actions. |
 | [anthropics/claude-cookbooks#778](https://github.com/anthropics/claude-cookbooks/pull/778) | *Coordinating agents that don't share memory* — message-bus consensus + liveness. |
 | [anthropics/claude-cookbooks#788](https://github.com/anthropics/claude-cookbooks/pull/788) | Pipeline vs barrier sub-agent composition — when a barrier actually earns its wall-clock cost. |
-| [anthropics/claude-agent-sdk-demos#70](https://github.com/anthropics/claude-agent-sdk-demos/pull/70) | `verified-ops-agent` — propose → adversarial verify → execute, as a runnable demo. |
 | [openai/openai-cookbook#2880](https://github.com/openai/openai-cookbook/pull/2880) | Zero-token check for fabricated citations in RAG. |
 | [huggingface/cookbook#366](https://github.com/huggingface/cookbook/pull/366) | A self-verifying search agent — the agent checks its own retrieval before answering. |
 | [anthropics/skills#1460](https://github.com/anthropics/skills/pull/1460) | `reasoning-quality-gate` skill. |
@@ -145,7 +158,7 @@ Representative work in flight:
 
 The pattern behind most of them is the same one that runs in production here: **a deterministic gate around the model, not a better prompt inside it.**
 
-The most useful response so far was a rejection: [deepset-ai/haystack#12142](https://github.com/deepset-ai/haystack/pull/12142) was closed by a maintainer with an actual review — not enough added value to justify the new component. A reviewed no beats a silent queue, and it is on the list above like everything else.
+Two closed ones worth naming, because a closed PR is a result too: [anthropics/claude-agent-sdk-demos#70](https://github.com/anthropics/claude-agent-sdk-demos/pull/70) (`verified-ops-agent`, closed without a merge) and [deepset-ai/haystack#12142](https://github.com/deepset-ai/haystack/pull/12142), closed by a maintainer with an actual review — not enough added value to justify a new component. A reviewed no beats a silent queue, and both are on the list above like everything else.
 
 ## 📊 The numbers, unedited
 
