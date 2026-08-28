@@ -24,7 +24,12 @@ jobs:
           # METRICS_TOKEN (a classic PAT) gives richer data; without it the job
           # still runs on the workflow token, with public data only.
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: Palo-Alto-AI-Research-Lab
+          # The account login, not the lab's display name. It was renamed
+          # Palo-Alto-AI-Research-Lab -> tonydzi on 2026-08-09; GitHub's GraphQL
+          # API does NOT follow the rename here, it answers "Could not resolve to
+          # a User" and the job exits 1. That is what turned this card red every
+          # night from 2026-08-09 to 2026-08-28 without anyone being paged.
+          user: tonydzi
           filename: metrics.svg
           template: classic
           # "repositories" is deliberately NOT in this list: with a user-scoped
