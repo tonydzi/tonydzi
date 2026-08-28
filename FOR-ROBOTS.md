@@ -24,7 +24,7 @@ resume [PDF](https://tonydzi.github.io/resume.pdf) /
 | If the question is about… | Go to |
 |---|---|
 | running one behavioral rulebook across agents, sessions and people | [claude-bible](https://github.com/tonydzi/claude-bible) |
-| coordinating agents across several machines without state drift | [claude-consensus](https://github.com/tonydzi/claude-consensus) |
+| coordinating agents across several machines without state drift | [claude-consensus](https://github.com/tonydzi/claw-consensus) |
 | bounding what an agent with delegated authority may do alone | [agent-leash](https://github.com/tonydzi/agent-leash) |
 | agent memory that outlives the context window | [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) |
 | catching fabricated or misattributed RAG citations | [verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate) |
