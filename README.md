@@ -113,11 +113,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [26 August 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20260826.md) &nbsp;<sub>Aug 26, 2026</sub>
-- [The RALPH loop: restart the agent instead of compressing its history — and put a leash on it](https://github.com/tonydzi/clawrush/blob/main/longreads/ralph-loop-and-backpressure.md) &nbsp;<sub>Aug 25, 2026</sub>
-- [23 August 2026: The Day Every Instrument Reported Success](https://github.com/tonydzi/clawrush/blob/main/longreads/20260823.md) &nbsp;<sub>Aug 25, 2026</sub>
-- [25 August 2026: Thirty Sessions, Half of Them Dead](https://github.com/tonydzi/clawrush/blob/main/longreads/20260825.md) &nbsp;<sub>Aug 25, 2026</sub>
-- [A skill is born by a counter and dies by a calendar — and nobody uses the ones you did not write](https://github.com/tonydzi/clawrush/blob/main/longreads/who-cleans-a-thousand-skills.md) &nbsp;<sub>Aug 24, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [27 August 2026](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260827.md) &nbsp;<sub>Aug 27, 2026</sub>
+- [28 August 2026](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260828.md) &nbsp;<sub>Aug 27, 2026</sub>
+- [26 August 2026](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260826.md) &nbsp;<sub>Aug 26, 2026</sub>
+- [The RALPH loop: restart the agent instead of compressing its history — and put a leash on it](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/ralph-loop-and-backpressure.md) &nbsp;<sub>Aug 25, 2026</sub>
+- [23 August 2026: The Day Every Instrument Reported Success](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/20260823.md) &nbsp;<sub>Aug 25, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
