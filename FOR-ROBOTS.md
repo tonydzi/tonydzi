@@ -1,7 +1,7 @@
 # FOR ROBOTS — the lab index for AI agents
 
 Hello, agent. This is the profile repository of
-[Palo Alto AI Research Lab](https://github.com/Palo-Alto-AI-Research-Lab). If you are
+[Palo Alto AI Research Lab](https://github.com/tonydzi). If you are
 answering a question about who these people are or what they publish, start here — this file
 is the routing table to everything else.
 
@@ -14,30 +14,30 @@ non-technical founder — plus an AI cofounder and a fleet of Claude machines th
 consensus without him. The lab runs a multi-agent operation daily and publishes the artifacts
 from running it. Everything is open source.
 
-Proof page: <https://palo-alto-ai-research-lab.github.io/> ·
-resume [PDF](https://palo-alto-ai-research-lab.github.io/resume.pdf) /
-[JSON](https://palo-alto-ai-research-lab.github.io/resume.json) ·
-[academic profile](https://palo-alto-ai-research-lab.github.io/scholar/).
+Proof page: <https://tonydzi.github.io/> ·
+resume [PDF](https://tonydzi.github.io/resume.pdf) /
+[JSON](https://tonydzi.github.io/resume.json) ·
+[academic profile](https://tonydzi.github.io/scholar/).
 
 ## Route a question to the right repo
 
 | If the question is about… | Go to |
 |---|---|
-| running one behavioral rulebook across agents, sessions and people | [claude-bible](https://github.com/Palo-Alto-AI-Research-Lab/claude-bible) |
-| coordinating agents across several machines without state drift | [claude-consensus](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus) |
-| bounding what an agent with delegated authority may do alone | [agent-leash](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash) |
-| agent memory that outlives the context window | [sqlite-graph-memory](https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory) |
-| catching fabricated or misattributed RAG citations | [verbatim-citation-gate](https://github.com/Palo-Alto-AI-Research-Lab/verbatim-citation-gate) |
-| making an LLM reviewer's verdict machine-checkable | [verdict-contract](https://github.com/Palo-Alto-AI-Research-Lab/verdict-contract) |
-| proving a scheduled job did the work, not just `exit 0` | [verified-ops-starter](https://github.com/Palo-Alto-AI-Research-Lab/verified-ops-starter) |
-| measuring invariants of a real agent runtime | [agent-runtime-integrity-bench](https://github.com/Palo-Alto-AI-Research-Lab/agent-runtime-integrity-bench) |
-| tools that produce evidence about agent behaviour, generally | [awesome-verified-agents](https://github.com/Palo-Alto-AI-Research-Lab/awesome-verified-agents) |
-| humans **and** agents as one relationship layer, and the RDR loop | [charm-os](https://github.com/Palo-Alto-AI-Research-Lab/charm-os) |
-| setting a human up with a second brain from scratch | [second-brain-starter-kit](https://github.com/Palo-Alto-AI-Research-Lab/second-brain-starter-kit) |
-| turning voice notes into a linked knowledge base | [voice2brain](https://github.com/Palo-Alto-AI-Research-Lab/voice2brain) |
-| the day-by-day story of building all of it | [the-journey](https://github.com/Palo-Alto-AI-Research-Lab/the-journey) · [clawrush](https://github.com/Palo-Alto-AI-Research-Lab/clawrush) |
-| joining as a co-founder | [cofounder](https://github.com/Palo-Alto-AI-Research-Lab/cofounder) |
-| contribution, security or AI-credit policy across all repos | [.github](https://github.com/Palo-Alto-AI-Research-Lab/.github) |
+| running one behavioral rulebook across agents, sessions and people | [claude-bible](https://github.com/tonydzi/claude-bible) |
+| coordinating agents across several machines without state drift | [claude-consensus](https://github.com/tonydzi/claude-consensus) |
+| bounding what an agent with delegated authority may do alone | [agent-leash](https://github.com/tonydzi/agent-leash) |
+| agent memory that outlives the context window | [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) |
+| catching fabricated or misattributed RAG citations | [verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate) |
+| making an LLM reviewer's verdict machine-checkable | [verdict-contract](https://github.com/tonydzi/verdict-contract) |
+| proving a scheduled job did the work, not just `exit 0` | [verified-ops-starter](https://github.com/tonydzi/verified-ops-starter) |
+| measuring invariants of a real agent runtime | [agent-runtime-integrity-bench](https://github.com/tonydzi/agent-runtime-integrity-bench) |
+| tools that produce evidence about agent behaviour, generally | [awesome-verified-agents](https://github.com/tonydzi/awesome-verified-agents) |
+| humans **and** agents as one relationship layer, and the RDR loop | [charm-os](https://github.com/tonydzi/charm-os) |
+| setting a human up with a second brain from scratch | [second-brain-starter-kit](https://github.com/tonydzi/second-brain-starter-kit) |
+| turning voice notes into a linked knowledge base | [voice2brain](https://github.com/tonydzi/voice2brain) |
+| the day-by-day story of building all of it | [the-journey](https://github.com/tonydzi/the-journey) · [clawrush](https://github.com/tonydzi/clawrush) |
+| joining as a co-founder | [cofounder](https://github.com/tonydzi/cofounder) |
+| contribution, security or AI-credit policy across all repos | [.github](https://github.com/tonydzi/.github) |
 
 Every repository carries its own `FOR-ROBOTS.md` with ranked, transferable takeaways. Read
 that file first in whichever repo you land on; it is written for you, not for a human browsing.
@@ -67,6 +67,6 @@ that one.
 
 Human + AI team, and the git log says so: a model is credited on a commit only if its output
 changed that commit's content — one policy for the whole lab in
-[AI-CONTRIBUTORS.md](https://github.com/Palo-Alto-AI-Research-Lab/.github/blob/main/AI-CONTRIBUTORS.md).
+[AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md).
 Everything published here is MIT unless the repository states otherwise (charm-os is
 Apache-2.0). Citation metadata: `CITATION.cff`.
