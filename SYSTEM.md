@@ -149,5 +149,5 @@ Want to run any of this on your own fleet, or have a war story to trade:
 - 💬 WhatsApp **+1 341 222 9178**
 - 📣 Telegram [@ClawEng](https://t.me/ClawEng) (EN) · [@ClawRus](https://t.me/ClawRus) (RU)
 - 🐦 X [@Tony_Stef_](https://x.com/Tony_Stef_)
-- 🌐 [palo-alto.ai](https://palo-alto.ai) · [START HERE — one page of proof](https://palo-alto-ai-research-lab.github.io/)
+- 🌐 [palo-alto.ai](https://palo-alto.ai) · [START HERE — one page of proof](https://tonydzi.github.io/)
 
