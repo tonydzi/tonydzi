@@ -116,8 +116,8 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 <!-- BLOG-POST-LIST:START -->- [27 August 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20260827.md) &nbsp;<sub>Aug 27, 2026</sub>
 - [28 August 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20260828.md) &nbsp;<sub>Aug 27, 2026</sub>
 - [29 August 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20260829.md) &nbsp;<sub>Aug 27, 2026</sub>
-- [26 August 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20260826.md) &nbsp;<sub>Aug 26, 2026</sub>
-- [The RALPH loop: restart the agent instead of compressing its history — and put a leash on it](https://github.com/tonydzi/clawrush/blob/main/longreads/ralph-loop-and-backpressure.md) &nbsp;<sub>Aug 25, 2026</sub>
+- [31 August 2026: A Routine That Stops Without a Sound](https://github.com/tonydzi/clawrush/blob/main/longreads/20260831.md) &nbsp;<sub>Aug 27, 2026</sub>
+- [1 September 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20260901.md) &nbsp;<sub>Aug 27, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
