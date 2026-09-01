@@ -33,7 +33,7 @@
 ## 🔨 What I'm building right now
 
 - **A second brain that survives a context reset** — facts in SQL, meaning in embeddings, relations in a graph, one SQLite file, no infrastructure. → [`sqlite-graph-memory`](https://github.com/tonydzi/sqlite-graph-memory)
-- **A fleet that negotiates instead of drifting** — hub, laptops, family machines and a VPS anchor run propose → counter → accept → commit, and wake the human only for money or the irreversible. → [`claude-consensus`](https://github.com/tonydzi/claw-consensus)
+- **A fleet that negotiates instead of drifting** — hub, laptops, family machines and a VPS anchor run propose → counter → accept → commit, and wake the human only for money or the irreversible. → [`claw-consensus`](https://github.com/tonydzi/claw-consensus)
 - **Deterministic gates around the model, not better prompts inside it** — citation checks, authority routing, an 8-domain leash for delegated authority. → [`verbatim-citation-gate`](https://github.com/tonydzi/verbatim-citation-gate) · [`agent-leash`](https://github.com/tonydzi/agent-leash)
 - **A reliability bench for agent runtimes** — replay, idempotency and consensus-integrity scenarios distilled from real fleet incidents, not from a whiteboard. → [`agent-runtime-integrity-bench`](https://github.com/tonydzi/agent-runtime-integrity-bench)
 - **The whole thing written down as it happens** — a build-in-public book and an English diary, updated the day something breaks. → [`the-journey`](https://github.com/tonydzi/the-journey) · [`clawrush`](https://github.com/tonydzi/clawrush)
@@ -43,7 +43,7 @@
 | | What it is | Why you'd care |
 |---|---|---|
 | **[claude-bible](https://github.com/tonydzi/claude-bible)** | One behavioral rulebook every actor obeys — the founder, human assistants, and every Claude in the fleet | Your agents behave the same across repos, sessions and people, because the law lives outside the prompt |
-| **[claude-consensus](https://github.com/tonydzi/claw-consensus)** | Cross-machine consensus protocol: dual-rail bus, ACK discipline, heartbeat failover, self-healing sync | Run agents on several machines without state drift, and without a human courier between them |
+| **[claw-consensus](https://github.com/tonydzi/claw-consensus)** | Cross-machine consensus protocol: dual-rail bus, ACK discipline, heartbeat failover, self-healing sync | Run agents on several machines without state drift, and without a human courier between them |
 | **[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)** | Graph RAG on plain SQLite: vector retrieval + curated wiki-links, zero infra | Agent memory that outlives the context window and that you can open with `sqlite3` |
 | **[verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate)** | Zero-token verbatim check + burden-of-proof judge for RAG answers | Fabricated citations get caught before the user sees them; framework-agnostic, MIT |
 | **[verdict-contract](https://github.com/tonydzi/verdict-contract)** | Your LLM reviewer said APPROVE - did it? Prompt rule, parser and exit-code gate in one stdlib file | A review whose verdict never reaches the exit status is a log line, not a gate. 42 counterexamples included |
@@ -126,9 +126,9 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 ## 🔁 Contributing upstream
 
-**83 pull requests into 62 repositories across 52 organisations** — Google, Anthropic, OpenAI, Microsoft, Pydantic, the Model Context Protocol project, deepset, Hugging Face, xAI, Qwen, and the agent-ecosystem lists. 40 open, 18 closed, **25 merged** *(verified 2026-08-28)*.
+**92 pull requests into 66 repositories across 56 organisations** — Google, Anthropic, OpenAI, Microsoft, Pydantic, the Model Context Protocol project, deepset, Hugging Face, xAI, Qwen, and the agent-ecosystem lists. 45 open, 19 closed, **28 merged** *(verified 2026-09-01)*.
 
-Of the 25 merged, **15 landed in code and documentation of upstream projects** and 10 are entries in ecosystem lists. Those are different kinds of contribution and are counted separately on purpose.
+Of the 28 merged, **17 landed in code and documentation of upstream projects** and 11 are entries in ecosystem lists. Those are different kinds of contribution and are counted separately on purpose.
 
 📋 **[The full list, with live status →](https://tonydzi.github.io/contributions/)** — generated straight from the GitHub API, closed ones included. Nothing is left off it to make the record look better.
 
@@ -141,7 +141,8 @@ Merged into upstream code:
 | [agno-agi/agno#9498](https://github.com/agno-agi/agno/pull/9498) | Four cookbook imports that did not resolve. |
 | [pydantic/logfire#2197](https://github.com/pydantic/logfire/pull/2197) | Install instructions naming extras the package does not have. |
 | [basicmachines-co/basic-memory#1179](https://github.com/basicmachines-co/basic-memory/pull/1179) | Subprocesses inheriting the wrong Python environment. |
-| [punkpeye/fastmcp#311, #325](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+author%3Atonydzi) | An OAuth example that did not compile; JSON-mode POSTs left unanswered. |
+| [punkpeye/fastmcp#311, #325, #344](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+author%3Atonydzi) | An OAuth example that did not compile; JSON-mode POSTs left unanswered; a "Cannot find module" fix that itself suggested a broken import. |
+| [Lyellr88/marm-memory#180](https://github.com/Lyellr88/marm-memory/pull/180) | PyPI README links that did not resolve off GitHub. |
 | [deepset-ai/haystack-integrations#566](https://github.com/deepset-ai/haystack-integrations/pull/566) | Discontinuation note on the Meta Llama API integration. |
 
 Representative work still in flight:
