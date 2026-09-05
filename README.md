@@ -113,11 +113,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [27 August 2026: Three Posts, One Elephant, and a Watchdog With No Memory](https://github.com/tonydzi/clawrush/blob/main/longreads/20260827.md) &nbsp;<sub>Aug 27, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [September 4, 2026: The System Has to Survive the Handoff](https://github.com/tonydzi/clawrush/blob/main/longreads/20260904.md) &nbsp;<sub>Sep 4, 2026</sub>
+- [27 August 2026: Three Posts, One Elephant, and a Watchdog With No Memory](https://github.com/tonydzi/clawrush/blob/main/longreads/20260827.md) &nbsp;<sub>Aug 27, 2026</sub>
 - [28 August 2026: Certainty Is Where We Break](https://github.com/tonydzi/clawrush/blob/main/longreads/20260828.md) &nbsp;<sub>Aug 27, 2026</sub>
 - [29 August 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20260829.md) &nbsp;<sub>Aug 27, 2026</sub>
 - [31 August 2026: A Routine That Stops Without a Sound](https://github.com/tonydzi/clawrush/blob/main/longreads/20260831.md) &nbsp;<sub>Aug 27, 2026</sub>
-- [1 September 2026: A Rule With No Door Never Fires](https://github.com/tonydzi/clawrush/blob/main/longreads/20260901.md) &nbsp;<sub>Aug 27, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
