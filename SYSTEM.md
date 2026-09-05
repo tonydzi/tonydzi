@@ -90,6 +90,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[verified-ops-starter](https://github.com/tonydzi/verified-ops-starter)** | Three stdlib checks: output freshness, silent no-op detection, rollout proof by reading the fact back | You have a scheduled job that exits 0 and has quietly done nothing for a week |
 | **[agent-runtime-integrity-bench](https://github.com/tonydzi/agent-runtime-integrity-bench)** | Deterministic fault-injection scenarios against real SDKs, distilled from actual fleet incidents | You want to know how your runtime fails before it fails on a customer |
 | **[secondop-panel](https://github.com/tonydzi/secondop-panel)** | Fan every change out to several model FAMILIES at once: verdict contract, quorum by family, honest skips, and an exit code that refuses to go green on a single vendor | Your reviewer is one model, so your blind spot is exactly its blind spot |
+| **[context-contamination-probe](https://github.com/tonydzi/context-contamination-probe)** | Ask each agent runtime what is actually in its running context and diff the answers across four rails — bytes on disk are only an upper bound. Canary mode, stdlib only | Your agent CLI is loading instruction files you never put in the prompt |
 
 ## Fleet — many machines, one mind
 
@@ -98,6 +99,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[claude-consensus](https://github.com/tonydzi/claude-consensus)** | Consensus protocol (propose / counter / accept / commit), dual-rail message bus, ACK discipline, self-healing sync | You run agents on more than one machine and a human is the courier between them |
 | **[claude-mac-patrol](https://github.com/tonydzi/claude-mac-patrol)** | A dependency-free janitor for machines running Claude Code, plus the field procedure it came from | Your Mac is not old, it is holding thirty half-dead agent sessions |
 | **[fleet-deploy](https://github.com/tonydzi/fleet-deploy)** | Roll a fix to N machines and prove it landed on each: applied-vs-claimed accounting, canary waves, a verify that must read a fact, a board that names who is behind | You shipped the fix, the node went quiet, and quiet is not the same as applied |
+| **[agent-control-plane-casebook](https://github.com/tonydzi/agent-control-plane-casebook)** | Reproducible control-plane failures from a production multi-agent fleet — schedulers, registries, watchdogs — each one filed with its repro. A casebook, not a benchmark | Your agents are fine and the machinery that starts, tracks and watches them is what keeps failing |
 
 ## Connectors — what the agents can actually reach
 
@@ -114,6 +116,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[llm-spend-audit](https://github.com/tonydzi/llm-spend-audit)** | Three stdlib instruments: what your wiring charges per session before any work, who burned yesterday, which paid subscriptions go undrawn. 0 LLM, 0 network | Your bill grows and the only honest answer to "on what?" is a shrug |
 | **[agent-approval-gate](https://github.com/tonydzi/agent-approval-gate)** | Your agent needs a human OK and nobody is at the terminal: ask goes to a messenger, "+" comes back into the run, silence escalates then gives up — plus decision classes so the gate does not become a channel nobody reads | Your autonomous agent either stops on everything or asks on nothing |
 | **[oss-publish](https://github.com/tonydzi/oss-publish)** | Open your internal work without leaking it: substitute personal data with plausible fakes of the same shape (not <REDACTED>), then gate the WHOLE tree before the push | You want to give your internals away and the only thing stopping you is what is hiding in them |
+| **[claude-dev-star](https://github.com/tonydzi/claude-dev-star)** | Strategy radar over your own Claude Code sessions: how much effort went forward versus into keeping the lights on. Zero dependencies, fully local | You cannot say where last week went, only that it was busy |
 
 ## In public — the work, said out loud
 
@@ -124,6 +127,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[dashboards](https://github.com/tonydzi/dashboards)** | The panels we actually stare at while the fleet runs |
 | **[awesome-verified-agents](https://github.com/tonydzi/awesome-verified-agents)** | A curated list with a hard inclusion bar: name the artifact a human can inspect later |
 | **[cofounder](https://github.com/tonydzi/cofounder)** | The open call — what we are looking for and what you get |
+| **[cv](https://github.com/tonydzi/cv)** | One person, thirteen packagings: role-specific CVs and pitches generated from a single `resume.json` master |
 
 ---
 
