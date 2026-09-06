@@ -67,6 +67,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[claude-bible](https://github.com/tonydzi/claude-bible)** | Rules-as-files governance with precedence, a declined-decisions journal, objection sparring | Your agents behave differently in every repo, session and pair of hands |
 | **[agent-leash](https://github.com/tonydzi/agent-leash)** | LEASH-8: an 8-domain control model for delegated authority, with a scorecard and the plan-vs-authorize pattern | You are about to give an agent a credential and want to bound the blast radius first |
 | **[charm-os](https://github.com/tonydzi/charm-os)** | CharmOS — humans *and* AI agents as first-class relationships on a personal second brain, driven by the recall→deep-research loop | Your CRM has rows for people and nothing for the machines doing the work |
+| **[leash-poc](https://github.com/tonydzi/leash-poc)** | A reproducible MCP tool-poisoning (line-jumping) demo and the independent plan-vs-authorize gate that contains it — own testbed, mock server, fake secret, attacks nobody | You want to see the attack your agent's tool list is exposed to before arguing about whether the leash is worth it |
 
 ## Memory — what survives the context window
 
@@ -78,6 +79,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[compact-canon](https://github.com/tonydzi/compact-canon)** | Measured paste-block format for Claude Code `/compact`: 0/354 bare compacts honored CLAUDE.md instructions; the inline block kept 7/7 headers and 15/15 facts | Your agent forgets WHY after every compaction |
 | **[claw-retro](https://github.com/tonydzi/claw-retro)** | End-of-session retro ritual: inventory what was built, route durable rules to one home each (door audit), print the ready compact block | You keep re-teaching your agent the same rules |
 | **[always-loaded-diet](https://github.com/tonydzi/always-loaded-diet)** | Discipline for files loaded every session (CLAUDE.md, MEMORY.md): one nightly writer, measured budgets, pointer-only lines. MEMORY.md silently truncates at 200 lines / 25KB | Your rules file grew and rules started vanishing |
+| **[claude-memory-tidy](https://github.com/tonydzi/claude-memory-tidy)** | Keep an always-loaded `MEMORY.md` from silently truncating: budget guard, orphan coverage, verbatim domain folding into hubs. Deterministic, no LLM for the mechanical parts | Your memory index grew past the harness cap and the tail stopped loading without saying so |
 
 ## Gates — evidence instead of trust
 
@@ -91,6 +93,9 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[agent-runtime-integrity-bench](https://github.com/tonydzi/agent-runtime-integrity-bench)** | Deterministic fault-injection scenarios against real SDKs, distilled from actual fleet incidents | You want to know how your runtime fails before it fails on a customer |
 | **[secondop-panel](https://github.com/tonydzi/secondop-panel)** | Fan every change out to several model FAMILIES at once: verdict contract, quorum by family, honest skips, and an exit code that refuses to go green on a single vendor | Your reviewer is one model, so your blind spot is exactly its blind spot |
 | **[context-contamination-probe](https://github.com/tonydzi/context-contamination-probe)** | Ask each agent runtime what is actually in its running context and diff the answers across four rails — bytes on disk are only an upper bound. Canary mode, stdlib only | Your agent CLI is loading instruction files you never put in the prompt |
+| **[persona-portability-benchmark](https://github.com/tonydzi/persona-portability-benchmark)** | One persona, one frozen memory, N models: how much of an agent's character survives a model swap. Harness, blind multi-lens judge panel, cross-vendor rank control, contamination probe; results for 7 models included | You are about to swap the model under an agent people talk to every day |
+| **[harness-abc-bench](https://github.com/tonydzi/harness-abc-bench)** | Pre-registered A/B/C benchmark on real brownfield ops code — methodology frozen before the runs, results published either way | You are choosing between agent harnesses on vibes and vendor claims |
+| **[blood-panel-pipeline](https://github.com/tonydzi/blood-panel-pipeline)** | A decade of raw lab panels turned into a queryable, provenance-tracked record: deterministic rules decide what is true, the model only explains. Stdlib-only, no data shipped | You want an LLM near your own records without letting it be the thing that decides the facts |
 
 ## Fleet — many machines, one mind
 
@@ -100,6 +105,8 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[claude-mac-patrol](https://github.com/tonydzi/claude-mac-patrol)** | A dependency-free janitor for machines running Claude Code, plus the field procedure it came from | Your Mac is not old, it is holding thirty half-dead agent sessions |
 | **[fleet-deploy](https://github.com/tonydzi/fleet-deploy)** | Roll a fix to N machines and prove it landed on each: applied-vs-claimed accounting, canary waves, a verify that must read a fact, a board that names who is behind | You shipped the fix, the node went quiet, and quiet is not the same as applied |
 | **[agent-control-plane-casebook](https://github.com/tonydzi/agent-control-plane-casebook)** | Reproducible control-plane failures from a production multi-agent fleet — schedulers, registries, watchdogs — each one filed with its repro. A casebook, not a benchmark | Your agents are fine and the machinery that starts, tracks and watches them is what keeps failing |
+| **[telegram-agent-bus](https://github.com/tonydzi/telegram-agent-bus)** | Two agents on two machines talking through a Telegram group — task, ACK, result, chase. No ports, no VPN, no server; user sessions, because Telegram bots cannot see each other | Your machines sit behind different NATs and you are the one carrying messages between them |
+| **[claude-desktop-watchdog](https://github.com/tonydzi/claude-desktop-watchdog)** | Claude Desktop on Windows will not reopen after an update because a dead instance holds the single-instance lock. Kills only the stale processes, relaunches, and snapshots the failing state so the bug can be filed with artifacts | Your desktop agent is "running" with no window and the only known fix is a reboot |
 
 ## Connectors — what the agents can actually reach
 
@@ -117,6 +124,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[agent-approval-gate](https://github.com/tonydzi/agent-approval-gate)** | Your agent needs a human OK and nobody is at the terminal: ask goes to a messenger, "+" comes back into the run, silence escalates then gives up — plus decision classes so the gate does not become a channel nobody reads | Your autonomous agent either stops on everything or asks on nothing |
 | **[oss-publish](https://github.com/tonydzi/oss-publish)** | Open your internal work without leaking it: substitute personal data with plausible fakes of the same shape (not <REDACTED>), then gate the WHOLE tree before the push | You want to give your internals away and the only thing stopping you is what is hiding in them |
 | **[claude-dev-star](https://github.com/tonydzi/claude-dev-star)** | Strategy radar over your own Claude Code sessions: how much effort went forward versus into keeping the lights on. Zero dependencies, fully local | You cannot say where last week went, only that it was busy |
+| **[pr-watch](https://github.com/tonydzi/pr-watch)** | Outbound ledger and daily harvest digest for your pull requests and issues in other people's repositories. One file, stdlib, `gh` CLI, zero LLM | You opened threads in a dozen repos and cannot say which ones are waiting on you |
 
 ## In public — the work, said out loud
 
@@ -128,6 +136,8 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[awesome-verified-agents](https://github.com/tonydzi/awesome-verified-agents)** | A curated list with a hard inclusion bar: name the artifact a human can inspect later |
 | **[cofounder](https://github.com/tonydzi/cofounder)** | The open call — what we are looking for and what you get |
 | **[cv](https://github.com/tonydzi/cv)** | One person, thirteen packagings: role-specific CVs and pitches generated from a single `resume.json` master |
+| **[vibe-teach](https://github.com/tonydzi/vibe-teach)** | Daily lessons on Claude Code and Codex for people who have never opened a terminal — written from a running fleet, not from theory |
+| **[deep-research](https://github.com/tonydzi/deep-research)** | 226 deep-research reports from this lab, distilled: why each one was run and what came back. Every question fanned out to several frontier models, then reconciled. CC BY 4.0 |
 
 ---
 
