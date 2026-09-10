@@ -120,6 +120,20 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 - [September 4, 2026: The System Has to Survive the Handoff](https://github.com/tonydzi/clawrush/blob/main/longreads/20260904.md) &nbsp;<sub>Sep 4, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
+## 📄 Preprints (2026)
+
+Four papers, each published with a DOI on Zenodo (CC BY 4.0). The Zenodo record is the version of
+record; a copy anywhere else is a mirror of it, so cite the DOI.
+
+| Paper | DOI | Reference implementation |
+|---|---|---|
+| Operating a Human-Governed Multi-Machine LLM Agent Fleet: An Experience Report | [10.5281/zenodo.22639714](https://doi.org/10.5281/zenodo.22639714) | [`claw-consensus`](https://github.com/tonydzi/claw-consensus) |
+| Homeostatic Governance: A Gorsky-Anokhin Alternative to the Viable System Model | [10.5281/zenodo.22639712](https://doi.org/10.5281/zenodo.22639712) | three-circuit control model behind the protocol |
+| When Does Graph Expansion Help Personal-Corpus Retrieval? | [10.5281/zenodo.22639718](https://doi.org/10.5281/zenodo.22639718) | [`sqlite-graph-memory`](https://github.com/tonydzi/sqlite-graph-memory) |
+| Le Chatelier Tokenomics: negative feedback as homeostasis in multi-asset coupled equilibria | [10.5281/zenodo.22639710](https://doi.org/10.5281/zenodo.22639710) | — |
+
+ORCID: [0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054) · full list: [publications](https://tonydzi.github.io/scholar/publications/)
+
 ## 📖 The book
 
 **[相棒 AIBŌ · The Partner](https://github.com/tonydzi/the-journey)** — a build-in-public book of the whole journey, day by day, since 2026-05-27. How a non-technical founder and an AI built a second brain: what we tried, what broke, what we learned. Two forms side by side: a story for humans (RU/EN) and [`llms-full.txt`](https://github.com/tonydzi/the-journey/blob/main/llms-full.txt) for machines — point your coding agent at it and it inherits our patterns and skips our mistakes.
