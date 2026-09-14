@@ -80,6 +80,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[claw-retro](https://github.com/tonydzi/claw-retro)** | End-of-session retro ritual: inventory what was built, route durable rules to one home each (door audit), print the ready compact block | You keep re-teaching your agent the same rules |
 | **[always-loaded-diet](https://github.com/tonydzi/always-loaded-diet)** | Discipline for files loaded every session (CLAUDE.md, MEMORY.md): one nightly writer, measured budgets, pointer-only lines. MEMORY.md silently truncates at 200 lines / 25KB | Your rules file grew and rules started vanishing |
 | **[claude-memory-tidy](https://github.com/tonydzi/claude-memory-tidy)** | Keep an always-loaded `MEMORY.md` from silently truncating: budget guard, orphan coverage, verbatim domain folding into hubs. Deterministic, no LLM for the mechanical parts | Your memory index grew past the harness cap and the tail stopped loading without saying so |
+| **[claude-workdir-sentry](https://github.com/tonydzi/claude-workdir-sentry)** | SessionStart hook for Claude Code that warns when a session starts outside the machine's canonical project directory — project memory, session history and CLAUDE.md are keyed to the start cwd | Your agent "forgot" everything because the session opened one folder over |
 
 ## Gates — evidence instead of trust
 
@@ -96,12 +97,13 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[persona-portability-benchmark](https://github.com/tonydzi/persona-portability-benchmark)** | One persona, one frozen memory, N models: how much of an agent's character survives a model swap. Harness, blind multi-lens judge panel, cross-vendor rank control, contamination probe; results for 7 models included | You are about to swap the model under an agent people talk to every day |
 | **[harness-abc-bench](https://github.com/tonydzi/harness-abc-bench)** | Pre-registered A/B/C benchmark on real brownfield ops code — methodology frozen before the runs, results published either way | You are choosing between agent harnesses on vibes and vendor claims |
 | **[blood-panel-pipeline](https://github.com/tonydzi/blood-panel-pipeline)** | A decade of raw lab panels turned into a queryable, provenance-tracked record: deterministic rules decide what is true, the model only explains. Stdlib-only, no data shipped | You want an LLM near your own records without letting it be the thing that decides the facts |
+| **[red-first-review-skill](https://github.com/tonydzi/red-first-review-skill)** | Review a PR by measuring which of its own guards its own test suite catches: neutralise each guard, run their tests, report the removals nothing notices. Stdlib-only; Claude Code skill + standalone tool | A pull request arrives with green tests and you want to know what those tests would miss |
 
 ## Fleet — many machines, one mind
 
 | Repo | What it is | Take it if |
 |---|---|---|
-| **[claude-consensus](https://github.com/tonydzi/claude-consensus)** | Consensus protocol (propose / counter / accept / commit), dual-rail message bus, ACK discipline, self-healing sync | You run agents on more than one machine and a human is the courier between them |
+| **[claw-consensus](https://github.com/tonydzi/claw-consensus)** | Consensus protocol (propose / counter / accept / commit), dual-rail message bus, ACK discipline, self-healing sync | You run agents on more than one machine and a human is the courier between them |
 | **[claude-mac-patrol](https://github.com/tonydzi/claude-mac-patrol)** | A dependency-free janitor for machines running Claude Code, plus the field procedure it came from | Your Mac is not old, it is holding thirty half-dead agent sessions |
 | **[fleet-deploy](https://github.com/tonydzi/fleet-deploy)** | Roll a fix to N machines and prove it landed on each: applied-vs-claimed accounting, canary waves, a verify that must read a fact, a board that names who is behind | You shipped the fix, the node went quiet, and quiet is not the same as applied |
 | **[agent-control-plane-casebook](https://github.com/tonydzi/agent-control-plane-casebook)** | Reproducible control-plane failures from a production multi-agent fleet — schedulers, registries, watchdogs — each one filed with its repro. A casebook, not a benchmark | Your agents are fine and the machinery that starts, tracks and watches them is what keeps failing |
@@ -125,6 +127,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[oss-publish](https://github.com/tonydzi/oss-publish)** | Open your internal work without leaking it: substitute personal data with plausible fakes of the same shape (not <REDACTED>), then gate the WHOLE tree before the push | You want to give your internals away and the only thing stopping you is what is hiding in them |
 | **[claude-dev-star](https://github.com/tonydzi/claude-dev-star)** | Strategy radar over your own Claude Code sessions: how much effort went forward versus into keeping the lights on. Zero dependencies, fully local | You cannot say where last week went, only that it was busy |
 | **[pr-watch](https://github.com/tonydzi/pr-watch)** | Outbound ledger and daily harvest digest for your pull requests and issues in other people's repositories. One file, stdlib, `gh` CLI, zero LLM | You opened threads in a dozen repos and cannot say which ones are waiting on you |
+| **[claude-session-icons](https://github.com/tonydzi/claude-session-icons)** | One-character category icons in Claude Desktop session titles, with the gate probe that explains why the sidebar group API is not an option | You run dozens of sessions and the sidebar is one undifferentiated column |
 
 ## In public — the work, said out loud
 
@@ -138,6 +141,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[cv](https://github.com/tonydzi/cv)** | One person, thirteen packagings: role-specific CVs and pitches generated from a single `resume.json` master |
 | **[vibe-teach](https://github.com/tonydzi/vibe-teach)** | Daily lessons on Claude Code and Codex for people who have never opened a terminal — written from a running fleet, not from theory |
 | **[deep-research](https://github.com/tonydzi/deep-research)** | 226 deep-research reports from this lab, distilled: why each one was run and what came back. Every question fanned out to several frontier models, then reconciled. CC BY 4.0 |
+| **[github-evidence](https://github.com/tonydzi/github-evidence)** | Every pull request, issue, review and maintainer reply of ours in other people's repositories, regenerated from the public GitHub API |
 
 ---
 
