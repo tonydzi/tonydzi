@@ -35,7 +35,7 @@
 - **A second brain that survives a context reset** — facts in SQL, meaning in embeddings, relations in a graph, one SQLite file, no infrastructure. → [`sqlite-graph-memory`](https://github.com/tonydzi/sqlite-graph-memory)
 - **A fleet that negotiates instead of drifting** — hub, laptops, family machines and a VPS anchor run propose → counter → accept → commit, and wake the human only for money or the irreversible. → [`claw-consensus`](https://github.com/tonydzi/claw-consensus)
 - **Deterministic gates around the model, not better prompts inside it** — citation checks, authority routing, an 8-domain leash for delegated authority. → [`verbatim-citation-gate`](https://github.com/tonydzi/verbatim-citation-gate) · [`agent-leash`](https://github.com/tonydzi/agent-leash)
-- **A reliability bench for agent runtimes** — replay, idempotency and consensus-integrity scenarios distilled from real fleet incidents, not from a whiteboard. → [`agent-runtime-integrity-bench`](https://github.com/tonydzi/agent-runtime-integrity-bench)
+- **A reliability bench for agent runtimes** — replay, idempotency and consensus-integrity scenarios distilled from real fleet incidents, not from a whiteboard. → [`agent-runtime-integrity-bench`](https://github.com/tonydzi/agent-runtime-integrity-bench) · [`agent-control-plane-casebook`](https://github.com/tonydzi/agent-control-plane-casebook) — the incidents themselves, each with a runnable repro
 - **The whole thing written down as it happens** — a build-in-public book and an English diary, updated the day something breaks. → [`the-journey`](https://github.com/tonydzi/the-journey) · [`clawrush`](https://github.com/tonydzi/clawrush)
 
 ## 📌 Four to start with
