@@ -11,7 +11,7 @@
 
 <p align="center">
   <b>AI Research Builder</b> — building a multi-agent lab, publishing the artifacts from running it daily.<br>
-  <sub>One non-technical founder + an AI cofounder + a fleet of Claude machines that reach consensus without me.</sub>
+  <sub>Founder, Palo Alto AI Research Lab — evidence-first reliability work across the AI-agent open-source ecosystem.</sub>
 </p>
 
 <p align="center">
@@ -27,6 +27,22 @@
 > 🧩 **Everything we built, part by part → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)** — 20 repos, what each one does, how they fit together.
 >
 > 📄 Resume: **[PDF](https://tonydzi.github.io/resume.pdf)** · [JSON Resume](https://tonydzi.github.io/resume.json) — 🎓 Research: **[academic profile](https://tonydzi.github.io/scholar/)** · [full publication list](https://tonydzi.github.io/scholar/publications/)
+
+---
+
+## 🧾 Recent open-source contributions
+
+- **NangoHQ/nango** — add OpenRouter as an integration, verified via `/v1/key` (the public `/v1/models` accepts any key) → [#7532](https://github.com/NangoHQ/nango/pull/7532) · open
+- **NangoHQ/nango** — add Lambda Cloud as an integration → [#7533](https://github.com/NangoHQ/nango/pull/7533) · open
+- **Kong/kong** — `ai-proxy`: keep an empty Anthropic `tools` array → [#14999](https://github.com/Kong/kong/pull/14999) · open
+- **modelcontextprotocol/go-sdk** — quick start `go get` left the module unbuildable; streamable client snippet; dead links; TOC → [#1148](https://github.com/modelcontextprotocol/go-sdk/pull/1148) · [#1142](https://github.com/modelcontextprotocol/go-sdk/pull/1142) · [#1159](https://github.com/modelcontextprotocol/go-sdk/pull/1159) · [#1196](https://github.com/modelcontextprotocol/go-sdk/pull/1196) · merged
+- **UKGovernmentBEIS/inspect_ai** — decide a grader panel by strict majority, not mode → [#4769](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4769) · merged
+- **QwenLM/qwen-code** — do not claim a question host in stream-json direct mode → [#9414](https://github.com/QwenLM/qwen-code/pull/9414) · merged
+- **punkpeye/fastmcp** — answer JSON-mode POSTs whose requests are never answered → [#325](https://github.com/punkpeye/fastmcp/pull/325) · merged
+- **basicmachines-co/basic-memory** — stop `bm` subprocesses inheriting the host's Python env → [#1179](https://github.com/basicmachines-co/basic-memory/pull/1179) · merged
+- **google-gemini/cookbook** · **pydantic/logfire** · **agno-agi/agno** → [#1296](https://github.com/google-gemini/cookbook/pull/1296) · [#2197](https://github.com/pydantic/logfire/pull/2197) · [#9498](https://github.com/agno-agi/agno/pull/9498) · merged
+
+Full ledger → [`github-evidence`](https://github.com/tonydzi/github-evidence)
 
 ---
 
@@ -185,7 +201,7 @@ Two closed ones worth naming, because a closed PR is a result too: [anthropics/c
 
 ## 👤 Who's behind this
 
-**Anton Dziatkovskii** (Tony) — founder, non-technical — and **Mike**, his AI cofounder running on Claude Code. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
+**Anton Dziatkovskii** (Tony) — founder, and the fleet of Claude Code agents I run. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
 
 Anton has done developer activation for a frontier platform before — when smart contracts were where LLM agents are now: Solidity curricula and a dev incubator with 40+ engineers across APAC, hackathons and cohorts at Platinum VC & Incubator ($35M AUM). CS security (MEPhI), ~20 academic papers, PhD in Education (IT). Full page: [tonydzi.github.io](https://tonydzi.github.io/) · [resume (PDF)](https://tonydzi.github.io/resume.pdf) · [academic profile](https://tonydzi.github.io/scholar/).
 
@@ -218,8 +234,8 @@ If something here helps you, a star is the currency that keeps it free.
 
 ## 🧩 One piece of a working system
 
-This repository is one piece lifted out of a live operation: one non-technical founder, an AI
-cofounder, and a fleet of machines that reach consensus with each other and wake the human only
+This repository is one piece lifted out of a live operation: one founder and a fleet of
+Claude Code agents and machines that reach consensus with each other and wake the human only
 for money or the irreversible. It was extracted after it survived production, not written as a
 demo — and it runs on its own: nothing here phones home to the rest.
 
