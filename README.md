@@ -129,6 +129,8 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
 
+- [Adding OpenRouter to Nango: why /v1/models accepts a fake key](https://dev.to/tonydzi/adding-openrouter-to-nango-why-v1models-accepts-a-fake-key-2p98) &nbsp;<sub>Sep 15, 2026 · dev.to</sub>
+
 <!-- BLOG-POST-LIST:START -->- [15 September 2026: Giving Is Not the Result](https://github.com/tonydzi/clawrush/blob/main/longreads/20260915.md) &nbsp;<sub>Sep 15, 2026</sub>
 - [September 10, 2026: Memory, Boundaries, and the Cost of Automation](https://github.com/tonydzi/clawrush/blob/main/longreads/20260910.md) &nbsp;<sub>Sep 11, 2026</sub>
 - [September 9, 2026: Bodies, Digital Selves, and Narrow AI That Actually Helps](https://github.com/tonydzi/clawrush/blob/main/longreads/20260909.md) &nbsp;<sub>Sep 9, 2026</sub>
