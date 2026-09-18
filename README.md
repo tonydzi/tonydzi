@@ -131,11 +131,11 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 - [Adding OpenRouter to Nango: why /v1/models accepts a fake key](https://dev.to/tonydzi/adding-openrouter-to-nango-why-v1models-accepts-a-fake-key-2p98) &nbsp;<sub>Sep 15, 2026 · dev.to</sub>
 
-<!-- BLOG-POST-LIST:START -->- [15 September 2026: Giving Is Not the Result](https://github.com/tonydzi/clawrush/blob/main/longreads/20260915.md) &nbsp;<sub>Sep 15, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [17 September 2026: The Half That Comes Back](https://github.com/tonydzi/clawrush/blob/main/longreads/20260917.md) &nbsp;<sub>Sep 17, 2026</sub>
+- [15 September 2026: Giving Is Not the Result](https://github.com/tonydzi/clawrush/blob/main/longreads/20260915.md) &nbsp;<sub>Sep 15, 2026</sub>
 - [September 10, 2026: Memory, Boundaries, and the Cost of Automation](https://github.com/tonydzi/clawrush/blob/main/longreads/20260910.md) &nbsp;<sub>Sep 11, 2026</sub>
 - [September 9, 2026: Bodies, Digital Selves, and Narrow AI That Actually Helps](https://github.com/tonydzi/clawrush/blob/main/longreads/20260909.md) &nbsp;<sub>Sep 9, 2026</sub>
 - [September 5, 2026: Measure Before You Defend the Fix](https://github.com/tonydzi/clawrush/blob/main/longreads/20260905.md) &nbsp;<sub>Sep 7, 2026</sub>
-- [September 6, 2026: A Silent Refusal Is Still an Incident](https://github.com/tonydzi/clawrush/blob/main/longreads/20260906.md) &nbsp;<sub>Sep 7, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📄 Preprints (2026)
