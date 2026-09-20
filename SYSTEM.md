@@ -116,6 +116,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 |---|---|---|
 | **[telegram-mcp-kit](https://github.com/tonydzi/telegram-mcp-kit)** | Connect Claude to **your own** Telegram account in ~15 minutes: a paste-in install prompt for Claude Code/Codex, the patches we run in production (one shared daemon per machine instead of a copy per session, six extra search tools, multi-account), a watchdog, and ten dated gotchas. Built on upstream [`chigwell/telegram-mcp`](https://github.com/chigwell/telegram-mcp) | Your agent writes code all day but cannot read the chat where the work is actually decided |
 | **[whatsapp-mcp-kit](https://github.com/tonydzi/whatsapp-mcp-kit)** | Link WhatsApp to Claude in ~20 minutes: a live self-refreshing QR page that makes pairing actually work, production patches, and twelve field gotchas. Built on upstream [`sjawhar/whatsapp-mcp`](https://github.com/sjawhar/whatsapp-mcp) | Pairing keeps timing out and you cannot tell whether the QR is stale or your session is |
+| **[lambda-cloud-mcp](https://github.com/tonydzi/lambda-cloud-mcp)** | An MCP server for the Lambda Cloud API: GPU prices, live capacity, cheapest-available lookup, and your instances — in one tool call. Launch, restart and terminate are env-gated behind a hard price cap; read-only by default. Not affiliated with Lambda; tested against mocked responses from the public API docs, live test pending | Your agent needs a GPU now and answering "is an H100 free, where, at what price" costs you a browser tab |
 | **[mcp-daemon-diet](https://github.com/tonydzi/mcp-daemon-diet)** | One shared MCP daemon per machine instead of a stdio copy in every session: recipe, autostart templates for Windows/macOS/Linux, and a watchdog that will not blind your live sessions | Ten parallel agent sessions each spawned their own copy of the same server and your RAM went with them |
 
 ## Running the shop — what it costs, what you can give away
@@ -141,6 +142,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[cv](https://github.com/tonydzi/cv)** | One person, thirteen packagings: role-specific CVs and pitches generated from a single `resume.json` master |
 | **[vibe-teach](https://github.com/tonydzi/vibe-teach)** | Daily lessons on Claude Code and Codex for people who have never opened a terminal — written from a running fleet, not from theory |
 | **[deep-research](https://github.com/tonydzi/deep-research)** | 226 deep-research reports from this lab, distilled: why each one was run and what came back. Every question fanned out to several frontier models, then reconciled. CC BY 4.0 |
+| **[nine-buckets](https://github.com/tonydzi/nine-buckets)** | One question put to nine independent **paid** LLM accounts, each in its strongest reasoning mode, published as where they *disagree* rather than as an average. A rail is vendor#account, not vendor; failures are included by rule |
 | **[github-evidence](https://github.com/tonydzi/github-evidence)** | Every pull request, issue, review and maintainer reply of ours in other people's repositories, regenerated from the public GitHub API |
 
 ---
