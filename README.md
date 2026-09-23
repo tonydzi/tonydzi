@@ -131,11 +131,11 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 - [Adding OpenRouter to Nango: why /v1/models accepts a fake key](https://dev.to/tonydzi/adding-openrouter-to-nango-why-v1models-accepts-a-fake-key-2p98) &nbsp;<sub>Sep 15, 2026 · dev.to</sub>
 
-<!-- BLOG-POST-LIST:START -->- [22 September 2026: A Voice Message Should Arrive With Its History](https://github.com/tonydzi/clawrush/blob/main/longreads/20260922.md) &nbsp;<sub>Sep 22, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [23 September 2026: Where the Seam Is](https://github.com/tonydzi/clawrush/blob/main/longreads/20260923.md) &nbsp;<sub>Sep 23, 2026</sub>
+- [22 September 2026: Never Act on One Source](https://github.com/tonydzi/clawrush/blob/main/longreads/20260922.md) &nbsp;<sub>Sep 22, 2026</sub>
 - [A benchmark is not your corpus](https://github.com/tonydzi/clawrush/blob/main/longreads/a-benchmark-is-not-your-corpus.md) &nbsp;<sub>Sep 21, 2026</sub>
 - [21 September 2026: Name the Boundary](https://github.com/tonydzi/clawrush/blob/main/longreads/20260921.md) &nbsp;<sub>Sep 21, 2026</sub>
 - [18 September 2026: One List, Sorted by How Close They Are](https://github.com/tonydzi/clawrush/blob/main/longreads/20260918.md) &nbsp;<sub>Sep 18, 2026</sub>
-- [17 September 2026: The Half That Comes Back](https://github.com/tonydzi/clawrush/blob/main/longreads/20260917.md) &nbsp;<sub>Sep 17, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📄 Preprints (2026)
