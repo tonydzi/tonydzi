@@ -123,7 +123,7 @@ the rest. All stdlib-only Python, all free.
   <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white">
 </p>
 
-Python and SQLite for everything that has to survive a crash; Claude Code as the runtime; MCP for tools; GitHub Actions and cron for the routines. The house rule is **AK-47**: the simplest thing that works and that a non-technical founder can repair with a hammer and a screwdriver.
+Python and SQLite for everything that has to survive a crash; Claude Code as the runtime; MCP for tools; GitHub Actions and cron for the routines. The house rule is **AK-47**: the simplest thing that works and that its owner can repair with a hammer and a screwdriver.
 
 ## ✍️ Latest writing
 
@@ -154,7 +154,7 @@ ORCID: [0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054) · full list
 
 ## 📖 The book
 
-**[相棒 AIBŌ · The Partner](https://github.com/tonydzi/the-journey)** — a build-in-public book of the whole journey, day by day, since 2026-05-27. How a non-technical founder and an AI built a second brain: what we tried, what broke, what we learned. Two forms side by side: a story for humans (RU/EN) and [`llms-full.txt`](https://github.com/tonydzi/the-journey/blob/main/llms-full.txt) for machines — point your coding agent at it and it inherits our patterns and skips our mistakes.
+**[相棒 AIBŌ · The Partner](https://github.com/tonydzi/the-journey)** — a build-in-public book of the whole journey, day by day, since 2026-05-27. How one engineer built a second brain with Claude as implementation collaborator: what we tried, what broke, what we learned. Two forms side by side: a story for humans (RU/EN) and [`llms-full.txt`](https://github.com/tonydzi/the-journey/blob/main/llms-full.txt) for machines — point your coding agent at it and it inherits our patterns and skips our mistakes.
 
 ## 🔁 Contributing upstream
 
