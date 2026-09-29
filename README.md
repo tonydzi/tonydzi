@@ -132,7 +132,7 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 - [Adding OpenRouter to Nango: why /v1/models accepts a fake key](https://dev.to/tonydzi/adding-openrouter-to-nango-why-v1models-accepts-a-fake-key-2p98) &nbsp;<sub>Sep 15, 2026 · dev.to</sub>
 
 <!-- BLOG-POST-LIST:START -->- [26 September 2026: Learning in the Only Place Attention Exists](https://github.com/tonydzi/clawrush/blob/main/longreads/20260926.md) &nbsp;<sub>Sep 28, 2026</sub>
-- [28 September 2026: A Credential That Does Not Transfer](https://github.com/tonydzi/clawrush/blob/main/longreads/20260928.md) &nbsp;<sub>Sep 28, 2026</sub>
+- [28 September 2026: Read the Parameter Before You Plan Against It](https://github.com/tonydzi/clawrush/blob/main/longreads/20260928.md) &nbsp;<sub>Sep 28, 2026</sub>
 - [25 September 2026: A Queue Instead of a Sales Funnel](https://github.com/tonydzi/clawrush/blob/main/longreads/20260925.md) &nbsp;<sub>Sep 25, 2026</sub>
 - [24 September 2026: One Folder, Two Agents](https://github.com/tonydzi/clawrush/blob/main/longreads/20260924.md) &nbsp;<sub>Sep 24, 2026</sub>
 - [23 September 2026: Where the Seam Is](https://github.com/tonydzi/clawrush/blob/main/longreads/20260923.md) &nbsp;<sub>Sep 23, 2026</sub>
