@@ -140,7 +140,7 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 ## 📄 Preprints (2026)
 
-Four papers, each published with a DOI on Zenodo (CC BY 4.0). The Zenodo record is the version of
+Nine papers, each published with a DOI on Zenodo (CC BY 4.0), each with its own page and full-text PDF at [tonydzi.github.io/papers](https://tonydzi.github.io/papers/). The Zenodo record is the version of
 record; a copy anywhere else is a mirror of it, so cite the DOI.
 
 | Paper | DOI | Reference implementation |
@@ -149,6 +149,11 @@ record; a copy anywhere else is a mirror of it, so cite the DOI.
 | Homeostatic Governance: A Gorsky-Anokhin Alternative to the Viable System Model | [10.5281/zenodo.22639712](https://doi.org/10.5281/zenodo.22639712) | three-circuit control model behind the protocol |
 | When Does Graph Expansion Help Personal-Corpus Retrieval? | [10.5281/zenodo.22639718](https://doi.org/10.5281/zenodo.22639718) | [`sqlite-graph-memory`](https://github.com/tonydzi/sqlite-graph-memory) |
 | Le Chatelier Tokenomics: negative feedback as homeostasis in multi-asset coupled equilibria | [10.5281/zenodo.22639710](https://doi.org/10.5281/zenodo.22639710) | — |
+| Keeping Agents on a Leash: An Eight-Domain Control Model for AI Agents with Delegated Authority | [10.5281/zenodo.22691782](https://doi.org/10.5281/zenodo.22691782) | [`agent-leash`](https://github.com/tonydzi/agent-leash) |
+| Rules as Files: Governing the Behaviour of LLM Agents Across Sessions, Machines and People | [10.5281/zenodo.22694070](https://doi.org/10.5281/zenodo.22694070) | [`claude-bible`](https://github.com/tonydzi/claude-bible) |
+| Silent by Construction: A Casebook of Control-Plane Failures in a Production LLM Agent Fleet | [10.5281/zenodo.22688465](https://doi.org/10.5281/zenodo.22688465) | [`agent-control-plane-casebook`](https://github.com/tonydzi/agent-control-plane-casebook) |
+| Instructions That Never Arrive: do compaction instructions reach the summarizer? | [10.5281/zenodo.22684968](https://doi.org/10.5281/zenodo.22684968) | [`compact-canon`](https://github.com/tonydzi/compact-canon) |
+| Facts Before Explanation: a provenance-tracked pipeline for personal lab panels | [10.5281/zenodo.22696755](https://doi.org/10.5281/zenodo.22696755) | [`blood-panel-pipeline`](https://github.com/tonydzi/blood-panel-pipeline) |
 
 ORCID: [0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054) · full list: [publications](https://tonydzi.github.io/scholar/publications/)
 
