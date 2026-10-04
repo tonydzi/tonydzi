@@ -98,6 +98,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | **[harness-abc-bench](https://github.com/tonydzi/harness-abc-bench)** | Pre-registered A/B/C benchmark on real brownfield ops code — methodology frozen before the runs, results published either way | You are choosing between agent harnesses on vibes and vendor claims |
 | **[blood-panel-pipeline](https://github.com/tonydzi/blood-panel-pipeline)** | A decade of raw lab panels turned into a queryable, provenance-tracked record: deterministic rules decide what is true, the model only explains. Stdlib-only, no data shipped | You want an LLM near your own records without letting it be the thing that decides the facts |
 | **[red-first-review-skill](https://github.com/tonydzi/red-first-review-skill)** | Review a PR by measuring which of its own guards its own test suite catches: neutralise each guard, run their tests, report the removals nothing notices. Stdlib-only; Claude Code skill + standalone tool | A pull request arrives with green tests and you want to know what those tests would miss |
+| **[six-agents-one-gate](https://github.com/tonydzi/six-agents-one-gate)** | One real bug, six coding agents in parallel, one deterministic zero-token gate that decides who actually fixed it: armed-red first, test receipts, tamper hash, held-out maintainer spec. 52 bug-report attempts, 52 claimed green, 3 met the spec | Six agents all report success on the same task and you need something other than their word for it |
 
 ## Fleet — many machines, one mind
 
