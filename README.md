@@ -32,7 +32,7 @@
 
 ## 🧾 Recent open-source contributions
 
-- **NangoHQ/nango** — add OpenRouter as an integration, verified via `/v1/key` (the public `/v1/models` accepts any key) → [#7532](https://github.com/NangoHQ/nango/pull/7532) · open
+- **NangoHQ/nango** — add OpenRouter as an integration, verified via `/v1/key` (the public `/v1/models` accepts any key) → [#7532](https://github.com/NangoHQ/nango/pull/7532) · closed
 - **NangoHQ/nango** — add Lambda Cloud as an integration → [#7533](https://github.com/NangoHQ/nango/pull/7533) · open
 - **Kong/kong** — `ai-proxy`: keep an empty Anthropic `tools` array → [#14999](https://github.com/Kong/kong/pull/14999) · open
 - **modelcontextprotocol/go-sdk** — quick start `go get` left the module unbuildable; streamable client snippet; dead links; TOC → [#1148](https://github.com/modelcontextprotocol/go-sdk/pull/1148) · [#1142](https://github.com/modelcontextprotocol/go-sdk/pull/1142) · [#1159](https://github.com/modelcontextprotocol/go-sdk/pull/1159) · [#1196](https://github.com/modelcontextprotocol/go-sdk/pull/1196) · merged
@@ -163,9 +163,9 @@ ORCID: [0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054) · full list
 
 ## 🔁 Contributing upstream
 
-**92 pull requests into 66 repositories across 56 organisations** — Google, Anthropic, OpenAI, Microsoft, Pydantic, the Model Context Protocol project, deepset, Hugging Face, xAI, Qwen, and the agent-ecosystem lists. 45 open, 19 closed, **28 merged** *(verified 2026-09-01)*.
+**140 pull requests into 86 repositories** — Google, Anthropic, OpenAI, Microsoft, Pydantic, the Model Context Protocol project, deepset, Hugging Face, xAI, Qwen, and the agent-ecosystem lists. 42 open, 48 closed, **50 merged** *(verified 2026-10-05)*.
 
-Of the 28 merged, **17 landed in code and documentation of upstream projects** and 11 are entries in ecosystem lists. Those are different kinds of contribution and are counted separately on purpose.
+Merges into code and documentation of upstream projects and entries in ecosystem lists are different kinds of contribution; the code ones are named below.
 
 📋 **[The full list, with live status →](https://tonydzi.github.io/contributions/)** — generated straight from the GitHub API, closed ones included. Nothing is left off it to make the record look better.
 
@@ -173,6 +173,7 @@ Merged into upstream code:
 
 | PR | What it fixed |
 |---|---|
+| [microsoft/semantic-kernel#14371](https://github.com/microsoft/semantic-kernel/pull/14371) | Anti-SSRF hardening in the Python OpenAPI plugin: the request now goes to the address the validator vetted, closing a DNS-rebinding gap. |
 | [google-gemini/cookbook#1296](https://github.com/google-gemini/cookbook/pull/1296) | Example: checking citation faithfulness in RAG. |
 | [modelcontextprotocol/go-sdk#1142, #1148, #1159, #1196](https://github.com/modelcontextprotocol/go-sdk/pulls?q=is%3Apr+author%3Atonydzi) | Four fixes in the official MCP Go SDK — an unbuildable quick start, a wrong client snippet, dead links, a broken table of contents. |
 | [agno-agi/agno#9498](https://github.com/agno-agi/agno/pull/9498) | Four cookbook imports that did not resolve. |
@@ -187,11 +188,8 @@ Representative work still in flight:
 | PR | What it proposes |
 |---|---|
 | [anthropics/claude-cookbooks#787](https://github.com/anthropics/claude-cookbooks/pull/787) | Authority routing — ADVISE / EXECUTE / DEFER / STOP as a gate on agent actions. |
-| [anthropics/claude-cookbooks#778](https://github.com/anthropics/claude-cookbooks/pull/778) | *Coordinating agents that don't share memory* — message-bus consensus + liveness. |
-| [anthropics/claude-cookbooks#788](https://github.com/anthropics/claude-cookbooks/pull/788) | Pipeline vs barrier sub-agent composition — when a barrier actually earns its wall-clock cost. |
 | [openai/openai-cookbook#2880](https://github.com/openai/openai-cookbook/pull/2880) | Zero-token check for fabricated citations in RAG. |
 | [huggingface/cookbook#366](https://github.com/huggingface/cookbook/pull/366) | A self-verifying search agent — the agent checks its own retrieval before answering. |
-| [anthropics/skills#1460](https://github.com/anthropics/skills/pull/1460) | `reasoning-quality-gate` skill. |
 | [google/adk-python-community#172](https://github.com/google/adk-python-community/pull/172) | `AuthorityRoutingPlugin` for ADK. |
 
 The pattern behind most of them is the same one that runs in production here: **a deterministic gate around the model, not a better prompt inside it.**
