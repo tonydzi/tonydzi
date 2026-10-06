@@ -147,7 +147,7 @@ record; a copy anywhere else is a mirror of it, so cite the DOI.
 |---|---|---|
 | Operating a Human-Governed Multi-Machine LLM Agent Fleet: An Experience Report | [10.5281/zenodo.22639714](https://doi.org/10.5281/zenodo.22639714) | [`claw-consensus`](https://github.com/tonydzi/claw-consensus) |
 | Homeostatic Governance: A Gorsky-Anokhin Alternative to the Viable System Model | [10.5281/zenodo.22639712](https://doi.org/10.5281/zenodo.22639712) | three-circuit control model behind the protocol |
-| When Does Graph Expansion Help Personal-Corpus Retrieval? | [10.5281/zenodo.22639718](https://doi.org/10.5281/zenodo.22639718) | [`sqlite-graph-memory`](https://github.com/tonydzi/sqlite-graph-memory) |
+| When Does Graph Expansion Help Personal-Corpus Retrieval? (v0.3, negative result) | [10.5281/zenodo.23113066](https://doi.org/10.5281/zenodo.23113066) | [`sqlite-graph-memory`](https://github.com/tonydzi/sqlite-graph-memory) |
 | Le Chatelier Tokenomics: negative feedback as homeostasis in multi-asset coupled equilibria | [10.5281/zenodo.22639710](https://doi.org/10.5281/zenodo.22639710) | — |
 | Keeping Agents on a Leash: An Eight-Domain Control Model for AI Agents with Delegated Authority | [10.5281/zenodo.22691782](https://doi.org/10.5281/zenodo.22691782) | [`agent-leash`](https://github.com/tonydzi/agent-leash) |
 | Rules as Files: Governing the Behaviour of LLM Agents Across Sessions, Machines and People | [10.5281/zenodo.22694070](https://doi.org/10.5281/zenodo.22694070) | [`claude-bible`](https://github.com/tonydzi/claude-bible) |
