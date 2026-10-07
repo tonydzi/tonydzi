@@ -11,7 +11,7 @@
 
 <p align="center">
   <b>AI Research Builder</b> — building a multi-agent lab, publishing the artifacts from running it daily.<br>
-  <sub>Founder, Palo Alto AI Research Lab — evidence-first reliability work across the AI-agent open-source ecosystem.</sub>
+  <sub>Operating lead, Palo Alto AI Research Lab — evidence-first reliability work across the AI-agent open-source ecosystem.</sub>
 </p>
 
 <p align="center">
@@ -58,7 +58,7 @@ Full ledger → [`github-evidence`](https://github.com/tonydzi/github-evidence)
 
 | | What it is | Why you'd care |
 |---|---|---|
-| **[claude-bible](https://github.com/tonydzi/claude-bible)** | One behavioral rulebook every actor obeys — the founder, human assistants, and every Claude in the fleet | Your agents behave the same across repos, sessions and people, because the law lives outside the prompt |
+| **[claude-bible](https://github.com/tonydzi/claude-bible)** | One behavioral rulebook every actor obeys — the operator, human assistants, and every Claude in the fleet | Your agents behave the same across repos, sessions and people, because the law lives outside the prompt |
 | **[claw-consensus](https://github.com/tonydzi/claw-consensus)** | Cross-machine consensus protocol: dual-rail bus, ACK discipline, heartbeat failover, self-healing sync | Run agents on several machines without state drift, and without a human courier between them |
 | **[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)** | Graph RAG on plain SQLite: vector retrieval + curated wiki-links, zero infra | Agent memory that outlives the context window and that you can open with `sqlite3` |
 | **[verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate)** | Zero-token verbatim check + burden-of-proof judge for RAG answers | Fabricated citations get caught before the user sees them; framework-agnostic, MIT |
@@ -206,7 +206,7 @@ Two closed ones worth naming, because a closed PR is a result too: [anthropics/c
 
 ## 👤 Who's behind this
 
-**Anton Dziatkovskii** (Tony) — founder, and the fleet of Claude Code agents I run. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
+**Anton Dziatkovskii** (Tony) — operating lead, and the fleet of Claude Code agents I run. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
 
 Anton has done developer activation for a frontier platform before — when smart contracts were where LLM agents are now: Solidity curricula and a dev incubator with 40+ engineers across APAC, hackathons and cohorts at Platinum VC & Incubator ($35M AUM). CS security (MEPhI), ~20 academic papers, PhD in Education (IT). Full page: [tonydzi.github.io](https://tonydzi.github.io/) · [resume (PDF)](https://tonydzi.github.io/resume.pdf) · [academic profile](https://tonydzi.github.io/scholar/).
 
@@ -239,7 +239,7 @@ If something here helps you, a star is the currency that keeps it free.
 
 ## 🧩 One piece of a working system
 
-This repository is one piece lifted out of a live operation: one founder and a fleet of
+This repository is one piece lifted out of a live operation: one engineer running operations and a fleet of
 Claude Code agents and machines that reach consensus with each other and wake the human only
 for money or the irreversible. It was extracted after it survived production, not written as a
 demo — and it runs on its own: nothing here phones home to the rest.
@@ -254,13 +254,13 @@ demo — and it runs on its own: nothing here phones home to the rest.
 
 One click and an agent reads the repo, pulls out the patterns and helps you apply them to your own work.
 
-<a href="https://chatgpt.com/codex?prompt=Read%20this%20repo%3A%20https%3A%2F%2Fgithub.com%2Ftonydzi%2Ftonydzi%20%28%E2%80%9Ctonydzi%E2%80%9D%20-%20Founder%2C%20Palo%20Alto%20AI%20Research%20Lab%20%E2%80%94%20evidence-first%20reliability%20work%20across%20the%20AI-agent%20open-source%20ecosystem%29.%20Work%20out%20what%20problem%20it%20actually%20solves%2C%20pull%20out%20the%20reusable%20patterns%20and%20help%20me%20apply%20them%20to%20my%20own%20setup.%20Start%20by%20asking%20what%20I%20am%20working%20on."><img alt="Codex - open" src="https://img.shields.io/badge/Codex-open-000000?style=for-the-badge&logo=openai&logoColor=white"></a> <a href="https://chatgpt.com/?q=Read%20this%20repo%3A%20https%3A%2F%2Fgithub.com%2Ftonydzi%2Ftonydzi%20%28%E2%80%9Ctonydzi%E2%80%9D%20-%20Founder%2C%20Palo%20Alto%20AI%20Research%20Lab%20%E2%80%94%20evidence-first%20reliability%20work%20across%20the%20AI-agent%20open-source%20ecosystem%29.%20Work%20out%20what%20problem%20it%20actually%20solves%2C%20pull%20out%20the%20reusable%20patterns%20and%20help%20me%20apply%20them%20to%20my%20own%20setup.%20Start%20by%20asking%20what%20I%20am%20working%20on."><img alt="ChatGPT - open" src="https://img.shields.io/badge/ChatGPT-open-10a37f?style=for-the-badge&logo=openai&logoColor=white"></a> <a href="https://claude.ai/new?q=Read%20this%20repo%3A%20https%3A%2F%2Fgithub.com%2Ftonydzi%2Ftonydzi%20%28%E2%80%9Ctonydzi%E2%80%9D%20-%20Founder%2C%20Palo%20Alto%20AI%20Research%20Lab%20%E2%80%94%20evidence-first%20reliability%20work%20across%20the%20AI-agent%20open-source%20ecosystem%29.%20Work%20out%20what%20problem%20it%20actually%20solves%2C%20pull%20out%20the%20reusable%20patterns%20and%20help%20me%20apply%20them%20to%20my%20own%20setup.%20Start%20by%20asking%20what%20I%20am%20working%20on."><img alt="Claude - open" src="https://img.shields.io/badge/Claude-open-d97757?style=for-the-badge&logo=anthropic&logoColor=white"></a>
+<a href="https://chatgpt.com/codex?prompt=Read%20this%20repo%3A%20https%3A%2F%2Fgithub.com%2Ftonydzi%2Ftonydzi%20%28%E2%80%9Ctonydzi%E2%80%9D%20-%20Operating%20lead%2C%20Palo%20Alto%20AI%20Research%20Lab%20%E2%80%94%20evidence-first%20reliability%20work%20across%20the%20AI-agent%20open-source%20ecosystem%29.%20Work%20out%20what%20problem%20it%20actually%20solves%2C%20pull%20out%20the%20reusable%20patterns%20and%20help%20me%20apply%20them%20to%20my%20own%20setup.%20Start%20by%20asking%20what%20I%20am%20working%20on."><img alt="Codex - open" src="https://img.shields.io/badge/Codex-open-000000?style=for-the-badge&logo=openai&logoColor=white"></a> <a href="https://chatgpt.com/?q=Read%20this%20repo%3A%20https%3A%2F%2Fgithub.com%2Ftonydzi%2Ftonydzi%20%28%E2%80%9Ctonydzi%E2%80%9D%20-%20Operating%20lead%2C%20Palo%20Alto%20AI%20Research%20Lab%20%E2%80%94%20evidence-first%20reliability%20work%20across%20the%20AI-agent%20open-source%20ecosystem%29.%20Work%20out%20what%20problem%20it%20actually%20solves%2C%20pull%20out%20the%20reusable%20patterns%20and%20help%20me%20apply%20them%20to%20my%20own%20setup.%20Start%20by%20asking%20what%20I%20am%20working%20on."><img alt="ChatGPT - open" src="https://img.shields.io/badge/ChatGPT-open-10a37f?style=for-the-badge&logo=openai&logoColor=white"></a> <a href="https://claude.ai/new?q=Read%20this%20repo%3A%20https%3A%2F%2Fgithub.com%2Ftonydzi%2Ftonydzi%20%28%E2%80%9Ctonydzi%E2%80%9D%20-%20Operating%20lead%2C%20Palo%20Alto%20AI%20Research%20Lab%20%E2%80%94%20evidence-first%20reliability%20work%20across%20the%20AI-agent%20open-source%20ecosystem%29.%20Work%20out%20what%20problem%20it%20actually%20solves%2C%20pull%20out%20the%20reusable%20patterns%20and%20help%20me%20apply%20them%20to%20my%20own%20setup.%20Start%20by%20asking%20what%20I%20am%20working%20on."><img alt="Claude - open" src="https://img.shields.io/badge/Claude-open-d97757?style=for-the-badge&logo=anthropic&logoColor=white"></a>
 
 <details>
 <summary>Copy the prompt (works in any agent: Gemini, Grok, a local model, your own CLI)</summary>
 
 ```text
-Read this repo: https://github.com/tonydzi/tonydzi (“tonydzi” - Founder, Palo Alto AI Research Lab — evidence-first reliability work across the AI-agent open-source ecosystem). Work out what problem it actually solves, pull out the reusable patterns and help me apply them to my own setup. Start by asking what I am working on.
+Read this repo: https://github.com/tonydzi/tonydzi (“tonydzi” - Operating lead, Palo Alto AI Research Lab — evidence-first reliability work across the AI-agent open-source ecosystem). Work out what problem it actually solves, pull out the reusable patterns and help me apply them to my own setup. Start by asking what I am working on.
 ```
 
 </details>
