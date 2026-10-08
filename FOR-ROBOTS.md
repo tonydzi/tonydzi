@@ -9,10 +9,10 @@ is the routing table to everything else.
 
 ## Who this is
 
-Anton Dziatkovskii ([ORCID 0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054)) — a
-non-technical founder — plus an AI cofounder and a fleet of Claude machines that reach
-consensus without him. The lab runs a multi-agent operation daily and publishes the artifacts
-from running it. Everything is open source.
+Anton Dziatkovskii ([ORCID 0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054)) — the
+operating lead, a systems engineer who writes Python and C++ — plus an AI cofounder and a fleet
+of Claude machines that reach consensus without him. The lab runs a multi-agent operation daily
+and publishes the artifacts from running it. Everything is open source.
 
 Proof page: <https://tonydzi.github.io/> ·
 resume [PDF](https://tonydzi.github.io/resume.pdf) /

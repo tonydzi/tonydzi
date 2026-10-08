@@ -2,7 +2,7 @@
 
 One link to answer "what do you actually do".
 
-There is one live operation here: a non-technical founder, an AI cofounder, and a fleet of
+There is one live operation here: one operating lead, an AI cofounder, and a fleet of
 machines — an always-on hub, laptops, family machines and a VPS anchor — that reach consensus
 with each other and wake the human only for money or the irreversible. Every public repo below
 was **cut out of that running system**, not written as a demo. That is the only reason any of it
@@ -10,7 +10,7 @@ is worth your time: it already survived a night shift.
 
 Each piece is small on purpose and stands alone. Take one, ignore the rest.
 
-**Rule of the house — AK-47:** the simplest thing that works and that a non-technical founder can
+**Rule of the house — AK-47:** the simplest thing that works and that one tired human can
 repair with a hammer and a screwdriver. Python and SQLite where it must survive a crash, no
 service you have to run, no key you have to buy.
 
@@ -161,7 +161,7 @@ ping the thread. Full deal in
 
 ## Who is behind it
 
-**Anton Dziatkovskii** (Tony), founder, non-technical — and **Mike**, his AI cofounder running on
+**Anton Dziatkovskii** (Tony), operating lead — and **Mike**, his AI cofounder running on
 Claude Code. The git log is honest about which of us wrote what: lab-wide policy in
 [AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md).
 
