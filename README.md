@@ -131,11 +131,11 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 - [Adding OpenRouter to Nango: why /v1/models accepts a fake key](https://dev.to/tonydzi/adding-openrouter-to-nango-why-v1models-accepts-a-fake-key-2p98) &nbsp;<sub>Sep 15, 2026 · dev.to</sub>
 
-<!-- BLOG-POST-LIST:START -->- [8 October 2026: Four Doors Into One Company, and Three Are Side Entrances](https://github.com/tonydzi/clawrush/blob/main/longreads/20261008.md) &nbsp;<sub>Oct 8, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [9 October 2026: You Cannot See the State of a Learner From Outside](https://github.com/tonydzi/clawrush/blob/main/longreads/20261009.md) &nbsp;<sub>Oct 9, 2026</sub>
+- [8 October 2026: Four Doors Into One Company, and Three Are Side Entrances](https://github.com/tonydzi/clawrush/blob/main/longreads/20261008.md) &nbsp;<sub>Oct 8, 2026</sub>
 - [7 October 2026: Three Research Passes, All of Them About Myself](https://github.com/tonydzi/clawrush/blob/main/longreads/20261007.md) &nbsp;<sub>Oct 7, 2026</sub>
 - [5 October 2026: The Term Landed Only as Audio](https://github.com/tonydzi/clawrush/blob/main/longreads/20261005.md) &nbsp;<sub>Oct 6, 2026</sub>
 - [6 October 2026: Read the Field Before Rewriting the File](https://github.com/tonydzi/clawrush/blob/main/longreads/20261006.md) &nbsp;<sub>Oct 6, 2026</sub>
-- [29 September 2026: The Scarce Thing Is Undistracted Hours](https://github.com/tonydzi/clawrush/blob/main/longreads/20260929.md) &nbsp;<sub>Sep 30, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📄 Preprints (2026)
