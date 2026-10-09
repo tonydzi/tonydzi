@@ -24,6 +24,8 @@
 
 > 👤 **Hiring manager or engineer? [START HERE — one page of proof →](https://tonydzi.github.io/)**
 >
+> 🚀 **Want your machine in the fleet? [JOIN THE FLEET →](https://github.com/tonydzi/join-the-fleet)** — 8 machines today, 100 is the goal; 15 minutes, one link, no account with us.
+>
 > 🧩 **Everything we built, part by part → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)** — 20 repos, what each one does, how they fit together.
 >
 > 📄 Resume: **[PDF](https://tonydzi.github.io/resume.pdf)** · [JSON Resume](https://tonydzi.github.io/resume.json) — 🎓 Research: **[academic profile](https://tonydzi.github.io/scholar/)** · [full publication list](https://tonydzi.github.io/scholar/publications/)
