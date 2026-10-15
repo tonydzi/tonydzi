@@ -24,9 +24,9 @@
 
 > 👤 **Hiring manager or engineer? [START HERE — one page of proof →](https://tonydzi.github.io/)**
 >
-> 🚀 **Want your machine in the fleet? [JOIN THE FLEET →](https://github.com/tonydzi/join-the-fleet)** — 8 machines today, 100 is the goal; 15 minutes, one link, no account with us.
+> 🚀 **Want your machine in the fleet? [JOIN THE FLEET →](https://github.com/tonydzi/join-the-fleet)** — 8 machines today, 100 is the goal; 15 minutes, one link, no account with me.
 >
-> 🧩 **Everything we built, part by part → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)** — 20 repos, what each one does, how they fit together.
+> 🧩 **Everything I built, part by part → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)** — 20 repos, what each one does, how they fit together.
 >
 > 📄 Resume: **[PDF](https://tonydzi.github.io/resume.pdf)** · [JSON Resume](https://tonydzi.github.io/resume.json) — 🎓 Research: **[academic profile](https://tonydzi.github.io/scholar/)** · [full publication list](https://tonydzi.github.io/scholar/publications/)
 
@@ -80,7 +80,7 @@ where I'd start. Full map of all 101 → [skills/INDEX.md](https://github.com/to
 
 **Session continuity:** [`/retro`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/retro/SKILL.md) route what survives · [`/handoff`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/handoff/SKILL.md) a semicolon for the next session · [`/resume-last`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/resume-last/SKILL.md) continue after a crash · [`/1`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/1/SKILL.md) hard-crash recovery
 
-**Decisions:** [`/precedent`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/precedent/SKILL.md) did we decide this already · [`/declined`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/declined/SKILL.md) what we already rejected · [`/research-swarm`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/research-swarm/SKILL.md) 5-lens argument map · [`/last30days`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/last30days/SKILL.md) what changed this month
+**Decisions:** [`/precedent`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/precedent/SKILL.md) did I decide this already · [`/declined`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/declined/SKILL.md) what I already rejected · [`/research-swarm`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/research-swarm/SKILL.md) 5-lens argument map · [`/last30days`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/last30days/SKILL.md) what changed this month
 
 **Fleet & infra:** [`/arch`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/arch/SKILL.md) map of the whole system · [`/sync-check`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/sync-check/SKILL.md) fleet sync green/red · [`/quarantine`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/quarantine/SKILL.md) fail-closed inbox for unsigned deliverables · [`/mcp`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/mcp/SKILL.md) connector health
 
@@ -161,7 +161,7 @@ ORCID: [0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054) · full list
 
 ## 📖 The book
 
-**[相棒 AIBŌ · The Partner](https://github.com/tonydzi/the-journey)** — a build-in-public book of the whole journey, day by day, since 2026-05-27. How one engineer built a second brain with Claude as implementation collaborator: what we tried, what broke, what we learned. Two forms side by side: a story for humans (RU/EN) and [`llms-full.txt`](https://github.com/tonydzi/the-journey/blob/main/llms-full.txt) for machines — point your coding agent at it and it inherits our patterns and skips our mistakes.
+**[相棒 AIBŌ · The Partner](https://github.com/tonydzi/the-journey)** — a build-in-public book of the whole journey, day by day, since 2026-05-27. How one engineer built a second brain with Claude as implementation collaborator: what I tried, what broke, what I learned. Two forms side by side: a story for humans (RU/EN) and [`llms-full.txt`](https://github.com/tonydzi/the-journey/blob/main/llms-full.txt) for machines — point your coding agent at it and it inherits our patterns and skips our mistakes.
 
 ## 🔁 Contributing upstream
 
@@ -197,6 +197,20 @@ Representative work still in flight:
 The pattern behind most of them is the same one that runs in production here: **a deterministic gate around the model, not a better prompt inside it.**
 
 Two closed ones worth naming, because a closed PR is a result too: [anthropics/claude-agent-sdk-demos#70](https://github.com/anthropics/claude-agent-sdk-demos/pull/70) (`verified-ops-agent`, closed without a merge) and [deepset-ai/haystack#12142](https://github.com/deepset-ai/haystack/pull/12142), closed by a maintainer with an actual review — not enough added value to justify a new component. A reviewed no beats a silent queue, and both are on the list above like everything else.
+
+## 🩹 Fixed it here, handed it on
+
+When I fix a failure on my own fleet, I go looking for strangers on GitHub stuck on the same one and hand them the measured diagnosis in their own thread. My AI agent posts it under my account and says so in the first line. Since September 2026: **226 threads, about 17 direct replies, 6 maintainer actions**. Most threads stay silent; these did not:
+
+| Thread | What happened after |
+|---|---|
+| [BerriAI/litellm#34140](https://github.com/BerriAI/litellm/issues/34140) | A contributor took the frame, pushed two commits to his PR ([#37789](https://github.com/BerriAI/litellm/pull/37789)) and filed the follow-up quota bug ([#41395](https://github.com/BerriAI/litellm/issues/41395)). |
+| [max-friedman/agentic-coding-loop#23](https://github.com/max-friedman/agentic-coding-loop/issues/23) | Maintainer merged part of it and released it as 0.11.0. |
+| [openamer/openamer#98](https://github.com/openamer/openamer/issues/98) | Maintainer reproduced the replay bug and posted a self-tested fix. |
+| [wowok-ai/skills#3](https://github.com/wowok-ai/skills/issues/3) | Owner confirmed both bugs from my install-log analysis and named the root causes. |
+| [Jason-Vaughan/TangleClaw#1400](https://github.com/Jason-Vaughan/TangleClaw/issues/1400) | Owner called it "genuinely useful", audited the path and said he is removing the fail-open guard. |
+
+It now runs every night. The silent threads are counted too: a fix that nobody hears about did not ship.
 
 ## 📊 The numbers, unedited
 
