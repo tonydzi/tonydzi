@@ -165,7 +165,7 @@ ORCID: [0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054) · full list
 
 ## 🔁 Contributing upstream
 
-**152 pull requests into 91 repositories** — Google, Anthropic, OpenAI, Microsoft, Pydantic, the Model Context Protocol project, deepset, Hugging Face, xAI, Qwen, and the agent-ecosystem lists. 43 open, 54 closed, **55 merged** *(verified 2026-10-12)*.
+**164 pull requests into 98 repositories** — Google, Anthropic, OpenAI, Microsoft, Pydantic, the Model Context Protocol project, deepset, Hugging Face, xAI, Qwen, and the agent-ecosystem lists. 28 open, 74 closed, **62 merged** *(verified 2026-10-19)*.
 
 Merges into code and documentation of upstream projects and entries in ecosystem lists are different kinds of contribution; the code ones are named below.
 
