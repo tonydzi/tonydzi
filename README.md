@@ -10,8 +10,8 @@
 <h1 align="center">Anton Dziatkovskii</h1>
 
 <p align="center">
-  <b>AI Research Builder</b> — building a multi-agent lab, publishing the artifacts from running it daily.<br>
-  <sub>Operating lead, Palo Alto AI Research Lab — evidence-first reliability work across the AI-agent open-source ecosystem.</sub>
+  <b>I make AI agents work in production, and every claim links to the code.</b><br>
+  <sub>50 merged PRs across 29 AI-ecosystem repos (Microsoft Semantic Kernel, UK AISI inspect_ai, Google ADK, Qwen Code) · six-machine agent fleet run in public · 11 years as a hired COO/CTO.</sub>
 </p>
 
 <p align="center">
