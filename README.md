@@ -133,11 +133,11 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 - [Adding OpenRouter to Nango: why /v1/models accepts a fake key](https://dev.to/tonydzi/adding-openrouter-to-nango-why-v1models-accepts-a-fake-key-2p98) &nbsp;<sub>Sep 15, 2026 · dev.to</sub>
 
-<!-- BLOG-POST-LIST:START -->- [19 October 2026: The Memory Is the Machine, the Persona Is a Layer](https://github.com/tonydzi/clawrush/blob/main/longreads/20261019.md) &nbsp;<sub>Oct 19, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [20 October 2026: Silence to Do the Work, Rooms to Find It](https://github.com/tonydzi/clawrush/blob/main/longreads/20261020.md) &nbsp;<sub>Oct 20, 2026</sub>
+- [19 October 2026: The Memory Is the Machine, the Persona Is a Layer](https://github.com/tonydzi/clawrush/blob/main/longreads/20261019.md) &nbsp;<sub>Oct 19, 2026</sub>
 - [16 October 2026: What You Pay For Is the Step You No Longer Take](https://github.com/tonydzi/clawrush/blob/main/longreads/20261016.md) &nbsp;<sub>Oct 16, 2026</sub>
 - [14 October 2026: The Thing Around the Content Does the Work](https://github.com/tonydzi/clawrush/blob/main/longreads/20261014.md) &nbsp;<sub>Oct 14, 2026</sub>
 - [13 October 2026: When Building Gets Cheap, the Room Becomes the Asset](https://github.com/tonydzi/clawrush/blob/main/longreads/20261013.md) &nbsp;<sub>Oct 13, 2026</sub>
-- [12 October 2026: The Deciding Constraint Is Never the Technical One](https://github.com/tonydzi/clawrush/blob/main/longreads/20261012.md) &nbsp;<sub>Oct 12, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📄 Preprints (2026)
