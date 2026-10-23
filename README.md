@@ -135,11 +135,11 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 - [Adding OpenRouter to Nango: why /v1/models accepts a fake key](https://dev.to/tonydzi/adding-openrouter-to-nango-why-v1models-accepts-a-fake-key-2p98) &nbsp;<sub>Sep 15, 2026 · dev.to</sub>
 
-<!-- BLOG-POST-LIST:START -->- [21 October 2026: Dozens of Sessions, and Three Symbols to Find One](https://github.com/tonydzi/clawrush/blob/main/longreads/20261021.md) &nbsp;<sub>Oct 21, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [23 October 2026: Test the New Model Before You Trust It, and Move to It Because It Is Cheaper](https://github.com/tonydzi/clawrush/blob/main/longreads/20261023.md) &nbsp;<sub>Oct 23, 2026</sub>
+- [22 October 2026: 128 Gigs Did Not Help, So Profile It Before You Buy a Server](https://github.com/tonydzi/clawrush/blob/main/longreads/20261022.md) &nbsp;<sub>Oct 22, 2026</sub>
+- [21 October 2026: Dozens of Sessions, and Three Symbols to Find One](https://github.com/tonydzi/clawrush/blob/main/longreads/20261021.md) &nbsp;<sub>Oct 21, 2026</sub>
 - [20 October 2026: Silence to Do the Work, Rooms to Find It](https://github.com/tonydzi/clawrush/blob/main/longreads/20261020.md) &nbsp;<sub>Oct 20, 2026</sub>
 - [19 October 2026: The Memory Is the Machine, the Persona Is a Layer](https://github.com/tonydzi/clawrush/blob/main/longreads/20261019.md) &nbsp;<sub>Oct 19, 2026</sub>
-- [16 October 2026: What You Pay For Is the Step You No Longer Take](https://github.com/tonydzi/clawrush/blob/main/longreads/20261016.md) &nbsp;<sub>Oct 16, 2026</sub>
-- [14 October 2026: The Thing Around the Content Does the Work](https://github.com/tonydzi/clawrush/blob/main/longreads/20261014.md) &nbsp;<sub>Oct 14, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📄 Preprints (2026)
