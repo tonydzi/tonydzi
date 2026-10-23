@@ -24,6 +24,8 @@
 
 > 👤 **Hiring manager or engineer? [START HERE — one page of proof →](https://tonydzi.github.io/)**
 >
+> ⭐ **Most-starred tool: [whatsapp-mcp-kit →](https://github.com/tonydzi/whatsapp-mcp-kit)** — connect WhatsApp to your AI agent with a self-refreshing QR page that makes pairing actually work.
+>
 > 🚀 **Want your machine in the fleet? [JOIN THE FLEET →](https://github.com/tonydzi/join-the-fleet)** — 8 machines today, 100 is the goal; 15 minutes, one link, no account with me.
 >
 > 🧩 **Everything I built, part by part → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)** — 20 repos, what each one does, how they fit together.
