@@ -135,7 +135,7 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 - [Adding OpenRouter to Nango: why /v1/models accepts a fake key](https://dev.to/tonydzi/adding-openrouter-to-nango-why-v1models-accepts-a-fake-key-2p98) &nbsp;<sub>Sep 15, 2026 · dev.to</sub>
 
-<!-- BLOG-POST-LIST:START -->- [29 October 2026: Publish the Thinking, After You Check What Else Is In It](https://github.com/tonydzi/clawrush/blob/main/longreads/20261029.md) &nbsp;<sub>Oct 29, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [29 October 2026: Check What Is Inside It, and Check Which Way It Travels](https://github.com/tonydzi/clawrush/blob/main/longreads/20261029.md) &nbsp;<sub>Oct 29, 2026</sub>
 - [28 October 2026: Somebody Else&#39;s Database, and Somebody Else&#39;s Gate](https://github.com/tonydzi/clawrush/blob/main/longreads/20261028.md) &nbsp;<sub>Oct 29, 2026</sub>
 - [27 October 2026: One Mac Sets Up the Other, and the Tool Is Not for Coders](https://github.com/tonydzi/clawrush/blob/main/longreads/20261027.md) &nbsp;<sub>Oct 27, 2026</sub>
 - [26 October 2026: Teach the Model to Research, but Do Not Expect the Skills to Travel](https://github.com/tonydzi/clawrush/blob/main/longreads/20261026.md) &nbsp;<sub>Oct 26, 2026</sub>
