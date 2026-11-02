@@ -11,7 +11,7 @@
 
 <p align="center">
   <b>I make AI agents work in production, and every claim links to the code.</b><br>
-  <sub>50 merged PRs across 29 AI-ecosystem repos (Microsoft Semantic Kernel, UK AISI inspect_ai, Google ADK, Qwen Code) · six-machine agent fleet run in public · 11 years as a hired COO/CTO.</sub>
+  <sub>92 merged PRs across 63 AI-ecosystem repos (Microsoft Semantic Kernel, UK AISI inspect_ai, Google ADK, Qwen Code) · six-machine agent fleet run in public · 11 years as a hired COO/CTO.</sub>
 </p>
 
 <p align="center">
@@ -167,7 +167,7 @@ ORCID: [0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054) · full list
 
 ## 🔁 Contributing upstream
 
-**214 pull requests into 143 repositories** — Google, Anthropic, OpenAI, Microsoft, Pydantic, the Model Context Protocol project, deepset, Hugging Face, xAI, Qwen, and the agent-ecosystem lists. 51 open, 80 closed, **83 merged** *(verified 2026-10-26)*.
+**224 pull requests into 149 repositories** — Google, Anthropic, OpenAI, Microsoft, Pydantic, the Model Context Protocol project, deepset, Hugging Face, xAI, Qwen, and the agent-ecosystem lists. 52 open, 80 closed, **92 merged** *(verified 2026-11-02)*.
 
 Merges into code and documentation of upstream projects and entries in ecosystem lists are different kinds of contribution; the code ones are named below.
 
