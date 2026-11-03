@@ -65,7 +65,8 @@ Public upstream PRs, sorted by last activity. Merged status verified 2026-11-03 
 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
-<!-- BLOG-POST-LIST:START -->- [2 November 2026: The Answer Was Already on the Desk](https://github.com/tonydzi/clawrush/blob/main/longreads/20261102.md) &nbsp;<sub>Nov 3, 2026</sub>
+<!-- BLOG-POST-LIST:START -->
+- [2 November 2026: The Answer Was Already on the Desk](https://github.com/tonydzi/clawrush/blob/main/longreads/20261102.md) &nbsp;<sub>Nov 3, 2026</sub>
 - [1 November 2026: The Experiment We Already Ran and Stopped Measuring](https://github.com/tonydzi/clawrush/blob/main/longreads/20261101.md) &nbsp;<sub>Nov 2, 2026</sub>
 - [30 October 2026: Claims That Nothing Verifies](https://github.com/tonydzi/clawrush/blob/main/longreads/20261030.md) &nbsp;<sub>Nov 2, 2026</sub>
 - [29 October 2026: Five Things to Build, Five Things Already Standing](https://github.com/tonydzi/clawrush/blob/main/longreads/20261029.md) &nbsp;<sub>Oct 29, 2026</sub>

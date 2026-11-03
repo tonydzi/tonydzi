@@ -5,7 +5,7 @@ name: Latest writing
 # If this stops updating, check that feed first — it is the upstream of this job.
 on:
   schedule:
-    # 04:00 UTC = 05:00 Lisbon — after the clawrush feed job at 03:00 UTC.
+    # 04:00 UTC, after the clawrush feed job at 03:00 UTC.
     - cron: '0 4 * * *'
   workflow_dispatch:
 
@@ -23,7 +23,7 @@ jobs:
         with:
           feed_list: "https://github.com/tonydzi/clawrush/raw/main/feed.xml"
           max_post_count: 5
-          template: "- [$title]($url) &nbsp;<sub>$date</sub>$newline"
+          template: "$newline- [$title]($url) &nbsp;<sub>$date</sub>"
           date_format: "mmm d, yyyy"
           commit_message: "readme: refresh latest writing"
           committer_username: "github-actions[bot]"
