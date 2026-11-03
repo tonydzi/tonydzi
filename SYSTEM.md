@@ -2,11 +2,13 @@
 
 One link to answer "what do you actually do".
 
-There is one live operation here: one operating lead, an AI cofounder, and a fleet of
-machines — an always-on hub, laptops, family machines and a VPS anchor — that reach consensus
-with each other and wake the human only for money or the irreversible. Every public repo below
-was **cut out of that running system**, not written as a demo. That is the only reason any of it
-is worth your time: it already survived a night shift.
+These projects cover agent governance, memory, verification, connectors and operations.
+They include tools adapted from day-to-day work, offline demonstrations, experiments and
+experience reports. Each repository is responsible for its own evidence and limitations;
+inclusion in this map does not establish production readiness or fleet-wide deployment.
+
+This is the curated architecture map. The [complete public repository catalog](docs/REPOSITORIES.md)
+is refreshed from GitHub, including archived projects. Forks and private repositories are excluded.
 
 Each piece is small on purpose and stands alone. Take one, ignore the rest.
 
@@ -40,7 +42,7 @@ service you have to run, no key you have to buy.
                     └───────────────┬───────────────┘
                                     │
                     ┌───────────────▼───────────────┐
-   how the      ───►│  FLEET        claude-consensus │  propose → counter → accept → commit
+   how the      ───►│  FLEET        claw-consensus   │  propose → counter → accept → commit
    fleet runs       │               claude-mac-patrol│  the janitor for agent machines
                     └───────────────┬───────────────┘
                                     │
@@ -74,7 +76,7 @@ may do, and governance is theatre if no gate can prove what actually happened.
 | Repo | What it is | Take it if |
 |---|---|---|
 | **[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)** | Graph RAG on plain SQLite: vector retrieval + a hand-curated wikilink graph + cross-encoder rerank, plus a zero-token per-turn ledger | You want agent memory you can open with `sqlite3` and no vector database to operate |
-| **[second-brain-starter-kit](https://github.com/tonydzi/second-brain-starter-kit)** | The method, not the data: 101 skills, a working CRM engine, vault templates, the handover map | You want to run Claude Code as a second brain and would rather not rediscover the layout |
+| **[second-brain-starter-kit](https://github.com/tonydzi/second-brain-starter-kit)** | Reusable skills, memory integration, CRM patterns and vault templates; see its current index | You want to use a coding agent as a second brain and would rather not rediscover the layout |
 | **[voice2brain](https://github.com/tonydzi/voice2brain)** | Four small Python scripts: voice note → text → linked, tagged, searchable markdown | You think out loud and lose it by evening |
 | **[compact-canon](https://github.com/tonydzi/compact-canon)** | Measured paste-block format for Claude Code `/compact`: 0/354 bare compacts honored CLAUDE.md instructions; the inline block kept 7/7 headers and 15/15 facts | Your agent forgets WHY after every compaction |
 | **[claw-retro](https://github.com/tonydzi/claw-retro)** | End-of-session retro ritual: inventory what was built, route durable rules to one home each (door audit), print the ready compact block | You keep re-teaching your agent the same rules |

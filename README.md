@@ -1,139 +1,69 @@
 <!--
-  This is the profile README of github.com/tonydzi.
-  Heads-up for whoever renames the account: every badge, widget and raw URL below
-  hard-codes the login "tonydzi". A rename silently breaks them
-  (shields.io and the stats widgets just render an error card). Grep for the login
-  and rewrite it in the same commit as the rename.
-  The "Latest writing" block is generated — see .github/workflows/blog-post-workflow.yml.
+Profile: github.com/tonydzi. Editorial owner: the existing weekly maintenance routine.
+Keep profile-specific content; generic repository footers and kit catalogs do not belong here.
+PROFILE-ACTIVITY is maintained by tools/refresh_profile.py.
+BLOG-POST-LIST is maintained by .github/workflows/blog-post-workflow.yml.
+Public repository inventory: docs/REPOSITORIES.md. Maintenance: tools/README.md.
 -->
 
-<h1 align="center">Anton Dziatkovskii</h1>
+# Anton Dziatkovskii
 
-<p align="center">
-  <b>I make AI agents work in production, and every claim links to the code.</b><br>
-  <sub>92 merged PRs across 63 AI-ecosystem repos (Microsoft Semantic Kernel, UK AISI inspect_ai, Google ADK, Qwen Code) · six-machine agent fleet run in public · 11 years as a hired COO/CTO.</sub>
-</p>
+**Persistent agent memory, deterministic verification and operations across machines.**
 
-<p align="center">
-  <a href="https://github.com/tonydzi?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/tonydzi?style=flat-square&logo=github&label=followers&color=1f6feb"></a>
-  <a href="https://orcid.org/0000-0001-7408-3054"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-0000--0001--7408--3054-a6ce39?style=flat-square&logo=orcid&logoColor=white"></a>
-  <a href="https://x.com/Tony_Stef_"><img alt="X" src="https://img.shields.io/badge/X-@Tony__Stef__-000000?style=flat-square&logo=x&logoColor=white"></a>
-  <a href="https://t.me/ClawEng"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@ClawEng-229ED9?style=flat-square&logo=telegram&logoColor=white"></a>
-  <img alt="License" src="https://img.shields.io/badge/everything%20here-MIT-3da639?style=flat-square&logo=opensourceinitiative&logoColor=white">
-</p>
+The work here asks a practical question: **what evidence shows that an AI agent did what it claimed?** The repositories include small tools, fault-injection experiments, operating patterns and experience reports. Each project documents its own tests and limits.
 
-> 👤 **Hiring manager or engineer? [START HERE — one page of proof →](https://tonydzi.github.io/)**
->
-> ⭐ **Most-starred tool: [whatsapp-mcp-kit →](https://github.com/tonydzi/whatsapp-mcp-kit)** — connect WhatsApp to your AI agent with a self-refreshing QR page that makes pairing actually work.
->
-> 🚀 **Want your machine in the fleet? [JOIN THE FLEET →](https://github.com/tonydzi/join-the-fleet)** — 8 machines today, 100 is the goal; 15 minutes, one link, no account with me.
->
-> 🧩 **Everything I built, part by part → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)** — 20 repos, what each one does, how they fit together.
->
-> 📄 Resume: **[PDF](https://tonydzi.github.io/resume.pdf)** · [JSON Resume](https://tonydzi.github.io/resume.json) — 🎓 Research: **[academic profile](https://tonydzi.github.io/scholar/)** · [full publication list](https://tonydzi.github.io/scholar/publications/)
+[Portfolio and resume](https://tonydzi.github.io/) · [All upstream contributions](https://tonydzi.github.io/contributions/) · [Research and publications](https://tonydzi.github.io/scholar/) · [ORCID](https://orcid.org/0000-0001-7408-3054)
 
----
+## Selected engineering work
 
-## 🧾 Recent open-source contributions
-
-- **NangoHQ/nango** — add OpenRouter as an integration, verified via `/v1/key` (the public `/v1/models` accepts any key) → [#7532](https://github.com/NangoHQ/nango/pull/7532) · closed
-- **NangoHQ/nango** — add Lambda Cloud as an integration → [#7533](https://github.com/NangoHQ/nango/pull/7533) · open
-- **Kong/kong** — `ai-proxy`: keep an empty Anthropic `tools` array → [#14999](https://github.com/Kong/kong/pull/14999) · open
-- **modelcontextprotocol/go-sdk** — quick start `go get` left the module unbuildable; streamable client snippet; dead links; TOC → [#1148](https://github.com/modelcontextprotocol/go-sdk/pull/1148) · [#1142](https://github.com/modelcontextprotocol/go-sdk/pull/1142) · [#1159](https://github.com/modelcontextprotocol/go-sdk/pull/1159) · [#1196](https://github.com/modelcontextprotocol/go-sdk/pull/1196) · merged
-- **UKGovernmentBEIS/inspect_ai** — decide a grader panel by strict majority, not mode → [#4769](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4769) · merged
-- **QwenLM/qwen-code** — do not claim a question host in stream-json direct mode → [#9414](https://github.com/QwenLM/qwen-code/pull/9414) · merged
-- **punkpeye/fastmcp** — answer JSON-mode POSTs whose requests are never answered → [#325](https://github.com/punkpeye/fastmcp/pull/325) · merged
-- **basicmachines-co/basic-memory** — stop `bm` subprocesses inheriting the host's Python env → [#1179](https://github.com/basicmachines-co/basic-memory/pull/1179) · merged
-- **google-gemini/cookbook** · **pydantic/logfire** · **agno-agi/agno** → [#1296](https://github.com/google-gemini/cookbook/pull/1296) · [#2197](https://github.com/pydantic/logfire/pull/2197) · [#9498](https://github.com/agno-agi/agno/pull/9498) · merged
-
-Full ledger → [`github-evidence`](https://github.com/tonydzi/github-evidence)
-
----
-
-## 🔨 What I'm building right now
-
-- **A second brain that survives a context reset** — facts in SQL, meaning in embeddings, relations in a graph, one SQLite file, no infrastructure. → [`sqlite-graph-memory`](https://github.com/tonydzi/sqlite-graph-memory)
-- **A fleet that negotiates instead of drifting** — hub, laptops, family machines and a VPS anchor run propose → counter → accept → commit, and wake the human only for money or the irreversible. → [`claw-consensus`](https://github.com/tonydzi/claw-consensus)
-- **Deterministic gates around the model, not better prompts inside it** — citation checks, authority routing, an 8-domain leash for delegated authority. → [`verbatim-citation-gate`](https://github.com/tonydzi/verbatim-citation-gate) · [`agent-leash`](https://github.com/tonydzi/agent-leash)
-- **A reliability bench for agent runtimes** — replay, idempotency and consensus-integrity scenarios distilled from real fleet incidents, not from a whiteboard. → [`agent-runtime-integrity-bench`](https://github.com/tonydzi/agent-runtime-integrity-bench) · [`agent-control-plane-casebook`](https://github.com/tonydzi/agent-control-plane-casebook) — the incidents themselves, each with a runnable repro
-- **The whole thing written down as it happens** — a build-in-public book and an English diary, updated the day something breaks. → [`the-journey`](https://github.com/tonydzi/the-journey) · [`clawrush`](https://github.com/tonydzi/clawrush)
-
-## 📌 Four to start with
-
-| | What it is | Why you'd care |
+| Project | What it does | Where to inspect the evidence |
 |---|---|---|
-| **[claude-bible](https://github.com/tonydzi/claude-bible)** | One behavioral rulebook every actor obeys — the operator, human assistants, and every Claude in the fleet | Your agents behave the same across repos, sessions and people, because the law lives outside the prompt |
-| **[claw-consensus](https://github.com/tonydzi/claw-consensus)** | Cross-machine consensus protocol: dual-rail bus, ACK discipline, heartbeat failover, self-healing sync | Run agents on several machines without state drift, and without a human courier between them |
-| **[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)** | Graph RAG on plain SQLite: vector retrieval + curated wiki-links, zero infra | Agent memory that outlives the context window and that you can open with `sqlite3` |
-| **[verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate)** | Zero-token verbatim check + burden-of-proof judge for RAG answers | Fabricated citations get caught before the user sees them; framework-agnostic, MIT |
-| **[verdict-contract](https://github.com/tonydzi/verdict-contract)** | Your LLM reviewer said APPROVE - did it? Prompt rule, parser and exit-code gate in one stdlib file | A review whose verdict never reaches the exit status is a log line, not a gate. 42 counterexamples included |
+| [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) | Persistent memory over Markdown and wikilinks, using SQLite, with MCP access for coding agents. | The repository's evaluation, tests and documented pilot limitations. |
+| [verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate) | Checks whether a quoted passage occurs in its claimed source before a RAG answer reaches the reader. | Runnable checks and failure examples. Source matching is not a proof that the claim itself is true. |
+| [agent-runtime-integrity-bench](https://github.com/tonydzi/agent-runtime-integrity-bench) | Fault-injection checks for runtime behavior, drawn from replay, idempotency and control-plane incidents. | Dated reports, SDK versions and reproducible scenarios. |
+| [verdict-contract](https://github.com/tonydzi/verdict-contract) | Connects a model review's structured verdict to a parser and an actual process exit status. | A small stdlib module, tests and counterexamples. |
+| [claw-consensus](https://github.com/tonydzi/claw-consensus) | A propose/counter/accept/commit protocol and operating patterns for agents on multiple machines. | Protocol, examples and tests. A working example does not establish the health of every deployed node. |
+| [second-brain-starter-kit](https://github.com/tonydzi/second-brain-starter-kit) | Reusable skills, memory integration and templates for a coding agent used as a second brain. | The current skill index, setup instructions and repository checks. |
 
-Also here: [`agent-leash`](https://github.com/tonydzi/agent-leash) (LEASH-8 control model) · [`charm-os`](https://github.com/tonydzi/charm-os) (MCP read-broker) · [`second-brain-starter-kit`](https://github.com/tonydzi/second-brain-starter-kit) (101 skills + a working CRM engine).
+**Practical connectors:** [WhatsApp MCP kit](https://github.com/tonydzi/whatsapp-mcp-kit) · [Telegram MCP kit](https://github.com/tonydzi/telegram-mcp-kit).
 
-## ⚡ 25 skills, one command each
+**Governance and operations:** [claude-bible](https://github.com/tonydzi/claude-bible) · [agent-leash](https://github.com/tonydzi/agent-leash) · [fleet-deploy](https://github.com/tonydzi/fleet-deploy) · [secondop-panel](https://github.com/tonydzi/secondop-panel).
 
-The whole set is installable in one line — `npx skills add tonydzi/second-brain-starter-kit`
-or `/plugin marketplace add tonydzi/second-brain-starter-kit` inside Claude Code. These 25 are
-where I'd start. Full map of all 101 → [skills/INDEX.md](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/INDEX.md).
+[Complete public repository catalog](docs/REPOSITORIES.md) · [How the pieces fit: SYSTEM.md](SYSTEM.md)
 
-**Quality & review:** [`/tt`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/tt/SKILL.md) prove-it-works gate · [`/secondop`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/secondop/SKILL.md) multi-vendor review panel · [`/taste-check`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/taste-check/SKILL.md) content gate · [`/issue-match`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/issue-match/SKILL.md) measure a repo's queue before spending a PR
+## Selected upstream fixes
 
-**Memory & recall:** [`/ask`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/ask/SKILL.md) semantic vault search · [`/search`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/search/SKILL.md) full-text across every chat · [`/chat-search`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/chat-search/SKILL.md) find the past session · [`/brain`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/brain/SKILL.md) RAG-stack health · [`/dedup`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/dedup/SKILL.md) merge near-duplicates
+- [Microsoft Semantic Kernel #14371](https://github.com/microsoft/semantic-kernel/pull/14371): pin the validated address for Python OpenAPI-plugin requests, closing a check/use gap. Merged 5 October 2026.
+- [UK AISI Inspect #4769](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4769): decide a grader panel by strict majority rather than mode. Merged 1 September 2026.
+- [Obsidian Second Brain #377](https://github.com/eugeniughelbur/obsidian-second-brain/pull/377): flag a source that calls itself unverified but has no source-quality field. Merged 28 October 2026.
 
-**Session continuity:** [`/retro`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/retro/SKILL.md) route what survives · [`/handoff`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/handoff/SKILL.md) a semicolon for the next session · [`/resume-last`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/resume-last/SKILL.md) continue after a crash · [`/1`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/1/SKILL.md) hard-crash recovery
+## Recently updated merged contributions
 
-**Decisions:** [`/precedent`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/precedent/SKILL.md) did I decide this already · [`/declined`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/declined/SKILL.md) what I already rejected · [`/research-swarm`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/research-swarm/SKILL.md) 5-lens argument map · [`/last30days`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/last30days/SKILL.md) what changed this month
+These are contributions to other owners' public repositories. Merged work, open proposals and closed submissions remain distinct in the [full contribution ledger](https://tonydzi.github.io/contributions/).
 
-**Fleet & infra:** [`/arch`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/arch/SKILL.md) map of the whole system · [`/sync-check`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/sync-check/SKILL.md) fleet sync green/red · [`/quarantine`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/quarantine/SKILL.md) fail-closed inbox for unsigned deliverables · [`/mcp`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/mcp/SKILL.md) connector health
+<!-- PROFILE-ACTIVITY:START -->
+Public upstream PRs, sorted by last activity. Merged status verified 2026-11-03 UTC; this is a sample, not a lifetime total.
 
-**Knowledge in:** [`/obsidian-ingest`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/obsidian-ingest/SKILL.md) any source → linked notes · [`/defuddle`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/defuddle/SKILL.md) clean web→markdown · [`/intake`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/intake/SKILL.md) route a new rule to every home · [`/skill-gap`](https://github.com/tonydzi/second-brain-starter-kit/blob/master/skills/skill-gap/SKILL.md) which skill to build next
+- **ebertti/awesome-telegram**: [Add telegram-mcp-kit to Tools](https://github.com/ebertti/awesome-telegram/pull/394), merged 2026-11-02.
+- **hashgraph-online/awesome-ai-plugins**: [Add second-brain-starter-kit to Development &amp; Workflow](https://github.com/hashgraph-online/awesome-ai-plugins/pull/1006), merged 2026-10-27.
+- **hashgraph-online/awesome-ai-plugins**: [Add sqlite-graph-memory to Development &amp; Workflow](https://github.com/hashgraph-online/awesome-ai-plugins/pull/881), merged 2026-10-20.
+- **eugeniughelbur/obsidian-second-brain**: [health: flag a source that calls itself unverified but has no source\_quality \(\#258\)](https://github.com/eugeniughelbur/obsidian-second-brain/pull/377), merged 2026-10-28.
+- **Sagargupta16/awesome-mcp-servers**: [Add SQLite Graph Memory to Knowledge Management](https://github.com/Sagargupta16/awesome-mcp-servers/pull/227), merged 2026-10-28.
+<!-- PROFILE-ACTIVITY:END -->
 
-🧪 **Engineers:** try any of them and tell me what broke — I hand out free starter seeds to people who test and report back. Telegram [@tonydzi](https://t.me/tonydzi) · WhatsApp [+1 341 222 9178](https://wa.me/13412229178).
+## Current research and experiments
 
-<!--kits-series:start-->
+- [Persona portability benchmark](https://github.com/tonydzi/persona-portability-benchmark): a frozen persona and memory, tested across models with blind judging and contamination checks. Read the dated results and limitations before comparing scores.
+- [Python vulnerability-patching probe](https://github.com/tonydzi/pyvulnpatch-probe): an audit of advisory leakage, fix dates, hint ablations and self-reported success in patching benchmarks.
+- [Brain Lite](https://github.com/tonydzi/brain-lite): a small receive-only library for another person's coding agent, with checksummed updates and rollback.
+- [Control-plane casebook](https://github.com/tonydzi/agent-control-plane-casebook): reproducible incidents involving schedulers, registries and watchdogs.
+- [Deep research collection](https://github.com/tonydzi/deep-research): published research summaries with their questions, findings and source links.
 
-## 🧰 Connector & Ops Kits
+[Preprints, PDFs and DOIs](https://tonydzi.github.io/papers/) · [Full publication list](https://tonydzi.github.io/scholar/publications/)
 
-Eight kits, all published 2026-08-10, each lifted out of the same live fleet after it
-survived production rather than written as a demo. They are independent: take one, ignore
-the rest. All stdlib-only Python, all free.
+## Latest writing
 
-| kit | what it solves |
-|---|---|
-| [`telegram-mcp-kit`](https://github.com/tonydzi/telegram-mcp-kit) | Connect your agent to your own Telegram account in ~15 minutes, with the production patches and every gotcha |
-| [`whatsapp-mcp-kit`](https://github.com/tonydzi/whatsapp-mcp-kit) | Link WhatsApp, using a live self-refreshing QR page that makes pairing actually work |
-| [`mcp-daemon-diet`](https://github.com/tonydzi/mcp-daemon-diet) | One shared MCP daemon per machine instead of a stdio copy in every session, with a watchdog that will not blind your live sessions |
-| [`agent-approval-gate`](https://github.com/tonydzi/agent-approval-gate) | Your agent needs a human's OK and nobody is at the terminal: the ask goes to a messenger, the answer comes back into the run |
-| [`fleet-deploy`](https://github.com/tonydzi/fleet-deploy) | Roll a fix to N machines and prove it landed on each one: canary waves and a verify that must read a fact back |
-| [`secondop-panel`](https://github.com/tonydzi/secondop-panel) | Nobody reviews themselves, and one reviewer model is one blind spot: fan a change out to several model families with quorum and honest skips |
-| [`oss-publish`](https://github.com/tonydzi/oss-publish) | Open up internal work without leaking it: plausible substitutions of the same shape, then a fail-closed gate over the whole tree |
-| [`llm-spend-audit`](https://github.com/tonydzi/llm-spend-audit) | What your own wiring charges on every session, and which paid subscriptions are going undrawn |
-
-<!--kits-series:end-->
-
-## 🧰 Stack
-
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
-  <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white">
-  <img alt="MCP" src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
-  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
-  <img alt="Telegram API" src="https://img.shields.io/badge/Telegram%20API-229ED9?style=flat-square&logo=telegram&logoColor=white">
-  <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white">
-  <img alt="macOS" src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white">
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-  <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white">
-</p>
-
-Python and SQLite for everything that has to survive a crash; Claude Code as the runtime; MCP for tools; GitHub Actions and cron for the routines. The house rule is **AK-47**: the simplest thing that works and that its owner can repair with a hammer and a screwdriver.
-
-## ✍️ Latest writing
-
-Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/tonydzi/clawrush) ([RSS](https://github.com/tonydzi/clawrush/raw/main/feed.xml)).
-
-- [Adding OpenRouter to Nango: why /v1/models accepts a fake key](https://dev.to/tonydzi/adding-openrouter-to-nango-why-v1models-accepts-a-fake-key-2p98) &nbsp;<sub>Sep 15, 2026 · dev.to</sub>
+[Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
 <!-- BLOG-POST-LIST:START -->- [2 November 2026: The Answer Was Already on the Desk](https://github.com/tonydzi/clawrush/blob/main/longreads/20261102.md) &nbsp;<sub>Nov 3, 2026</sub>
 - [1 November 2026: The Experiment We Already Ran and Stopped Measuring](https://github.com/tonydzi/clawrush/blob/main/longreads/20261101.md) &nbsp;<sub>Nov 2, 2026</sub>
@@ -142,147 +72,27 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 - [28 October 2026: Somebody Else&#39;s Database, and Somebody Else&#39;s Gate](https://github.com/tonydzi/clawrush/blob/main/longreads/20261028.md) &nbsp;<sub>Oct 29, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
-## 📄 Preprints (2026)
+## Working approach
 
-Nine papers, each published with a DOI on Zenodo (CC BY 4.0), each with its own page and full-text PDF at [tonydzi.github.io/papers](https://tonydzi.github.io/papers/). The Zenodo record is the version of
-record; a copy anywhere else is a mirror of it, so cite the DOI.
+Small tools with inspectable outputs. SQL and files for durable facts; models for judgment and language; tests and independent review for checking the result. A successful command, a delivered file and a verified outcome are different things.
 
-| Paper | DOI | Reference implementation |
-|---|---|---|
-| Operating a Human-Governed Multi-Machine LLM Agent Fleet: An Experience Report | [10.5281/zenodo.22639714](https://doi.org/10.5281/zenodo.22639714) | [`claw-consensus`](https://github.com/tonydzi/claw-consensus) |
-| Homeostatic Governance: A Gorsky-Anokhin Alternative to the Viable System Model | [10.5281/zenodo.22639712](https://doi.org/10.5281/zenodo.22639712) | three-circuit control model behind the protocol |
-| When Does Graph Expansion Help Personal-Corpus Retrieval? (v0.3, negative result) | [10.5281/zenodo.23113066](https://doi.org/10.5281/zenodo.23113066) | [`sqlite-graph-memory`](https://github.com/tonydzi/sqlite-graph-memory) |
-| Le Chatelier Tokenomics: negative feedback as homeostasis in multi-asset coupled equilibria | [10.5281/zenodo.22639710](https://doi.org/10.5281/zenodo.22639710) | — |
-| Keeping Agents on a Leash: An Eight-Domain Control Model for AI Agents with Delegated Authority | [10.5281/zenodo.22691782](https://doi.org/10.5281/zenodo.22691782) | [`agent-leash`](https://github.com/tonydzi/agent-leash) |
-| Rules as Files: Governing the Behaviour of LLM Agents Across Sessions, Machines and People | [10.5281/zenodo.22694070](https://doi.org/10.5281/zenodo.22694070) | [`claude-bible`](https://github.com/tonydzi/claude-bible) |
-| Silent by Construction: A Casebook of Control-Plane Failures in a Production LLM Agent Fleet | [10.5281/zenodo.22688465](https://doi.org/10.5281/zenodo.22688465) | [`agent-control-plane-casebook`](https://github.com/tonydzi/agent-control-plane-casebook) |
-| Instructions That Never Arrive: do compaction instructions reach the summarizer? | [10.5281/zenodo.22684968](https://doi.org/10.5281/zenodo.22684968) | [`compact-canon`](https://github.com/tonydzi/compact-canon) |
-| Facts Before Explanation: a provenance-tracked pipeline for personal lab panels | [10.5281/zenodo.22696755](https://doi.org/10.5281/zenodo.22696755) | [`blood-panel-pipeline`](https://github.com/tonydzi/blood-panel-pipeline) |
-
-ORCID: [0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054) · full list: [publications](https://tonydzi.github.io/scholar/publications/)
-
-## 📖 The book
-
-**[相棒 AIBŌ · The Partner](https://github.com/tonydzi/the-journey)** — a build-in-public book of the whole journey, day by day, since 2026-05-27. How one engineer built a second brain with Claude as implementation collaborator: what I tried, what broke, what I learned. Two forms side by side: a story for humans (RU/EN) and [`llms-full.txt`](https://github.com/tonydzi/the-journey/blob/main/llms-full.txt) for machines — point your coding agent at it and it inherits our patterns and skips our mistakes.
-
-## 🔁 Contributing upstream
-
-**224 pull requests into 149 repositories** — Google, Anthropic, OpenAI, Microsoft, Pydantic, the Model Context Protocol project, deepset, Hugging Face, xAI, Qwen, and the agent-ecosystem lists. 52 open, 80 closed, **92 merged** *(verified 2026-11-02)*.
-
-Merges into code and documentation of upstream projects and entries in ecosystem lists are different kinds of contribution; the code ones are named below.
-
-📋 **[The full list, with live status →](https://tonydzi.github.io/contributions/)** — generated straight from the GitHub API, closed ones included. Nothing is left off it to make the record look better.
-
-Merged into upstream code:
-
-| PR | What it fixed |
-|---|---|
-| [microsoft/semantic-kernel#14371](https://github.com/microsoft/semantic-kernel/pull/14371) | Anti-SSRF hardening in the Python OpenAPI plugin: the request now goes to the address the validator vetted, closing a DNS-rebinding gap. |
-| [google-gemini/cookbook#1296](https://github.com/google-gemini/cookbook/pull/1296) | Example: checking citation faithfulness in RAG. |
-| [modelcontextprotocol/go-sdk#1142, #1148, #1159, #1196](https://github.com/modelcontextprotocol/go-sdk/pulls?q=is%3Apr+author%3Atonydzi) | Four fixes in the official MCP Go SDK — an unbuildable quick start, a wrong client snippet, dead links, a broken table of contents. |
-| [agno-agi/agno#9498](https://github.com/agno-agi/agno/pull/9498) | Four cookbook imports that did not resolve. |
-| [pydantic/logfire#2197](https://github.com/pydantic/logfire/pull/2197) | Install instructions naming extras the package does not have. |
-| [basicmachines-co/basic-memory#1179](https://github.com/basicmachines-co/basic-memory/pull/1179) | Subprocesses inheriting the wrong Python environment. |
-| [punkpeye/fastmcp#311, #325, #344](https://github.com/punkpeye/fastmcp/pulls?q=is%3Apr+author%3Atonydzi) | An OAuth example that did not compile; JSON-mode POSTs left unanswered; a "Cannot find module" fix that itself suggested a broken import. |
-| [Lyellr88/marm-memory#180](https://github.com/Lyellr88/marm-memory/pull/180) | PyPI README links that did not resolve off GitHub. |
-| [deepset-ai/haystack-integrations#566](https://github.com/deepset-ai/haystack-integrations/pull/566) | Discontinuation note on the Meta Llama API integration. |
-
-Representative work still in flight:
-
-| PR | What it proposes |
-|---|---|
-| [anthropics/claude-cookbooks#787](https://github.com/anthropics/claude-cookbooks/pull/787) | Authority routing — ADVISE / EXECUTE / DEFER / STOP as a gate on agent actions. |
-| [openai/openai-cookbook#2880](https://github.com/openai/openai-cookbook/pull/2880) | Zero-token check for fabricated citations in RAG. |
-| [huggingface/cookbook#366](https://github.com/huggingface/cookbook/pull/366) | A self-verifying search agent — the agent checks its own retrieval before answering. |
-| [google/adk-python-community#172](https://github.com/google/adk-python-community/pull/172) | `AuthorityRoutingPlugin` for ADK. |
-
-The pattern behind most of them is the same one that runs in production here: **a deterministic gate around the model, not a better prompt inside it.**
-
-Two closed ones worth naming, because a closed PR is a result too: [anthropics/claude-agent-sdk-demos#70](https://github.com/anthropics/claude-agent-sdk-demos/pull/70) (`verified-ops-agent`, closed without a merge) and [deepset-ai/haystack#12142](https://github.com/deepset-ai/haystack/pull/12142), closed by a maintainer with an actual review — not enough added value to justify a new component. A reviewed no beats a silent queue, and both are on the list above like everything else.
-
-## 🩹 Fixed it here, handed it on
-
-When I fix a failure on my own fleet, I go looking for strangers on GitHub stuck on the same one and hand them the measured diagnosis in their own thread. My AI agent posts it under my account and says so in the first line. Since September 2026: **226 threads, about 17 direct replies, 6 maintainer actions**. Most threads stay silent; these did not:
-
-| Thread | What happened after |
-|---|---|
-| [BerriAI/litellm#34140](https://github.com/BerriAI/litellm/issues/34140) | A contributor took the frame, pushed two commits to his PR ([#37789](https://github.com/BerriAI/litellm/pull/37789)) and filed the follow-up quota bug ([#41395](https://github.com/BerriAI/litellm/issues/41395)). |
-| [max-friedman/agentic-coding-loop#23](https://github.com/max-friedman/agentic-coding-loop/issues/23) | Maintainer merged part of it and released it as 0.11.0. |
-| [openamer/openamer#98](https://github.com/openamer/openamer/issues/98) | Maintainer reproduced the replay bug and posted a self-tested fix. |
-| [wowok-ai/skills#3](https://github.com/wowok-ai/skills/issues/3) | Owner confirmed both bugs from my install-log analysis and named the root causes. |
-| [Jason-Vaughan/TangleClaw#1400](https://github.com/Jason-Vaughan/TangleClaw/issues/1400) | Owner called it "genuinely useful", audited the path and said he is removing the fail-open guard. |
-
-It now runs every night. The silent threads are counted too: a fix that nobody hears about did not ship.
-
-## 📊 The numbers, unedited
-
-<p align="center">
-  <img alt="GitHub activity, community and repository stats" src="/metrics.svg">
-</p>
-
-<sub>Rendered nightly from the GitHub API by <a href="https://github.com/tonydzi/tonydzi/blob/main/.github/workflows/metrics.yml">a workflow in this repo</a> and committed as an SVG — not hotlinked from a public widget host, because on 2026-08-01 the usual two (github-readme-stats, github-profile-trophy) were answering 503 and 402. Achievement badges are GitHub's own, on the profile sidebar. The full contribution record is on <a href="https://tonydzi.github.io/contributions/">the contributions page</a>, generated straight from the API.</sub>
-
-## 👤 Who's behind this
-
-**Anton Dziatkovskii** (Tony) — operating lead, and the fleet of Claude Code agents I run. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
-
-Anton has done developer activation for a frontier platform before — when smart contracts were where LLM agents are now: Solidity curricula and a dev incubator with 40+ engineers across APAC, hackathons and cohorts at Platinum VC & Incubator ($35M AUM). CS security (MEPhI), ~20 academic papers, PhD in Education (IT). Full page: [tonydzi.github.io](https://tonydzi.github.io/) · [resume (PDF)](https://tonydzi.github.io/resume.pdf) · [academic profile](https://tonydzi.github.io/scholar/).
-
-Academic identity: Anton publishes as **Anton Dziatkovskii** ([ORCID 0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054), [Google Scholar](https://scholar.google.com/citations?user=b8gKHiMAAAAJ), [Academia.edu](https://tylip.academia.edu/AntonDziatkovskii)).
-
-*AI collaboration policy, honest by design: built with Claude as implementation collaborator. Anton owns problem framing, architecture, evaluation, product decisions and final QA. No fabricated experience; metrics are published or absent.*
-
-## AI contributors
-
-This project is built by a human + AI team, and the git log says so: Claude
-writes most of the code, Codex and Grok review it, Gemini feeds the research.
-Each is credited on a commit **only if its output changed that commit's
-content** — no decorative credits. Lab-wide policy, one source for every repo:
-[AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md).
-
-## 📬 Contact
-
-Questions, war stories, or you want to test-drive any of this with your own fleet:
-
-- 💬 WhatsApp: **+1 341 222 9178**
-- 🐦 X: [@Tony_Stef_](https://x.com/Tony_Stef_)
-- 📣 Telegram: [@ClawRus](https://t.me/ClawRus) (RU) · [@ClawEng](https://t.me/ClawEng) (EN)
-- 💼 Wellfound: [anton-dziatkovskii-3](https://wellfound.com/u/anton-dziatkovskii-3)
-
-If something here helps you, a star is the currency that keeps it free.
-
----
-
-<!--ecosystem-map:start-->
-
-## 🧩 One piece of a working system
-
-This repository is one piece lifted out of a live operation: one engineer running operations and a fleet of
-Claude Code agents and machines that reach consensus with each other and wake the human only
-for money or the irreversible. It was extracted after it survived production, not written as a
-demo — and it runs on its own: nothing here phones home to the rest.
-
-**See how the whole thing fits together → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)**
-
-<!--ecosystem-map:end-->
-
-<!-- READ-WITH-AI:START (generated by read_with_ai.py - do not hand-edit) -->
-
-### READ THIS WITH AI
-
-One click and an agent reads the repo, pulls out the patterns and helps you apply them to your own work.
-
-<a href="https://chatgpt.com/codex?prompt=Read%20this%20repo%3A%20https%3A%2F%2Fgithub.com%2Ftonydzi%2Ftonydzi%20%28%E2%80%9Ctonydzi%E2%80%9D%20-%20Operating%20lead%2C%20Palo%20Alto%20AI%20Research%20Lab%20%E2%80%94%20evidence-first%20reliability%20work%20across%20the%20AI-agent%20open-source%20ecosystem%29.%20Work%20out%20what%20problem%20it%20actually%20solves%2C%20pull%20out%20the%20reusable%20patterns%20and%20help%20me%20apply%20them%20to%20my%20own%20setup.%20Start%20by%20asking%20what%20I%20am%20working%20on."><img alt="Codex - open" src="https://img.shields.io/badge/Codex-open-000000?style=for-the-badge&logo=openai&logoColor=white"></a> <a href="https://chatgpt.com/?q=Read%20this%20repo%3A%20https%3A%2F%2Fgithub.com%2Ftonydzi%2Ftonydzi%20%28%E2%80%9Ctonydzi%E2%80%9D%20-%20Operating%20lead%2C%20Palo%20Alto%20AI%20Research%20Lab%20%E2%80%94%20evidence-first%20reliability%20work%20across%20the%20AI-agent%20open-source%20ecosystem%29.%20Work%20out%20what%20problem%20it%20actually%20solves%2C%20pull%20out%20the%20reusable%20patterns%20and%20help%20me%20apply%20them%20to%20my%20own%20setup.%20Start%20by%20asking%20what%20I%20am%20working%20on."><img alt="ChatGPT - open" src="https://img.shields.io/badge/ChatGPT-open-10a37f?style=for-the-badge&logo=openai&logoColor=white"></a> <a href="https://claude.ai/new?q=Read%20this%20repo%3A%20https%3A%2F%2Fgithub.com%2Ftonydzi%2Ftonydzi%20%28%E2%80%9Ctonydzi%E2%80%9D%20-%20Operating%20lead%2C%20Palo%20Alto%20AI%20Research%20Lab%20%E2%80%94%20evidence-first%20reliability%20work%20across%20the%20AI-agent%20open-source%20ecosystem%29.%20Work%20out%20what%20problem%20it%20actually%20solves%2C%20pull%20out%20the%20reusable%20patterns%20and%20help%20me%20apply%20them%20to%20my%20own%20setup.%20Start%20by%20asking%20what%20I%20am%20working%20on."><img alt="Claude - open" src="https://img.shields.io/badge/Claude-open-d97757?style=for-the-badge&logo=anthropic&logoColor=white"></a>
+This profile and the repositories are maintained with AI collaboration, including Claude, Codex, Grok and Gemini. Anton owns the work's direction and decisions. Tool roles vary by task; commit credits reflect actual contributions. [AI collaboration policy](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md).
 
 <details>
-<summary>Copy the prompt (works in any agent: Gemini, Grok, a local model, your own CLI)</summary>
+<summary>GitHub activity</summary>
 
-```text
-Read this repo: https://github.com/tonydzi/tonydzi (“tonydzi” - Operating lead, Palo Alto AI Research Lab — evidence-first reliability work across the AI-agent open-source ecosystem). Work out what problem it actually solves, pull out the reusable patterns and help me apply them to my own setup. Start by asking what I am working on.
-```
+![GitHub activity and community metrics](metrics.svg)
+
+Generated by this repository's existing metrics workflow. Activity is distinct from verified deployments and project maturity.
 
 </details>
 
-<sub>— TonyDzi, Palo Alto AI Research Lab · second brain, agent coordination, persistent memory: github.com/tonydzi</sub>
+## Contact and testing
 
-<!-- READ-WITH-AI:END -->
+Engineers are invited to try a project on a real task and report what broke, with a reproducer or a test result.
+
+- [WhatsApp: +1 341 222 9178](https://wa.me/13412229178)
+- [Telegram: @tonydzi](https://t.me/tonydzi) · [English updates: @ClawEng](https://t.me/ClawEng) · [Russian updates: @ClawRus](https://t.me/ClawRus)
+- [X: @Tony_Stef_](https://x.com/Tony_Stef_)
+
+[github.com/tonydzi](https://github.com/tonydzi)

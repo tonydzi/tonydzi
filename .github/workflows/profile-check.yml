@@ -1,0 +1,29 @@
+name: Profile updater checks
+
+on:
+  push:
+    paths:
+      - 'tools/**'
+      - '.github/workflows/profile-check.yml'
+  pull_request:
+    paths:
+      - 'tools/**'
+      - '.github/workflows/profile-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Check source contracts without network or credentials
+        run: python -B -m unittest discover -s tools -p test_refresh_profile.py -v
