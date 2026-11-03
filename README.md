@@ -14,6 +14,19 @@ The work here asks a practical question: **what evidence shows that an AI agent 
 
 [Portfolio and resume](https://tonydzi.github.io/) · [All upstream contributions](https://tonydzi.github.io/contributions/) · [Research and publications](https://tonydzi.github.io/scholar/) · [ORCID](https://orcid.org/0000-0001-7408-3054)
 
+## START HERE
+
+Lost among the repositories? Of the 200+ public ones, about 150 are working forks used to send fixes to other projects. Our own work is a short list. Read in this order:
+
+1. [second-brain-starter-kit](https://github.com/tonydzi/second-brain-starter-kit): the entry point, a second brain for a coding agent that keeps receipts.
+2. [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory): the memory it runs on.
+3. [claude-bible](https://github.com/tonydzi/claude-bible): the rules that keep the agent consistent.
+4. [claw-consensus](https://github.com/tonydzi/claw-consensus) and [charm-os](https://github.com/tonydzi/charm-os): several agents and people working together.
+5. [verbatim-citation-gate](https://github.com/tonydzi/verbatim-citation-gate): checking that an agent's quotes are real.
+6. Connectors: [WhatsApp](https://github.com/tonydzi/whatsapp-mcp-kit) and [Telegram](https://github.com/tonydzi/telegram-mcp-kit).
+
+Everything else is a smaller tool or an experiment, listed in the [catalog](docs/REPOSITORIES.md).
+
 ## Selected engineering work
 
 | Project | What it does | Where to inspect the evidence |
