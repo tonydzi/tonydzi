@@ -61,6 +61,29 @@ Public upstream PRs, sorted by last activity. Merged status verified 2026-11-03 
 
 [Preprints, PDFs and DOIs](https://tonydzi.github.io/papers/) · [Full publication list](https://tonydzi.github.io/scholar/publications/)
 
+<details>
+<summary>Preprints and versioned research records</summary>
+
+| Research record | DOI |
+|---|---|
+| One Persona, Eighteen Models | [10.5281/zenodo.23915113](https://doi.org/10.5281/zenodo.23915113) |
+| Recovery on Signal or on Schedule? | [10.5281/zenodo.23268660](https://doi.org/10.5281/zenodo.23268660) |
+| When Does Graph Expansion Help Personal-Corpus Retrieval? (v0.3) | [10.5281/zenodo.23113066](https://doi.org/10.5281/zenodo.23113066) |
+| Instructions That Never Arrive | [10.5281/zenodo.22684968](https://doi.org/10.5281/zenodo.22684968) |
+| Silent by Construction | [10.5281/zenodo.22688465](https://doi.org/10.5281/zenodo.22688465) |
+| Keeping Agents on a Leash (LEASH-8) | [10.5281/zenodo.22691782](https://doi.org/10.5281/zenodo.22691782) |
+| Rules as Files | [10.5281/zenodo.22694070](https://doi.org/10.5281/zenodo.22694070) |
+| Facts Before Explanation | [10.5281/zenodo.22696755](https://doi.org/10.5281/zenodo.22696755) |
+| Operating a Human-Governed Multi-Machine LLM Agent Fleet | [10.5281/zenodo.22639714](https://doi.org/10.5281/zenodo.22639714) |
+| Homeostatic Governance | [10.5281/zenodo.22639712](https://doi.org/10.5281/zenodo.22639712) |
+| Le Chatelier Tokenomics | [10.5281/zenodo.22639710](https://doi.org/10.5281/zenodo.22639710) |
+
+Earlier graph-retrieval protocol and pilot: [10.5281/zenodo.22639718](https://doi.org/10.5281/zenodo.22639718). The v0.3 record, *When Does Graph Expansion Help Personal-Corpus Retrieval?*, reports the subsequent execution and its limitations.
+
+The DOI links identify the individual research records; earlier versions remain separately citable.
+
+</details>
+
 ## Latest writing
 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
