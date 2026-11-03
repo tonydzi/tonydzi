@@ -70,8 +70,7 @@ Public upstream PRs, sorted by last activity. Merged status verified 2026-11-03 
 - [1 November 2026: The Experiment We Already Ran and Stopped Measuring](https://github.com/tonydzi/clawrush/blob/main/longreads/20261101.md) &nbsp;<sub>Nov 2, 2026</sub>
 - [30 October 2026: Claims That Nothing Verifies](https://github.com/tonydzi/clawrush/blob/main/longreads/20261030.md) &nbsp;<sub>Nov 2, 2026</sub>
 - [29 October 2026: Five Things to Build, Five Things Already Standing](https://github.com/tonydzi/clawrush/blob/main/longreads/20261029.md) &nbsp;<sub>Oct 29, 2026</sub>
-- [28 October 2026: Somebody Else&#39;s Database, and Somebody Else&#39;s Gate](https://github.com/tonydzi/clawrush/blob/main/longreads/20261028.md) &nbsp;<sub>Oct 29, 2026</sub>
-<!-- BLOG-POST-LIST:END -->
+- [28 October 2026: Somebody Else&#39;s Database, and Somebody Else&#39;s Gate](https://github.com/tonydzi/clawrush/blob/main/longreads/20261028.md) &nbsp;<sub>Oct 29, 2026</sub><!-- BLOG-POST-LIST:END -->
 
 ## Working approach
 
