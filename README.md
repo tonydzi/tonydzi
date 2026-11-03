@@ -135,11 +135,11 @@ Essays from the fleet — what was built, what broke, what was learned. Pulled a
 
 - [Adding OpenRouter to Nango: why /v1/models accepts a fake key](https://dev.to/tonydzi/adding-openrouter-to-nango-why-v1models-accepts-a-fake-key-2p98) &nbsp;<sub>Sep 15, 2026 · dev.to</sub>
 
-<!-- BLOG-POST-LIST:START -->- [1 November 2026: The Experiment We Already Ran and Stopped Measuring](https://github.com/tonydzi/clawrush/blob/main/longreads/20261101.md) &nbsp;<sub>Nov 2, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [2 November 2026: The Answer Was Already on the Desk](https://github.com/tonydzi/clawrush/blob/main/longreads/20261102.md) &nbsp;<sub>Nov 3, 2026</sub>
+- [1 November 2026: The Experiment We Already Ran and Stopped Measuring](https://github.com/tonydzi/clawrush/blob/main/longreads/20261101.md) &nbsp;<sub>Nov 2, 2026</sub>
 - [30 October 2026: Claims That Nothing Verifies](https://github.com/tonydzi/clawrush/blob/main/longreads/20261030.md) &nbsp;<sub>Nov 2, 2026</sub>
 - [29 October 2026: Five Things to Build, Five Things Already Standing](https://github.com/tonydzi/clawrush/blob/main/longreads/20261029.md) &nbsp;<sub>Oct 29, 2026</sub>
 - [28 October 2026: Somebody Else&#39;s Database, and Somebody Else&#39;s Gate](https://github.com/tonydzi/clawrush/blob/main/longreads/20261028.md) &nbsp;<sub>Oct 29, 2026</sub>
-- [27 October 2026: One Mac Sets Up the Other, and the Tool Is Not for Coders](https://github.com/tonydzi/clawrush/blob/main/longreads/20261027.md) &nbsp;<sub>Oct 27, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📄 Preprints (2026)
