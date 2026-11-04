@@ -1,0 +1,42 @@
+name: Profile refresh
+
+# Keeps the README's upstream pull-request block current: every merged and open
+# public PR into other owners' repositories, counted from the GitHub API daily.
+# Before this job the block was refreshed by hand and showed 52 merged PRs
+# "verified 2026-10-08" while the live count was 70 (measured 2026-11-04).
+on:
+  schedule:
+    # 03:10 UTC, inside the fleet night window (00:00-05:00 UTC), before metrics at 03:30.
+    - cron: '10 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-writer
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline contract tests
+        run: python -B -m unittest discover -s tools -p test_refresh_profile.py
+      - name: Refresh from the GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python tools/refresh_profile.py --write
+      - name: Commit only the generated outputs
+        run: |
+          git add README.md docs/REPOSITORIES.md docs/profile-snapshot.json
+          if git diff --cached --quiet; then echo "current"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "profile: refresh upstream pull requests from the GitHub API"
+          git pull --rebase
+          git push

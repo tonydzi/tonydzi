@@ -1,38 +1,6 @@
 {
-  "as_of_utc": "2026-11-03",
+  "as_of_utc": "2026-11-04",
   "owner": "tonydzi",
-  "recently_updated_merged_contributions": [
-    {
-      "merged_at": "2026-11-02T23:40:55Z",
-      "repository": "ebertti/awesome-telegram",
-      "title": "Add telegram-mcp-kit to Tools",
-      "url": "https://github.com/ebertti/awesome-telegram/pull/394"
-    },
-    {
-      "merged_at": "2026-10-27T04:39:23Z",
-      "repository": "hashgraph-online/awesome-ai-plugins",
-      "title": "Add second-brain-starter-kit to Development & Workflow",
-      "url": "https://github.com/hashgraph-online/awesome-ai-plugins/pull/1006"
-    },
-    {
-      "merged_at": "2026-10-20T05:42:38Z",
-      "repository": "hashgraph-online/awesome-ai-plugins",
-      "title": "Add sqlite-graph-memory to Development & Workflow",
-      "url": "https://github.com/hashgraph-online/awesome-ai-plugins/pull/881"
-    },
-    {
-      "merged_at": "2026-10-28T21:11:32Z",
-      "repository": "eugeniughelbur/obsidian-second-brain",
-      "title": "health: flag a source that calls itself unverified but has no source_quality (#258)",
-      "url": "https://github.com/eugeniughelbur/obsidian-second-brain/pull/377"
-    },
-    {
-      "merged_at": "2026-10-28T08:58:53Z",
-      "repository": "Sagargupta16/awesome-mcp-servers",
-      "title": "Add SQLite Graph Memory to Knowledge Management",
-      "url": "https://github.com/Sagargupta16/awesome-mcp-servers/pull/227"
-    }
-  ],
   "repositories": [
     {
       "archived": false,
@@ -119,7 +87,7 @@
       "description": "Tiny receive-only library for a friend's coding agent: 13 text files, checksummed release updates with rollback (Mac, Linux, Windows)",
       "fork": false,
       "name": "brain-lite",
-      "pushed_at": "2026-11-02T11:47:33Z",
+      "pushed_at": "2026-11-04T00:15:07Z",
       "url": "https://github.com/tonydzi/brain-lite"
     },
     {
@@ -231,7 +199,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-03T06:01:58Z",
+      "pushed_at": "2026-11-04T10:07:33Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -287,7 +255,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-03T08:10:22Z",
+      "pushed_at": "2026-11-04T08:19:35Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -455,7 +423,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-03T12:21:35Z",
+      "pushed_at": "2026-11-04T09:31:07Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -479,7 +447,7 @@
       "description": "The Journey — a build-in-public book of a 60-day human+AI collaboration. Two voices (Tony & Mycroft), human + machine readable. Palo Alto AI Research Lab.",
       "fork": false,
       "name": "the-journey",
-      "pushed_at": "2026-11-03T05:44:53Z",
+      "pushed_at": "2026-11-04T09:48:51Z",
       "url": "https://github.com/tonydzi/the-journey"
     },
     {
@@ -496,7 +464,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-03T13:04:20Z",
+      "pushed_at": "2026-11-04T12:00:42Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -552,8 +520,115 @@
   "scope": {
     "own_archived": 0,
     "own_public_non_fork": 64,
-    "public_forks_excluded": 158,
-    "public_repositories": 222
+    "public_forks_excluded": 161,
+    "public_repositories": 225
   },
-  "source": "GitHub public REST repositories and GraphQL merged-PR search"
+  "source": "GitHub public REST repositories and GraphQL merged/open PR search",
+  "upstream_pull_requests": {
+    "in_review": [
+      {
+        "created_at": "2026-09-01T15:32:50Z",
+        "repository": "microsoft/semantic-kernel",
+        "title": "Python: document connector extras and optional dependency compatibility",
+        "url": "https://github.com/microsoft/semantic-kernel/pull/14355"
+      },
+      {
+        "created_at": "2026-08-10T19:18:41Z",
+        "repository": "google/adk-go",
+        "title": "fix(configurable): apply config_path containment to workflow node refs",
+        "url": "https://github.com/google/adk-go/pull/1299"
+      },
+      {
+        "created_at": "2026-07-25T22:05:32Z",
+        "repository": "anthropics/claude-cookbooks",
+        "title": "fix: convert remaining broken sre_bot_slack.py links in SRE cookbook",
+        "url": "https://github.com/anthropics/claude-cookbooks/pull/799"
+      },
+      {
+        "created_at": "2026-07-24T07:30:27Z",
+        "repository": "openai/openai-cookbook",
+        "title": "Add cookbook: check citation faithfulness in RAG with a zero-token gate",
+        "url": "https://github.com/openai/openai-cookbook/pull/2880"
+      },
+      {
+        "created_at": "2026-10-20T07:28:36Z",
+        "repository": "QwenLM/qwen-code",
+        "title": "test(core): characterize leader delivery and terminal state per host class",
+        "url": "https://github.com/QwenLM/qwen-code/pull/14855"
+      },
+      {
+        "created_at": "2026-10-03T15:51:52Z",
+        "repository": "QwenLM/qwen-code",
+        "title": "fix(mcp): name the capped server timeout in App read timeout warnings",
+        "url": "https://github.com/QwenLM/qwen-code/pull/13312"
+      }
+    ],
+    "large_vendor_projects": 8,
+    "merged": 70,
+    "merged_projects": 42,
+    "open": 50,
+    "open_projects": 47,
+    "projects": [
+      {
+        "last": "2026-10-05",
+        "merged": 1,
+        "repository": "microsoft/semantic-kernel"
+      },
+      {
+        "last": "2026-10-20",
+        "merged": 1,
+        "repository": "ChromeDevTools/chrome-devtools-mcp"
+      },
+      {
+        "last": "2026-10-16",
+        "merged": 1,
+        "repository": "google/adk-go"
+      },
+      {
+        "last": "2026-08-17",
+        "merged": 1,
+        "repository": "google-gemini/cookbook"
+      },
+      {
+        "last": "2026-10-14",
+        "merged": 1,
+        "repository": "NVIDIA/SkillSpector"
+      },
+      {
+        "last": "2026-10-08",
+        "merged": 2,
+        "repository": "QwenLM/qwen-code"
+      },
+      {
+        "last": "2026-09-30",
+        "merged": 1,
+        "repository": "bytedance/deer-flow"
+      },
+      {
+        "last": "2026-09-01",
+        "merged": 1,
+        "repository": "UKGovernmentBEIS/inspect_ai"
+      },
+      {
+        "last": "2026-11-04",
+        "merged": 3,
+        "repository": "headroomlabs-ai/headroom"
+      },
+      {
+        "last": "2026-11-03",
+        "merged": 1,
+        "repository": "ctxrs/ctx"
+      },
+      {
+        "last": "2026-10-28",
+        "merged": 1,
+        "repository": "gwern/gwern.net"
+      },
+      {
+        "last": "2026-10-28",
+        "merged": 4,
+        "repository": "eugeniughelbur/obsidian-second-brain"
+      }
+    ]
+  }
 }

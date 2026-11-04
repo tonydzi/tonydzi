@@ -24,16 +24,32 @@ def repo(name="example", **changes):
 
 def pull(**changes):
     value = {"__typename": "PullRequest", "title": "Fix a real failure", "state": "MERGED",
-             "mergedAt": "2026-11-02T08:00:00Z", "url": "https://github.com/upstream/tool/pull/42",
+             "mergedAt": "2026-11-02T08:00:00Z", "createdAt": "2026-11-01T08:00:00Z",
+             "url": "https://github.com/upstream/tool/pull/42",
              "author": {"login": "tonydzi"}, "repository": {
                  "nameWithOwner": "upstream/tool", "isPrivate": False, "owner": {"login": "upstream"}}}
     value.update(changes)
     return value
 
 
-def search(items=None):
+def search(items=None, total=None, more=False):
     items = [pull()] if items is None else items
-    return {"data": {"search": {"issueCount": len(items), "nodes": items}}}
+    return {"data": {"search": {"issueCount": len(items) if total is None else total, "nodes": items,
+                                "pageInfo": {"hasNextPage": more, "endCursor": "c1" if more else None}}}}
+
+
+def pages(items=None):
+    return [search(items)]
+
+
+def opened(**changes):
+    value = pull(state="OPEN", mergedAt=None, url="https://github.com/upstream/tool/pull/43", title="Proposed fix")
+    value.update(changes)
+    return value
+
+
+def snapshot(profile, repos, merged=None, opens=None, as_of="2026-11-03"):
+    return refresh.snapshot_from_sources(profile, repos, pages(merged), pages([opened()] if opens is None else opens), as_of)
 
 
 class RefreshTests(unittest.TestCase):
@@ -86,23 +102,55 @@ class RefreshTests(unittest.TestCase):
         invalid["data"]["search"]["issueCount"] = 10
         for response in [{"errors": [{"message": "partial"}]}, invalid, {"data": None}]:
             with self.subTest(response=response), self.assertRaises(refresh.SourceError):
-                refresh.contributions(response)
+                refresh.contributions([response])
 
     def test_unmerged_private_self_or_wrong_author_refuses(self):
         for changes in [{"state": "OPEN"}, {"mergedAt": None}, {"author": {"login": "other"}},
                         {"repository": {"isPrivate": True}},
                         {"repository": {"isPrivate": False, "nameWithOwner": "tonydzi/tool"}}]:
             with self.subTest(changes=changes), self.assertRaises(refresh.SourceError):
-                refresh.contributions(search([pull(**changes)]))
+                refresh.contributions([search([pull(**changes)])])
+
+    def test_curated_lists_and_own_lab_are_not_counted(self):
+        items = [pull(), pull(url="https://github.com/a/awesome-mcp/pull/1",
+                              repository={"nameWithOwner": "a/awesome-mcp", "isPrivate": False, "owner": {"login": "a"}}),
+                 pull(url="https://github.com/Palo-Alto-AI-Research-Lab/x/pull/2",
+                      repository={"nameWithOwner": "Palo-Alto-AI-Research-Lab/x", "isPrivate": False,
+                                  "owner": {"login": "Palo-Alto-AI-Research-Lab"}})]
+        self.assertEqual([p["repository"] for p in refresh.contributions([search(items)])], ["upstream/tool"])
+
+    def test_pages_are_counted_in_full_and_a_short_total_refuses(self):
+        first = search([pull()], total=2, more=True)
+        second = search([pull(url="https://github.com/upstream/tool/pull/44")], total=2)
+        self.assertEqual(len(refresh.contributions([first, second])), 2)
+        with self.assertRaises(refresh.SourceError):
+            refresh.contributions([first])
+        fetch = mock.Mock(side_effect=[first, second])
+        self.assertEqual(len(refresh.search_pages(fetch, "merged")), 2)
+        self.assertIn("after=c1", fetch.call_args_list[1].args)
+
+    def test_large_vendors_lead_and_open_prs_are_shown_with_totals(self):
+        vendor = pull(url="https://github.com/microsoft/semantic-kernel/pull/9", mergedAt="2026-09-01T08:00:00Z",
+                      repository={"nameWithOwner": "microsoft/semantic-kernel", "isPrivate": False,
+                                  "owner": {"login": "microsoft"}})
+        snap = snapshot({"login": "tonydzi", "public_repos": 1}, [[repo()]], merged=[pull(), vendor])
+        up = snap["upstream_pull_requests"]
+        self.assertEqual([e["repository"] for e in up["projects"]], ["microsoft/semantic-kernel", "upstream/tool"])
+        self.assertEqual((up["merged"], up["merged_projects"], up["large_vendor_projects"], up["open"]), (2, 2, 1, 1))
+        readme = refresh.outputs(refresh.START + "\nold\n" + refresh.END, snap)["README.md"]
+        self.assertIn("**2 pull requests merged into 2 upstream projects**", readme)
+        self.assertIn("**1 more open in review**", readme)
+        self.assertIn("[Proposed fix](https://github.com/upstream/tool/pull/43)", readme)
+        self.assertIn(refresh.LEDGER, readme)
 
     def test_output_preserves_everything_outside_crlf_marker_block(self):
         before, after = "# Original\r\n", "\r\nHuman text\r\n"
         readme = before + refresh.START + "\r\nold\r\n" + refresh.END + after
-        snap = refresh.snapshot_from_sources({"login": "tonydzi", "public_repos": 1}, [[repo()]], search(), "2026-11-03")
+        snap = snapshot({"login": "tonydzi", "public_repos": 1}, [[repo()]])
         rendered = refresh.outputs(readme, snap)["README.md"]
         self.assertTrue(rendered.startswith(before + refresh.START))
         self.assertTrue(rendered.endswith(refresh.END + after))
-        self.assertIn("Merged status verified 2026-11-03 UTC", rendered)
+        self.assertIn("Live from the GitHub API, verified 2026-11-03 UTC", rendered)
         self.assertNotIn("**Recently updated merged contributions**", rendered)
         self.assertNotIn("lifetime total**", rendered)
 
@@ -112,8 +160,8 @@ class RefreshTests(unittest.TestCase):
         after = copy.deepcopy(before)
         after[0][0]["pushed_at"] = "2026-11-03T09:00:00Z"
         readme = refresh.START + "\nold\n" + refresh.END
-        old = refresh.snapshot_from_sources(profile, before, search(), "2026-11-03")
-        new = refresh.snapshot_from_sources(profile, after, search(), "2026-11-03")
+        old = snapshot(profile, before)
+        new = snapshot(profile, after)
         self.assertEqual(refresh.outputs(readme, old), refresh.outputs(readme, new))
         own_profile = next(r for r in new["repositories"] if r["name"] == "tonydzi")
         self.assertIsNone(own_profile["pushed_at"])
@@ -121,7 +169,7 @@ class RefreshTests(unittest.TestCase):
         self.assertIn("self timestamp excluded to avoid refresh loop", refresh.outputs(readme, new)["docs/REPOSITORIES.md"])
         changed_other = copy.deepcopy(after)
         changed_other[0][1]["pushed_at"] = "2026-11-03T10:00:00Z"
-        other_snapshot = refresh.snapshot_from_sources(profile, changed_other, search(), "2026-11-03")
+        other_snapshot = snapshot(profile, changed_other)
         self.assertNotEqual(refresh.outputs(readme, new), refresh.outputs(readme, other_snapshot))
 
     def test_no_source_or_contract_error_writes_anything(self):
@@ -141,7 +189,7 @@ class RefreshTests(unittest.TestCase):
             fetch.assert_not_called()
 
     def test_check_is_read_only_and_write_is_idempotent(self):
-        responses = [{"login": "tonydzi", "public_repos": 1}, [[repo()]], search()]
+        responses = [{"login": "tonydzi", "public_repos": 1}, [[repo()]], search(), search([opened()])]
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / "README.md").write_text(refresh.START + "\nold\n" + refresh.END, encoding="utf-8")

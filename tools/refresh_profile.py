@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Refresh the public profile's evidence block and complete repository catalog.
 
-Inputs: public GitHub REST/GraphQL responses via the authenticated ``gh`` CLI.
+Inputs: public GitHub REST/GraphQL responses via the authenticated ``gh`` CLI:
+own repositories, and every merged and open upstream PR (paginated, counted in full).
 Outputs: README's PROFILE-ACTIVITY block, docs/REPOSITORIES.md, and
 docs/profile-snapshot.json. Everything outside that README block is preserved.
 The profile repository's own push timestamp is excluded to prevent a refresh loop.
@@ -30,19 +31,31 @@ START = "<!-- PROFILE-ACTIVITY:START -->"
 END = "<!-- PROFILE-ACTIVITY:END -->"
 SELF_PUSH_NOTE = "self timestamp excluded to avoid refresh loop"
 NAME = re.compile(r"[A-Za-z0-9_.-]+\Z")
-QUERY = """query ProfileRefresh {
-  search(query: "is:pr is:public author:tonydzi is:merged -user:tonydzi sort:updated-desc",
-         type: ISSUE, first: 5) {
+SEARCH = "is:pr is:public author:tonydzi is:%s -user:tonydzi sort:updated-desc"
+QUERY = """query ProfileRefresh($q: String!, $after: String) {
+  search(query: $q, type: ISSUE, first: 100, after: $after) {
     issueCount
+    pageInfo { hasNextPage endCursor }
     nodes {
       __typename
       ... on PullRequest {
-        title url state mergedAt author { login }
+        title url state mergedAt createdAt author { login }
         repository { nameWithOwner isPrivate owner { login } }
       }
     }
   }
 }"""
+# Not counted as upstream engineering: the operator's own lab organization and curated
+# link lists (awesome-*, *registry*), whose merges are listings rather than code review.
+OWN_ORGS = {"tonydzi", "palo-alto-ai-research-lab"}
+CURATED = re.compile(r"awesome|registry", re.I)
+# Owners whose identity GitHub itself proves; lower rank is listed first.
+VENDORS = {"microsoft": 1, "google": 2, "google-gemini": 2, "chromedevtools": 2, "googleapis": 2,
+           "anthropics": 3, "openai": 3, "nvidia": 4, "meta-llama": 4, "facebookresearch": 4,
+           "aws": 4, "awslabs": 4, "huggingface": 5, "bytedance": 5, "qwenlm": 5,
+           "ukgovernmentbeis": 5}
+LEDGER = "https://tonydzi.github.io/contributions/"
+SHOW_MERGED, SHOW_OPEN = 12, 6
 
 
 class SourceError(ValueError):
@@ -138,23 +151,32 @@ def repositories(profile, pages):
     return own, {"public_repositories": expected, "public_forks_excluded": sum(r["fork"] for r in public)}
 
 
-def contributions(response):
-    if not isinstance(response, dict) or response.get("errors"):
-        raise SourceError("GraphQL contribution search returned errors")
-    try:
-        search = response["data"]["search"]
-        total, nodes = search["issueCount"], search["nodes"]
-    except (KeyError, TypeError) as exc:
-        raise SourceError("GraphQL contribution search is incomplete") from exc
-    if type(total) is not int or total < 0 or not isinstance(nodes, list) or len(nodes) != min(5, total):
-        raise SourceError("GraphQL contribution search returned a partial sample")
+def contributions(pages, state="MERGED"):
+    """Validate every page of one search; return all public upstream PRs in that state."""
+    if not isinstance(pages, list) or not pages:
+        raise SourceError("GraphQL contribution search returned no pages")
+    nodes, total = [], None
+    for response in pages:
+        if not isinstance(response, dict) or response.get("errors"):
+            raise SourceError("GraphQL contribution search returned errors")
+        try:
+            search = response["data"]["search"]
+            count, page = search["issueCount"], search["nodes"]
+        except (KeyError, TypeError) as exc:
+            raise SourceError("GraphQL contribution search is incomplete") from exc
+        if type(count) is not int or count < 0 or not isinstance(page, list) or (total is not None and count != total):
+            raise SourceError("GraphQL contribution search changed while paginating")
+        total = count
+        nodes.extend(page)
+    if len(nodes) != total:
+        raise SourceError("GraphQL contribution search returned a partial sample (%d/%d)" % (len(nodes), total))
     result, seen = [], set()
     for item in nodes:
         if not isinstance(item, dict):
             raise SourceError("GraphQL contribution search contains an invalid node")
         repository, author = item.get("repository"), item.get("author")
-        if item.get("__typename") != "PullRequest" or item.get("state") != "MERGED":
-            raise SourceError("Contribution is not a verified merged pull request")
+        if item.get("__typename") != "PullRequest" or item.get("state") != state:
+            raise SourceError("Contribution is not a verified %s pull request" % state.lower())
         if not isinstance(author, dict) or str(author.get("login", "")).casefold() != OWNER:
             raise SourceError("Contribution author is unverified")
         if not isinstance(repository, dict) or repository.get("isPrivate") is not False:
@@ -172,31 +194,68 @@ def contributions(response):
         if not isinstance(title, str) or not title.strip():
             raise SourceError("Contribution title is missing")
         seen.add(url)
-        result.append({"repository": identity, "title": title, "url": url,
-                       "merged_at": timestamp(item.get("mergedAt"), "mergedAt")})
+        if parts[0].casefold() in OWN_ORGS or CURATED.search(identity):
+            continue
+        record = {"repository": identity, "title": title, "url": url,
+                  "created_at": timestamp(item.get("createdAt"), "createdAt")}
+        if state == "MERGED":
+            record["merged_at"] = timestamp(item.get("mergedAt"), "mergedAt")
+        result.append(record)
     return result
 
 
-def snapshot_from_sources(profile, pages, search, as_of):
+def rank(identity):
+    return VENDORS.get(identity.split("/")[0].casefold(), 99)
+
+
+def summary(merged, opened):
+    """Counts plus the short lists the README shows: large vendors first, then recency."""
+    by_repo = {}
+    for pr in merged:
+        entry = by_repo.setdefault(pr["repository"], {"repository": pr["repository"], "merged": 0, "last": ""})
+        entry["merged"] += 1
+        entry["last"] = max(entry["last"], pr["merged_at"][:10])
+    projects = sorted(by_repo.values(), key=lambda e: (e["last"], e["repository"].casefold()), reverse=True)
+    projects.sort(key=lambda e: rank(e["repository"]))
+    pending = sorted(opened, key=lambda p: (p["created_at"], p["url"]), reverse=True)
+    pending.sort(key=lambda p: rank(p["repository"]))
+    return {"merged": len(merged), "merged_projects": len(by_repo),
+            "large_vendor_projects": sum(rank(r) < 99 for r in by_repo),
+            "open": len(opened), "open_projects": len({p["repository"] for p in opened}),
+            "projects": projects[:SHOW_MERGED], "in_review": pending[:SHOW_OPEN]}
+
+
+def snapshot_from_sources(profile, pages, merged, opened, as_of):
     own, counts = repositories(profile, pages)
     return {
         "schema": "public-profile-snapshot/v1", "owner": OWNER, "as_of_utc": as_of,
-        "source": "GitHub public REST repositories and GraphQL merged-PR search",
+        "source": "GitHub public REST repositories and GraphQL merged/open PR search",
         "scope": {**counts, "own_public_non_fork": len(own),
                   "own_archived": sum(r["archived"] for r in own)},
-        "repositories": own, "recently_updated_merged_contributions": contributions(search),
+        "repositories": own,
+        "upstream_pull_requests": summary(contributions(merged, "MERGED"), contributions(opened, "OPEN")),
     }
 
 
 def outputs(readme, snapshot):
     begin, finish = markers(readme)
     date = snapshot["as_of_utc"]
-    activity = ["Public upstream PRs, sorted by last activity. Merged status verified %s UTC; this is a sample, not a lifetime total." % date, ""]
-    for pr in snapshot["recently_updated_merged_contributions"]:
-        activity.append("- **%s**: [%s](%s), merged %s." % (
-            markdown(pr["repository"]), markdown(pr["title"]), pr["url"], pr["merged_at"][:10]))
-    if not snapshot["recently_updated_merged_contributions"]:
+    up = snapshot["upstream_pull_requests"]
+    activity = ["Live from the GitHub API, verified %s UTC. Own repositories and awesome-/registry-list entries are not counted." % date, "",
+                "**%d pull requests merged into %d upstream projects** (%d of them at large tech companies and labs) \u00b7 **%d more open in review** across %d projects \u00b7 [full list with live status](%s)" % (
+                    up["merged"], up["merged_projects"], up["large_vendor_projects"], up["open"], up["open_projects"], LEDGER),
+                "", "Merged, large vendors first:", ""]
+    for e in up["projects"]:
+        activity.append("- **%s**: [%d merged](https://github.com/%s/pulls?q=is%%3Apr+is%%3Amerged+author%%3A%s), last %s." % (
+            markdown(e["repository"]), e["merged"], e["repository"], OWNER, e["last"]))
+    if not up["projects"]:
         activity.append("No matching public merged contributions were returned by GitHub.")
+    activity += ["", "In review now:", ""]
+    for pr in up["in_review"]:
+        activity.append("- **%s**: [%s](%s), opened %s." % (
+            markdown(pr["repository"]), markdown(pr["title"]), pr["url"], pr["created_at"][:10]))
+    if not up["in_review"]:
+        activity.append("No open upstream pull requests right now.")
     newline = "\r\n" if "\r\n" in readme else "\n"
     refreshed = readme[:begin] + newline + newline.join(activity) + newline + readme[finish:]
     scope = snapshot["scope"]
@@ -233,6 +292,27 @@ def atomic_write(path, text):
             temporary.unlink()
 
 
+def search_pages(fetch, state, limit=10):
+    """Follow GraphQL cursors; GitHub search caps at 1000 results (10 pages)."""
+    pages, after = [], None
+    for _ in range(limit):
+        args = ["graphql", "-f", "query=" + QUERY, "-f", "q=" + SEARCH % state]
+        if after:
+            args += ["-f", "after=" + after]
+        page = fetch(*args)
+        pages.append(page)
+        try:
+            info = page["data"]["search"]["pageInfo"]
+        except (KeyError, TypeError):
+            return pages  # contributions() reports the malformed page
+        if not isinstance(info, dict) or not info.get("hasNextPage"):
+            return pages
+        after = info.get("endCursor")
+        if not isinstance(after, str) or not after:
+            raise SourceError("GraphQL pagination cursor is missing")
+    raise SourceError("More than %d pages of %s pull requests" % (limit, state))
+
+
 def run(root, write=False, fetch=gh_json, as_of=None):
     root = Path(root).resolve()
     readme = (root / "README.md").read_bytes().decode("utf-8")
@@ -240,8 +320,8 @@ def run(root, write=False, fetch=gh_json, as_of=None):
     as_of = as_of or datetime.now(timezone.utc).date().isoformat()
     profile = fetch("users/" + OWNER)
     pages = fetch("users/%s/repos?per_page=100&type=owner&sort=full_name" % OWNER, "--paginate", "--slurp")
-    search = fetch("graphql", "-f", "query=" + QUERY)
-    snapshot = snapshot_from_sources(profile, pages, search, as_of)
+    merged, opened = search_pages(fetch, "merged"), search_pages(fetch, "open")
+    snapshot = snapshot_from_sources(profile, pages, merged, opened, as_of)
     planned = outputs(readme, snapshot)  # All sources validated before any write.
     changed = []
     for name, content in planned.items():

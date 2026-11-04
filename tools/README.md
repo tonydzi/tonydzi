@@ -16,7 +16,7 @@ python3 -m unittest discover -s tools -p 'test_refresh_profile.py' -v
 
 Check is the default and changes no files. Exit 0 means current, 1 means generated content differs, and 2 means the source or document contract could not be verified. Write mode updates only the named generated outputs. A source failure must leave the previous profile intact.
 
-The repository catalog includes all own public source repositories and labels archived entries. It excludes forks and private repositories. The activity list is **recently updated merged contributions**, not an all-time merge count or a claim that these were the most recently merged pull requests.
+The repository catalog includes all own public source repositories and labels archived entries. It excludes forks and private repositories. The activity block counts **every** merged and open public pull request into other owners' repositories (all search pages, refused when the page total disagrees), excluding the operator's own organizations and awesome-/registry-list entries. It shows the totals, up to 12 merged projects (large vendors first) and up to 6 open pull requests, and links the full ledger. `.github/workflows/profile-refresh.yml` runs `--write` daily and commits only the three generated outputs.
 
 The verification date advances when the public data is checked on a new day. A date-only diff is an evidence refresh, not new engineering work. Report those separately in the weekly receipt.
 

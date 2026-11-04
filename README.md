@@ -50,18 +50,38 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 - [UK AISI Inspect #4769](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4769): decide a grader panel by strict majority rather than mode. Merged 1 September 2026.
 - [Obsidian Second Brain #377](https://github.com/eugeniughelbur/obsidian-second-brain/pull/377): flag a source that calls itself unverified but has no source-quality field. Merged 28 October 2026.
 
-## Recently updated merged contributions
+## Upstream pull requests, merged and in review
 
 These are contributions to other owners' public repositories. Merged work, open proposals and closed submissions remain distinct in the [full contribution ledger](https://tonydzi.github.io/contributions/).
 
 <!-- PROFILE-ACTIVITY:START -->
-Public upstream PRs, sorted by last activity. Merged status verified 2026-11-03 UTC; this is a sample, not a lifetime total.
+Live from the GitHub API, verified 2026-11-04 UTC. Own repositories and awesome-/registry-list entries are not counted.
 
-- **ebertti/awesome-telegram**: [Add telegram-mcp-kit to Tools](https://github.com/ebertti/awesome-telegram/pull/394), merged 2026-11-02.
-- **hashgraph-online/awesome-ai-plugins**: [Add second-brain-starter-kit to Development &amp; Workflow](https://github.com/hashgraph-online/awesome-ai-plugins/pull/1006), merged 2026-10-27.
-- **hashgraph-online/awesome-ai-plugins**: [Add sqlite-graph-memory to Development &amp; Workflow](https://github.com/hashgraph-online/awesome-ai-plugins/pull/881), merged 2026-10-20.
-- **eugeniughelbur/obsidian-second-brain**: [health: flag a source that calls itself unverified but has no source\_quality \(\#258\)](https://github.com/eugeniughelbur/obsidian-second-brain/pull/377), merged 2026-10-28.
-- **Sagargupta16/awesome-mcp-servers**: [Add SQLite Graph Memory to Knowledge Management](https://github.com/Sagargupta16/awesome-mcp-servers/pull/227), merged 2026-10-28.
+**70 pull requests merged into 42 upstream projects** (8 of them at large tech companies and labs) · **50 more open in review** across 47 projects · [full list with live status](https://tonydzi.github.io/contributions/)
+
+Merged, large vendors first:
+
+- **microsoft/semantic-kernel**: [1 merged](https://github.com/microsoft/semantic-kernel/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-05.
+- **ChromeDevTools/chrome-devtools-mcp**: [1 merged](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-20.
+- **google/adk-go**: [1 merged](https://github.com/google/adk-go/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-16.
+- **google-gemini/cookbook**: [1 merged](https://github.com/google-gemini/cookbook/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-08-17.
+- **NVIDIA/SkillSpector**: [1 merged](https://github.com/NVIDIA/SkillSpector/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-14.
+- **QwenLM/qwen-code**: [2 merged](https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-08.
+- **bytedance/deer-flow**: [1 merged](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-30.
+- **UKGovernmentBEIS/inspect\_ai**: [1 merged](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-01.
+- **headroomlabs-ai/headroom**: [3 merged](https://github.com/headroomlabs-ai/headroom/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-04.
+- **ctxrs/ctx**: [1 merged](https://github.com/ctxrs/ctx/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-03.
+- **gwern/gwern.net**: [1 merged](https://github.com/gwern/gwern.net/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-28.
+- **eugeniughelbur/obsidian-second-brain**: [4 merged](https://github.com/eugeniughelbur/obsidian-second-brain/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-28.
+
+In review now:
+
+- **microsoft/semantic-kernel**: [Python: document connector extras and optional dependency compatibility](https://github.com/microsoft/semantic-kernel/pull/14355), opened 2026-09-01.
+- **google/adk-go**: [fix\(configurable\): apply config\_path containment to workflow node refs](https://github.com/google/adk-go/pull/1299), opened 2026-08-10.
+- **anthropics/claude-cookbooks**: [fix: convert remaining broken sre\_bot\_slack.py links in SRE cookbook](https://github.com/anthropics/claude-cookbooks/pull/799), opened 2026-07-25.
+- **openai/openai-cookbook**: [Add cookbook: check citation faithfulness in RAG with a zero-token gate](https://github.com/openai/openai-cookbook/pull/2880), opened 2026-07-24.
+- **QwenLM/qwen-code**: [test\(core\): characterize leader delivery and terminal state per host class](https://github.com/QwenLM/qwen-code/pull/14855), opened 2026-10-20.
+- **QwenLM/qwen-code**: [fix\(mcp\): name the capped server timeout in App read timeout warnings](https://github.com/QwenLM/qwen-code/pull/13312), opened 2026-10-03.
 <!-- PROFILE-ACTIVITY:END -->
 
 ## Current research and experiments
