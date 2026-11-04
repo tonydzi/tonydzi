@@ -47,6 +47,9 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 ## Selected upstream fixes
 
 - [Microsoft Semantic Kernel #14371](https://github.com/microsoft/semantic-kernel/pull/14371): pin the validated address for Python OpenAPI-plugin requests, closing a check/use gap. Merged 5 October 2026.
+- [Google ADK for Go #1543](https://github.com/google/adk-go/pull/1543): images and PDFs (`InlineData`/`FileData` parts) now reach both OpenAI endpoints instead of failing as an unsupported payload; closes #1333, design agreed in the review thread. Merged 16 October 2026.
+- [Google Chrome DevTools MCP #2852](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2852): documentation fix for which extension tools are available from the CLI. Merged 20 October 2026.
+- [NVIDIA SkillSpector #807](https://github.com/NVIDIA/SkillSpector/pull/807): documentation fix for broken source links in the LLM analyzer docs. Merged 14 October 2026.
 - [UK AISI Inspect #4769](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4769): decide a grader panel by strict majority rather than mode. Merged 1 September 2026.
 - [Obsidian Second Brain #377](https://github.com/eugeniughelbur/obsidian-second-brain/pull/377): flag a source that calls itself unverified but has no source-quality field. Merged 28 October 2026.
 
