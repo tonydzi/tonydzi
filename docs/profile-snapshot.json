@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-04",
+  "as_of_utc": "2026-11-05",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -55,7 +55,7 @@
       "description": "An open corpus of full working sessions with a coding agent: real transcripts from a running agent fleet, published a week later with personal data scrubbed.",
       "fork": false,
       "name": "agent-sessions",
-      "pushed_at": "2026-11-01T11:57:44Z",
+      "pushed_at": "2026-11-05T05:55:23Z",
       "url": "https://github.com/tonydzi/agent-sessions"
     },
     {
@@ -199,7 +199,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-04T10:07:33Z",
+      "pushed_at": "2026-11-05T08:53:13Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -255,7 +255,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-04T08:19:35Z",
+      "pushed_at": "2026-11-05T04:23:34Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -399,7 +399,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts: skills as a plugin marketplace, opt-in persistent memory over MCP, vault templates and a CRM engine. Method, not data. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-02T22:25:57Z",
+      "pushed_at": "2026-11-04T20:08:29Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -423,7 +423,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-04T09:31:07Z",
+      "pushed_at": "2026-11-04T19:54:25Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -447,7 +447,7 @@
       "description": "The Journey — a build-in-public book of a 60-day human+AI collaboration. Two voices (Tony & Mycroft), human + machine readable. Palo Alto AI Research Lab.",
       "fork": false,
       "name": "the-journey",
-      "pushed_at": "2026-11-04T09:48:51Z",
+      "pushed_at": "2026-11-05T05:44:06Z",
       "url": "https://github.com/tonydzi/the-journey"
     },
     {
@@ -520,8 +520,8 @@
   "scope": {
     "own_archived": 0,
     "own_public_non_fork": 64,
-    "public_forks_excluded": 161,
-    "public_repositories": 225
+    "public_forks_excluded": 164,
+    "public_repositories": 228
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
@@ -564,10 +564,10 @@
       }
     ],
     "large_vendor_projects": 8,
-    "merged": 70,
-    "merged_projects": 42,
-    "open": 50,
-    "open_projects": 47,
+    "merged": 72,
+    "merged_projects": 43,
+    "open": 48,
+    "open_projects": 45,
     "projects": [
       {
         "last": "2026-10-05",
@@ -610,24 +610,24 @@
         "repository": "UKGovernmentBEIS/inspect_ai"
       },
       {
+        "last": "2026-11-05",
+        "merged": 1,
+        "repository": "vmfunc/sif"
+      },
+      {
         "last": "2026-11-04",
         "merged": 3,
         "repository": "headroomlabs-ai/headroom"
       },
       {
+        "last": "2026-11-04",
+        "merged": 5,
+        "repository": "eugeniughelbur/obsidian-second-brain"
+      },
+      {
         "last": "2026-11-03",
         "merged": 1,
         "repository": "ctxrs/ctx"
-      },
-      {
-        "last": "2026-10-28",
-        "merged": 1,
-        "repository": "gwern/gwern.net"
-      },
-      {
-        "last": "2026-10-28",
-        "merged": 4,
-        "repository": "eugeniughelbur/obsidian-second-brain"
       }
     ]
   }

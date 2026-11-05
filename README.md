@@ -58,9 +58,9 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 These are contributions to other owners' public repositories. Merged work, open proposals and closed submissions remain distinct in the [full contribution ledger](https://tonydzi.github.io/contributions/).
 
 <!-- PROFILE-ACTIVITY:START -->
-Live from the GitHub API, verified 2026-11-04 UTC. Own repositories and awesome-/registry-list entries are not counted.
+Live from the GitHub API, verified 2026-11-05 UTC. Own repositories and awesome-/registry-list entries are not counted.
 
-**70 pull requests merged into 42 upstream projects** (8 of them at large tech companies and labs) · **50 more open in review** across 47 projects · [full list with live status](https://tonydzi.github.io/contributions/)
+**72 pull requests merged into 43 upstream projects** (8 of them at large tech companies and labs) · **48 more open in review** across 45 projects · [full list with live status](https://tonydzi.github.io/contributions/)
 
 Merged, large vendors first:
 
@@ -72,10 +72,10 @@ Merged, large vendors first:
 - **QwenLM/qwen-code**: [2 merged](https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-08.
 - **bytedance/deer-flow**: [1 merged](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-30.
 - **UKGovernmentBEIS/inspect\_ai**: [1 merged](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-01.
+- **vmfunc/sif**: [1 merged](https://github.com/vmfunc/sif/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-05.
 - **headroomlabs-ai/headroom**: [3 merged](https://github.com/headroomlabs-ai/headroom/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-04.
+- **eugeniughelbur/obsidian-second-brain**: [5 merged](https://github.com/eugeniughelbur/obsidian-second-brain/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-04.
 - **ctxrs/ctx**: [1 merged](https://github.com/ctxrs/ctx/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-03.
-- **gwern/gwern.net**: [1 merged](https://github.com/gwern/gwern.net/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-28.
-- **eugeniughelbur/obsidian-second-brain**: [4 merged](https://github.com/eugeniughelbur/obsidian-second-brain/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-28.
 
 In review now:
 
