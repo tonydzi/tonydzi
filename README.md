@@ -125,11 +125,11 @@ The DOI links identify the individual research records; earlier versions remain 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
 <!-- BLOG-POST-LIST:START -->
+- [5 November 2026: The Competitor List Already Exists, And We Filed Issues In One Of Them](https://github.com/tonydzi/clawrush/blob/main/longreads/20261105.md) &nbsp;<sub>Nov 6, 2026</sub>
+- [We tested memory retrieval on DolphinBench. Plain keyword search exposed our own regression.](https://github.com/tonydzi/clawrush/blob/main/longreads/dolphinbench-memory-retrieval-2026-11-05.md) &nbsp;<sub>Nov 6, 2026</sub>
 - [4 November 2026: The Same Post, 83 Days Later](https://github.com/tonydzi/clawrush/blob/main/longreads/20261104.md) &nbsp;<sub>Nov 5, 2026</sub>
 - [3 November 2026: Four Questions, Not One Verdict](https://github.com/tonydzi/clawrush/blob/main/longreads/20261103.md) &nbsp;<sub>Nov 4, 2026</sub>
-- [2 November 2026: The Answer Was Already on the Desk](https://github.com/tonydzi/clawrush/blob/main/longreads/20261102.md) &nbsp;<sub>Nov 3, 2026</sub>
-- [1 November 2026: The Experiment We Already Ran and Stopped Measuring](https://github.com/tonydzi/clawrush/blob/main/longreads/20261101.md) &nbsp;<sub>Nov 2, 2026</sub>
-- [30 October 2026: Claims That Nothing Verifies](https://github.com/tonydzi/clawrush/blob/main/longreads/20261030.md) &nbsp;<sub>Nov 2, 2026</sub><!-- BLOG-POST-LIST:END -->
+- [2 November 2026: The Answer Was Already on the Desk](https://github.com/tonydzi/clawrush/blob/main/longreads/20261102.md) &nbsp;<sub>Nov 3, 2026</sub><!-- BLOG-POST-LIST:END -->
 
 ## Working approach
 
