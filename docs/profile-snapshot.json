@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-06",
+  "as_of_utc": "2026-11-07",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -87,7 +87,7 @@
       "description": "Tiny receive-only library for a friend's coding agent: 13 text files, checksummed release updates with rollback (Mac, Linux, Windows)",
       "fork": false,
       "name": "brain-lite",
-      "pushed_at": "2026-11-04T00:15:07Z",
+      "pushed_at": "2026-11-06T22:19:23Z",
       "url": "https://github.com/tonydzi/brain-lite"
     },
     {
@@ -103,7 +103,7 @@
       "description": "CharmOS / C(H+A)RM — open-source framework to manage humans AND AI agents as first-class relationships, on a personal second brain, driven by the RDR loop (Recall to Deep Research). Manifest-first, Apache-2.0.",
       "fork": false,
       "name": "charm-os",
-      "pushed_at": "2026-11-02T08:20:00Z",
+      "pushed_at": "2026-11-06T11:12:33Z",
       "url": "https://github.com/tonydzi/charm-os"
     },
     {
@@ -183,7 +183,7 @@
       "description": "Run AI agents across machines without state drift: consensus protocol (propose/counter/accept/commit), dual-rail message bus, ACK discipline, self-healing sync. Formerly claude-consensus. Free, MIT.",
       "fork": false,
       "name": "claw-consensus",
-      "pushed_at": "2026-11-02T12:06:07Z",
+      "pushed_at": "2026-11-06T22:12:20Z",
       "url": "https://github.com/tonydzi/claw-consensus"
     },
     {
@@ -199,7 +199,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-06T10:12:20Z",
+      "pushed_at": "2026-11-06T13:41:18Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -247,7 +247,7 @@
       "description": "Dashboards of Palo Alto AI Research Lab",
       "fork": false,
       "name": "dashboards",
-      "pushed_at": "2026-11-05T21:56:41Z",
+      "pushed_at": "2026-11-07T06:20:58Z",
       "url": "https://github.com/tonydzi/dashboards"
     },
     {
@@ -255,7 +255,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-06T04:23:38Z",
+      "pushed_at": "2026-11-07T04:23:49Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -295,7 +295,7 @@
       "description": "Join the Palo Alto AI Lab fleet: install the lab's 232 skills, run a daily routine that pulls and applies our updates, list your agent by one pull request. 15 minutes, one link, no account with us. MIT.",
       "fork": false,
       "name": "join-the-fleet",
-      "pushed_at": "2026-11-01T22:25:14Z",
+      "pushed_at": "2026-11-06T22:10:30Z",
       "url": "https://github.com/tonydzi/join-the-fleet"
     },
     {
@@ -412,10 +412,10 @@
     },
     {
       "archived": false,
-      "description": "A second brain for Claude Code and Codex that keeps receipts: skills as a plugin marketplace, opt-in persistent memory over MCP, vault templates and a CRM engine. Method, not data. MIT.",
+      "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-04T20:08:29Z",
+      "pushed_at": "2026-11-07T01:56:08Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -423,7 +423,7 @@
       "description": "Nobody reviews themselves - and one reviewer model is one blind spot. Fan every change out to several model FAMILIES at once: verdict contract, quorum by family, honest skips, and an exit code that refuses to go green on one vendor. Stdlib-only, MIT.",
       "fork": false,
       "name": "secondop-panel",
-      "pushed_at": "2026-10-20T09:50:16Z",
+      "pushed_at": "2026-11-06T11:12:34Z",
       "url": "https://github.com/tonydzi/secondop-panel"
     },
     {
@@ -436,10 +436,10 @@
     },
     {
       "archived": false,
-      "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes. Wikilinks are the graph, SQLite the only store.",
+      "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-06T09:40:43Z",
+      "pushed_at": "2026-11-07T05:53:50Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -480,7 +480,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-05T22:15:01Z",
+      "pushed_at": "2026-11-06T12:00:09Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -488,7 +488,7 @@
       "description": "Catch fabricated RAG citations before they reach the user: a zero-token verbatim gate + a burden-of-proof judge, framework-agnostic.",
       "fork": false,
       "name": "verbatim-citation-gate",
-      "pushed_at": "2026-10-24T04:04:10Z",
+      "pushed_at": "2026-11-06T19:29:27Z",
       "url": "https://github.com/tonydzi/verbatim-citation-gate"
     },
     {
@@ -536,8 +536,8 @@
   "scope": {
     "own_archived": 0,
     "own_public_non_fork": 66,
-    "public_forks_excluded": 164,
-    "public_repositories": 230
+    "public_forks_excluded": 168,
+    "public_repositories": 234
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
@@ -580,10 +580,10 @@
       }
     ],
     "large_vendor_projects": 8,
-    "merged": 75,
-    "merged_projects": 46,
-    "open": 45,
-    "open_projects": 42,
+    "merged": 76,
+    "merged_projects": 47,
+    "open": 47,
+    "open_projects": 44,
     "projects": [
       {
         "last": "2026-10-05",
@@ -631,6 +631,11 @@
         "repository": "hanishrao/collective-ai-tools"
       },
       {
+        "last": "2026-11-06",
+        "merged": 1,
+        "repository": "doobidoo/mcp-memory-service"
+      },
+      {
         "last": "2026-11-05",
         "merged": 1,
         "repository": "vmfunc/sif"
@@ -639,11 +644,6 @@
         "last": "2026-11-05",
         "merged": 1,
         "repository": "meaningalignment/institutions"
-      },
-      {
-        "last": "2026-11-05",
-        "merged": 1,
-        "repository": "gourabanandad/error-translator-cli-v2"
       }
     ]
   }
