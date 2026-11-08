@@ -58,9 +58,9 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 These are contributions to other owners' public repositories. Merged work, open proposals and closed submissions remain distinct in the [full contribution ledger](https://tonydzi.github.io/contributions/).
 
 <!-- PROFILE-ACTIVITY:START -->
-Live from the GitHub API, verified 2026-11-07 UTC. Own repositories and awesome-/registry-list entries are not counted.
+Live from the GitHub API, verified 2026-11-08 UTC. Own repositories and awesome-/registry-list entries are not counted.
 
-**76 pull requests merged into 47 upstream projects** (8 of them at large tech companies and labs) · **47 more open in review** across 44 projects · [full list with live status](https://tonydzi.github.io/contributions/)
+**77 pull requests merged into 47 upstream projects** (8 of them at large tech companies and labs) · **48 more open in review** across 45 projects · [full list with live status](https://tonydzi.github.io/contributions/)
 
 Merged, large vendors first:
 
@@ -72,9 +72,9 @@ Merged, large vendors first:
 - **QwenLM/qwen-code**: [2 merged](https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-08.
 - **bytedance/deer-flow**: [1 merged](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-30.
 - **UKGovernmentBEIS/inspect\_ai**: [1 merged](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-01.
+- **vmfunc/sif**: [2 merged](https://github.com/vmfunc/sif/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-07.
 - **hanishrao/collective-ai-tools**: [1 merged](https://github.com/hanishrao/collective-ai-tools/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-06.
 - **doobidoo/mcp-memory-service**: [1 merged](https://github.com/doobidoo/mcp-memory-service/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-06.
-- **vmfunc/sif**: [1 merged](https://github.com/vmfunc/sif/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-05.
 - **meaningalignment/institutions**: [1 merged](https://github.com/meaningalignment/institutions/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-05.
 
 In review now:

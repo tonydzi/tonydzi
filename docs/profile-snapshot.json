@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-07",
+  "as_of_utc": "2026-11-08",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -71,7 +71,7 @@
       "description": "Tools that produce evidence about what an AI agent actually did — gates, attestation, output verification, benchmarks. Inclusion bar: name the artifact a human can inspect later.",
       "fork": false,
       "name": "awesome-verified-agents",
-      "pushed_at": "2026-11-05T15:46:10Z",
+      "pushed_at": "2026-11-08T01:51:09Z",
       "url": "https://github.com/tonydzi/awesome-verified-agents"
     },
     {
@@ -439,7 +439,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-07T05:53:50Z",
+      "pushed_at": "2026-11-08T01:49:25Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -480,7 +480,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-06T12:00:09Z",
+      "pushed_at": "2026-11-07T10:59:30Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -536,8 +536,8 @@
   "scope": {
     "own_archived": 0,
     "own_public_non_fork": 66,
-    "public_forks_excluded": 168,
-    "public_repositories": 234
+    "public_forks_excluded": 169,
+    "public_repositories": 235
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
@@ -580,10 +580,10 @@
       }
     ],
     "large_vendor_projects": 8,
-    "merged": 76,
+    "merged": 77,
     "merged_projects": 47,
-    "open": 47,
-    "open_projects": 44,
+    "open": 48,
+    "open_projects": 45,
     "projects": [
       {
         "last": "2026-10-05",
@@ -626,6 +626,11 @@
         "repository": "UKGovernmentBEIS/inspect_ai"
       },
       {
+        "last": "2026-11-07",
+        "merged": 2,
+        "repository": "vmfunc/sif"
+      },
+      {
         "last": "2026-11-06",
         "merged": 1,
         "repository": "hanishrao/collective-ai-tools"
@@ -634,11 +639,6 @@
         "last": "2026-11-06",
         "merged": 1,
         "repository": "doobidoo/mcp-memory-service"
-      },
-      {
-        "last": "2026-11-05",
-        "merged": 1,
-        "repository": "vmfunc/sif"
       },
       {
         "last": "2026-11-05",
