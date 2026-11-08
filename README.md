@@ -60,7 +60,7 @@ These are contributions to other owners' public repositories. Merged work, open 
 <!-- PROFILE-ACTIVITY:START -->
 Live from the GitHub API, verified 2026-11-08 UTC. Own repositories and awesome-/registry-list entries are not counted.
 
-**77 pull requests merged into 47 upstream projects** (8 of them at large tech companies and labs) · **48 more open in review** across 45 projects · [full list with live status](https://tonydzi.github.io/contributions/)
+**79 pull requests merged into 47 upstream projects** (8 of them at large tech companies and labs) · **46 more open in review** across 44 projects · [full list with live status](https://tonydzi.github.io/contributions/)
 
 Merged, large vendors first:
 
@@ -69,12 +69,12 @@ Merged, large vendors first:
 - **google/adk-go**: [1 merged](https://github.com/google/adk-go/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-16.
 - **google-gemini/cookbook**: [1 merged](https://github.com/google-gemini/cookbook/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-08-17.
 - **NVIDIA/SkillSpector**: [1 merged](https://github.com/NVIDIA/SkillSpector/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-14.
-- **QwenLM/qwen-code**: [2 merged](https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-08.
+- **QwenLM/qwen-code**: [3 merged](https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-08.
 - **bytedance/deer-flow**: [1 merged](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-30.
 - **UKGovernmentBEIS/inspect\_ai**: [1 merged](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-01.
+- **doobidoo/mcp-memory-service**: [2 merged](https://github.com/doobidoo/mcp-memory-service/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-08.
 - **vmfunc/sif**: [2 merged](https://github.com/vmfunc/sif/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-07.
 - **hanishrao/collective-ai-tools**: [1 merged](https://github.com/hanishrao/collective-ai-tools/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-06.
-- **doobidoo/mcp-memory-service**: [1 merged](https://github.com/doobidoo/mcp-memory-service/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-06.
 - **meaningalignment/institutions**: [1 merged](https://github.com/meaningalignment/institutions/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-05.
 
 In review now:
@@ -84,7 +84,7 @@ In review now:
 - **anthropics/claude-cookbooks**: [fix: convert remaining broken sre\_bot\_slack.py links in SRE cookbook](https://github.com/anthropics/claude-cookbooks/pull/799), opened 2026-07-25.
 - **openai/openai-cookbook**: [Add cookbook: check citation faithfulness in RAG with a zero-token gate](https://github.com/openai/openai-cookbook/pull/2880), opened 2026-07-24.
 - **QwenLM/qwen-code**: [test\(core\): characterize leader delivery and terminal state per host class](https://github.com/QwenLM/qwen-code/pull/14855), opened 2026-10-20.
-- **QwenLM/qwen-code**: [fix\(mcp\): name the capped server timeout in App read timeout warnings](https://github.com/QwenLM/qwen-code/pull/13312), opened 2026-10-03.
+- **huggingface/cookbook**: [Add self-verifying search agent recipe](https://github.com/huggingface/cookbook/pull/366), opened 2026-07-24.
 <!-- PROFILE-ACTIVITY:END -->
 
 ## Current research and experiments

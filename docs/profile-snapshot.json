@@ -23,7 +23,7 @@
       "description": "Reproducible control-plane failures from a production multi-agent fleet: schedulers, registries, watchdogs. Independent casebook, not a benchmark (yet).",
       "fork": false,
       "name": "agent-control-plane-casebook",
-      "pushed_at": "2026-10-11T16:31:22Z",
+      "pushed_at": "2026-11-08T09:56:52Z",
       "url": "https://github.com/tonydzi/agent-control-plane-casebook"
     },
     {
@@ -199,7 +199,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-06T13:41:18Z",
+      "pushed_at": "2026-11-08T04:14:07Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -255,7 +255,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-07T04:23:49Z",
+      "pushed_at": "2026-11-08T04:23:24Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -480,7 +480,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-07T10:59:30Z",
+      "pushed_at": "2026-11-08T05:32:56Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -573,17 +573,17 @@
         "url": "https://github.com/QwenLM/qwen-code/pull/14855"
       },
       {
-        "created_at": "2026-10-03T15:51:52Z",
-        "repository": "QwenLM/qwen-code",
-        "title": "fix(mcp): name the capped server timeout in App read timeout warnings",
-        "url": "https://github.com/QwenLM/qwen-code/pull/13312"
+        "created_at": "2026-07-24T06:41:13Z",
+        "repository": "huggingface/cookbook",
+        "title": "Add self-verifying search agent recipe",
+        "url": "https://github.com/huggingface/cookbook/pull/366"
       }
     ],
     "large_vendor_projects": 8,
-    "merged": 77,
+    "merged": 79,
     "merged_projects": 47,
-    "open": 48,
-    "open_projects": 45,
+    "open": 46,
+    "open_projects": 44,
     "projects": [
       {
         "last": "2026-10-05",
@@ -611,8 +611,8 @@
         "repository": "NVIDIA/SkillSpector"
       },
       {
-        "last": "2026-10-08",
-        "merged": 2,
+        "last": "2026-11-08",
+        "merged": 3,
         "repository": "QwenLM/qwen-code"
       },
       {
@@ -626,6 +626,11 @@
         "repository": "UKGovernmentBEIS/inspect_ai"
       },
       {
+        "last": "2026-11-08",
+        "merged": 2,
+        "repository": "doobidoo/mcp-memory-service"
+      },
+      {
         "last": "2026-11-07",
         "merged": 2,
         "repository": "vmfunc/sif"
@@ -634,11 +639,6 @@
         "last": "2026-11-06",
         "merged": 1,
         "repository": "hanishrao/collective-ai-tools"
-      },
-      {
-        "last": "2026-11-06",
-        "merged": 1,
-        "repository": "doobidoo/mcp-memory-service"
       },
       {
         "last": "2026-11-05",
