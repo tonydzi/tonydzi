@@ -8,6 +8,10 @@ Public repository inventory: docs/REPOSITORIES.md. Maintenance: tools/README.md.
 
 # Anton Dziatkovskii
 
+**I have a brain tumor. I found it ten years ago, and that is why I started building a second brain long before LLMs became a hype: my own notes, indexed and searchable, retrieval over a personal archive. Today that archive feeds my agents. Agent memory is my personal pain, not a product idea.**
+
+PhD, Python/C++ engineer, technical lead at Palo Alto AI Research Lab. **Seeking Research Engineer roles.**
+
 **Persistent agent memory, deterministic verification and operations across machines.**
 
 The work here asks a practical question: **what evidence shows that an AI agent did what it claimed?** The repositories include small tools, fault-injection experiments, operating patterns and experience reports. Each project documents its own tests and limits.
