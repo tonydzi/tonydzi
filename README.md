@@ -129,11 +129,11 @@ The DOI links identify the individual research records; earlier versions remain 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
 <!-- BLOG-POST-LIST:START -->
+- [9 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261109.md) &nbsp;<sub>Nov 10, 2026</sub>
 - [6 November 2026: Three Skills For Making Skills Already Exist, And The Size Spread Is 267 To One](https://github.com/tonydzi/clawrush/blob/main/longreads/20261106.md) &nbsp;<sub>Nov 9, 2026</sub>
 - [A memory comparison that did not survive its own scoring rules](https://github.com/tonydzi/clawrush/blob/main/longreads/temporal-memory-scoring-audit-2026-11-06.md) &nbsp;<sub>Nov 6, 2026</sub>
 - [5 November 2026: The Competitor List Already Exists, And We Filed Issues In One Of Them](https://github.com/tonydzi/clawrush/blob/main/longreads/20261105.md) &nbsp;<sub>Nov 6, 2026</sub>
-- [We tested memory retrieval on DolphinBench. Plain keyword search exposed our own regression.](https://github.com/tonydzi/clawrush/blob/main/longreads/dolphinbench-memory-retrieval-2026-11-05.md) &nbsp;<sub>Nov 6, 2026</sub>
-- [4 November 2026: The Same Post, 83 Days Later](https://github.com/tonydzi/clawrush/blob/main/longreads/20261104.md) &nbsp;<sub>Nov 5, 2026</sub><!-- BLOG-POST-LIST:END -->
+- [We tested memory retrieval on DolphinBench. Plain keyword search exposed our own regression.](https://github.com/tonydzi/clawrush/blob/main/longreads/dolphinbench-memory-retrieval-2026-11-05.md) &nbsp;<sub>Nov 6, 2026</sub><!-- BLOG-POST-LIST:END -->
 
 ## Working approach
 
