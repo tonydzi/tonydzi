@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-09",
+  "as_of_utc": "2026-11-10",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -55,7 +55,7 @@
       "description": "An open corpus of full working sessions with a coding agent: real transcripts from a running agent fleet, published a week later with personal data scrubbed.",
       "fork": false,
       "name": "agent-sessions",
-      "pushed_at": "2026-11-06T01:58:39Z",
+      "pushed_at": "2026-11-10T09:55:02Z",
       "url": "https://github.com/tonydzi/agent-sessions"
     },
     {
@@ -63,7 +63,7 @@
       "description": "Why parallel Claude Code, Codex, Cursor and Antigravity sessions make your machine crawl: per-session MCP copies, orphaned helpers, broad searches, and what actually helps",
       "fork": false,
       "name": "agent-slowdown",
-      "pushed_at": "2026-11-09T08:35:30Z",
+      "pushed_at": "2026-11-10T09:24:32Z",
       "url": "https://github.com/tonydzi/agent-slowdown"
     },
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-09T08:17:35Z",
+      "pushed_at": "2026-11-10T08:11:09Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-09T04:25:51Z",
+      "pushed_at": "2026-11-10T04:25:00Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -319,7 +319,7 @@
       "description": "LangChain retriever for sqlite-graph-memory: vector + [[wikilink]] graph hop + rerank over your markdown notes. No server.",
       "fork": false,
       "name": "langchain-sqlite-graph-memory",
-      "pushed_at": "2026-11-05T13:39:42Z",
+      "pushed_at": "2026-11-10T09:23:32Z",
       "url": "https://github.com/tonydzi/langchain-sqlite-graph-memory"
     },
     {
@@ -359,7 +359,7 @@
       "description": "Benchmark: as-of queries, late facts and retractions in LLM agent memory (Mem0, Graphiti, bitemporal log) on LoCoMo temporal and probes",
       "fork": false,
       "name": "memory-over-time",
-      "pushed_at": "2026-11-08T16:36:09Z",
+      "pushed_at": "2026-11-09T19:34:18Z",
       "url": "https://github.com/tonydzi/memory-over-time"
     },
     {
@@ -375,7 +375,7 @@
       "description": "Open up your internal work without leaking it: substitute personal data with plausible fakes of the same shape (not <REDACTED>), then gate the WHOLE tree before the push. Stdlib-only, with the eleven traps it cost us.",
       "fork": false,
       "name": "oss-publish",
-      "pushed_at": "2026-10-11T16:32:34Z",
+      "pushed_at": "2026-11-10T10:30:29Z",
       "url": "https://github.com/tonydzi/oss-publish"
     },
     {
@@ -431,7 +431,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-09T06:43:41Z",
+      "pushed_at": "2026-11-10T09:55:24Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -455,7 +455,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-09T01:40:50Z",
+      "pushed_at": "2026-11-09T19:34:44Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -496,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-08T11:13:36Z",
+      "pushed_at": "2026-11-09T19:19:34Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -552,8 +552,8 @@
   "scope": {
     "own_archived": 0,
     "own_public_non_fork": 68,
-    "public_forks_excluded": 171,
-    "public_repositories": 239
+    "public_forks_excluded": 172,
+    "public_repositories": 240
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
@@ -563,12 +563,6 @@
         "repository": "microsoft/semantic-kernel",
         "title": "Python: document connector extras and optional dependency compatibility",
         "url": "https://github.com/microsoft/semantic-kernel/pull/14355"
-      },
-      {
-        "created_at": "2026-08-10T19:18:41Z",
-        "repository": "google/adk-go",
-        "title": "fix(configurable): apply config_path containment to workflow node refs",
-        "url": "https://github.com/google/adk-go/pull/1299"
       },
       {
         "created_at": "2026-07-25T22:05:32Z",
@@ -593,13 +587,19 @@
         "repository": "huggingface/cookbook",
         "title": "Add self-verifying search agent recipe",
         "url": "https://github.com/huggingface/cookbook/pull/366"
+      },
+      {
+        "created_at": "2026-11-09T21:17:52Z",
+        "repository": "thinking-machines-lab/tinker-cookbook",
+        "title": "fix(eval): bind MCQ extraction to the last answer, and grade LongBench with it",
+        "url": "https://github.com/thinking-machines-lab/tinker-cookbook/pull/997"
       }
     ],
     "large_vendor_projects": 8,
-    "merged": 81,
+    "merged": 83,
     "merged_projects": 48,
-    "open": 49,
-    "open_projects": 46,
+    "open": 48,
+    "open_projects": 45,
     "projects": [
       {
         "last": "2026-10-05",
@@ -607,14 +607,14 @@
         "repository": "microsoft/semantic-kernel"
       },
       {
+        "last": "2026-11-10",
+        "merged": 2,
+        "repository": "google/adk-go"
+      },
+      {
         "last": "2026-10-20",
         "merged": 1,
         "repository": "ChromeDevTools/chrome-devtools-mcp"
-      },
-      {
-        "last": "2026-10-16",
-        "merged": 1,
-        "repository": "google/adk-go"
       },
       {
         "last": "2026-08-17",
@@ -642,14 +642,14 @@
         "repository": "UKGovernmentBEIS/inspect_ai"
       },
       {
-        "last": "2026-11-09",
-        "merged": 1,
-        "repository": "zhayujie/CowAgent"
+        "last": "2026-11-10",
+        "merged": 4,
+        "repository": "doobidoo/mcp-memory-service"
       },
       {
         "last": "2026-11-09",
-        "merged": 3,
-        "repository": "doobidoo/mcp-memory-service"
+        "merged": 1,
+        "repository": "zhayujie/CowAgent"
       },
       {
         "last": "2026-11-07",
