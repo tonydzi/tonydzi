@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-10",
+  "as_of_utc": "2026-11-11",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -47,7 +47,7 @@
       "description": "Integrity scenarios for agent runtimes, distilled from real fleet incidents — deterministic fault-injection checks against real SDKs",
       "fork": false,
       "name": "agent-runtime-integrity-bench",
-      "pushed_at": "2026-10-13T12:53:28Z",
+      "pushed_at": "2026-11-10T12:01:38Z",
       "url": "https://github.com/tonydzi/agent-runtime-integrity-bench"
     },
     {
@@ -191,7 +191,7 @@
       "description": "Run AI agents across machines without state drift: consensus protocol (propose/counter/accept/commit), dual-rail message bus, ACK discipline, self-healing sync. Formerly claude-consensus. Free, MIT.",
       "fork": false,
       "name": "claw-consensus",
-      "pushed_at": "2026-11-08T14:16:41Z",
+      "pushed_at": "2026-11-11T02:03:52Z",
       "url": "https://github.com/tonydzi/claw-consensus"
     },
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-10T08:11:09Z",
+      "pushed_at": "2026-11-11T08:29:42Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-10T04:25:00Z",
+      "pushed_at": "2026-11-11T08:21:38Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -391,7 +391,7 @@
       "description": "One persona, one frozen memory, N models: how much of an agent's character survives a model swap? Harness + blind multi-lens judge panel + cross-vendor rank control + contamination probe. Results included: 7 models, spread 4.80 -> 2.20.",
       "fork": false,
       "name": "persona-portability-benchmark",
-      "pushed_at": "2026-11-03T11:00:49Z",
+      "pushed_at": "2026-11-10T19:30:31Z",
       "url": "https://github.com/tonydzi/persona-portability-benchmark"
     },
     {
@@ -455,7 +455,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-09T19:34:44Z",
+      "pushed_at": "2026-11-11T01:55:27Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -479,7 +479,7 @@
       "description": "The Journey — a build-in-public book of a 60-day human+AI collaboration. Two voices (Tony & Mycroft), human + machine readable. Palo Alto AI Research Lab.",
       "fork": false,
       "name": "the-journey",
-      "pushed_at": "2026-11-09T06:05:32Z",
+      "pushed_at": "2026-11-11T05:41:15Z",
       "url": "https://github.com/tonydzi/the-journey"
     },
     {
@@ -496,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-09T19:19:34Z",
+      "pushed_at": "2026-11-10T21:51:47Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -598,8 +598,8 @@
     "large_vendor_projects": 8,
     "merged": 83,
     "merged_projects": 48,
-    "open": 48,
-    "open_projects": 45,
+    "open": 47,
+    "open_projects": 44,
     "projects": [
       {
         "last": "2026-10-05",
