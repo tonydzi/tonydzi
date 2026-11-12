@@ -129,11 +129,11 @@ The DOI links identify the individual research records; earlier versions remain 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
 <!-- BLOG-POST-LIST:START -->
-- [10 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261110.md) &nbsp;<sub>Nov 11, 2026</sub>
-- [8 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261108.md) &nbsp;<sub>Nov 11, 2026</sub>
-- [We ran our memory through Zep&#39;s own LoCoMo ruler. Mem0 won, Zep&#39;s judge is 3 points kinder than ours.](https://github.com/tonydzi/clawrush/blob/main/longreads/locomo-zep-ruler-2026-11-10.md) &nbsp;<sub>Nov 10, 2026</sub>
-- [9 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261109.md) &nbsp;<sub>Nov 10, 2026</sub>
-- [6 November 2026: Three Skills For Making Skills Already Exist, And The Size Spread Is 267 To One](https://github.com/tonydzi/clawrush/blob/main/longreads/20261106.md) &nbsp;<sub>Nov 9, 2026</sub><!-- BLOG-POST-LIST:END -->
+- [My agent remembers through the wikilinks I already wrote. No graph database, no server.](https://github.com/tonydzi/clawrush/blob/main/longreads/sgm-wikilinks-memory-2026-11-12.md) &nbsp;<sub>Nov 12, 2026</sub>
+- [11 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261111.md) &nbsp;<sub>Nov 12, 2026</sub>
+- [I asked my agents which folder was the working one. There were 94 more.](https://github.com/tonydzi/clawrush/blob/main/longreads/no-worktree-use-onair-2026-11-11.md) &nbsp;<sub>Nov 11, 2026</sub>
+- [Our AI memory finds about as much as Mem0 and says &quot;I don&#39;t know&quot; three times as often when the answer is not there. Here is what that costs.](https://github.com/tonydzi/clawrush/blob/main/longreads/memory-says-i-dont-know-2026-11-11.md) &nbsp;<sub>Nov 11, 2026</sub>
+- [10 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261110.md) &nbsp;<sub>Nov 11, 2026</sub><!-- BLOG-POST-LIST:END -->
 
 ## Working approach
 
