@@ -62,9 +62,9 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 These are contributions to other owners' public repositories. Merged work, open proposals and closed submissions remain distinct in the [full contribution ledger](https://tonydzi.github.io/contributions/).
 
 <!-- PROFILE-ACTIVITY:START -->
-Live from the GitHub API, verified 2026-11-11 UTC. Own repositories and awesome-/registry-list entries are not counted.
+Live from the GitHub API, verified 2026-11-12 UTC. Own repositories and awesome-/registry-list entries are not counted.
 
-**83 pull requests merged into 48 upstream projects** (8 of them at large tech companies and labs) · **47 more open in review** across 44 projects · [full list with live status](https://tonydzi.github.io/contributions/)
+**83 pull requests merged into 48 upstream projects** (8 of them at large tech companies and labs) · **48 more open in review** across 45 projects · [full list with live status](https://tonydzi.github.io/contributions/)
 
 Merged, large vendors first:
 
@@ -88,7 +88,7 @@ In review now:
 - **openai/openai-cookbook**: [Add cookbook: check citation faithfulness in RAG with a zero-token gate](https://github.com/openai/openai-cookbook/pull/2880), opened 2026-07-24.
 - **QwenLM/qwen-code**: [test\(core\): characterize leader delivery and terminal state per host class](https://github.com/QwenLM/qwen-code/pull/14855), opened 2026-10-20.
 - **huggingface/cookbook**: [Add self-verifying search agent recipe](https://github.com/huggingface/cookbook/pull/366), opened 2026-07-24.
-- **thinking-machines-lab/tinker-cookbook**: [fix\(eval\): bind MCQ extraction to the last answer, and grade LongBench with it](https://github.com/thinking-machines-lab/tinker-cookbook/pull/997), opened 2026-11-09.
+- **eugeniughelbur/obsidian-second-brain**: [retrieval\_eval: count fused, skipped and fallback queries in default mode \(\#386\)](https://github.com/eugeniughelbur/obsidian-second-brain/pull/401), opened 2026-11-12.
 <!-- PROFILE-ACTIVITY:END -->
 
 ## Current research and experiments

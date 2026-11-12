@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-11",
+  "as_of_utc": "2026-11-12",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-11T08:29:42Z",
+      "pushed_at": "2026-11-12T09:58:30Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-11T08:21:38Z",
+      "pushed_at": "2026-11-12T08:12:51Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -431,7 +431,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-10T09:55:24Z",
+      "pushed_at": "2026-11-11T18:54:59Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -455,7 +455,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-11T01:55:27Z",
+      "pushed_at": "2026-11-12T10:07:58Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -496,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-10T21:51:47Z",
+      "pushed_at": "2026-11-11T11:49:15Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -589,17 +589,17 @@
         "url": "https://github.com/huggingface/cookbook/pull/366"
       },
       {
-        "created_at": "2026-11-09T21:17:52Z",
-        "repository": "thinking-machines-lab/tinker-cookbook",
-        "title": "fix(eval): bind MCQ extraction to the last answer, and grade LongBench with it",
-        "url": "https://github.com/thinking-machines-lab/tinker-cookbook/pull/997"
+        "created_at": "2026-11-12T01:32:28Z",
+        "repository": "eugeniughelbur/obsidian-second-brain",
+        "title": "retrieval_eval: count fused, skipped and fallback queries in default mode (#386)",
+        "url": "https://github.com/eugeniughelbur/obsidian-second-brain/pull/401"
       }
     ],
     "large_vendor_projects": 8,
     "merged": 83,
     "merged_projects": 48,
-    "open": 47,
-    "open_projects": 44,
+    "open": 48,
+    "open_projects": 45,
     "projects": [
       {
         "last": "2026-10-05",
