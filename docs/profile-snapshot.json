@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-12",
+  "as_of_utc": "2026-11-13",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-12T09:58:30Z",
+      "pushed_at": "2026-11-13T07:41:16Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-12T08:12:51Z",
+      "pushed_at": "2026-11-13T08:22:39Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -455,7 +455,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-12T10:07:58Z",
+      "pushed_at": "2026-11-13T06:20:17Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -479,7 +479,7 @@
       "description": "The Journey — a build-in-public book of a 60-day human+AI collaboration. Two voices (Tony & Mycroft), human + machine readable. Palo Alto AI Research Lab.",
       "fork": false,
       "name": "the-journey",
-      "pushed_at": "2026-11-11T05:41:15Z",
+      "pushed_at": "2026-11-13T05:42:06Z",
       "url": "https://github.com/tonydzi/the-journey"
     },
     {
@@ -496,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-11T11:49:15Z",
+      "pushed_at": "2026-11-12T12:34:06Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -504,7 +504,7 @@
       "description": "Catch fabricated RAG citations before they reach the user: a zero-token verbatim gate + a burden-of-proof judge, framework-agnostic.",
       "fork": false,
       "name": "verbatim-citation-gate",
-      "pushed_at": "2026-11-06T19:29:27Z",
+      "pushed_at": "2026-11-13T07:18:21Z",
       "url": "https://github.com/tonydzi/verbatim-citation-gate"
     },
     {
@@ -552,8 +552,8 @@
   "scope": {
     "own_archived": 0,
     "own_public_non_fork": 68,
-    "public_forks_excluded": 172,
-    "public_repositories": 240
+    "public_forks_excluded": 173,
+    "public_repositories": 241
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
