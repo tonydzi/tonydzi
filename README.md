@@ -129,11 +129,11 @@ The DOI links identify the individual research records; earlier versions remain 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
 <!-- BLOG-POST-LIST:START -->
+- [Seven local vector stores under one agent memory: in a 20,000-vector pilot only pgvector returned faster than our brute-force numpy scan](https://github.com/tonydzi/clawrush/blob/main/longreads/seven-engines-under-one-agent-memory-2026-11-13.md) &nbsp;<sub>Nov 14, 2026</sub>
 - [12 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261112.md) &nbsp;<sub>Nov 13, 2026</sub>
 - [My agent remembers through the wikilinks I already wrote. No graph database, no server.](https://github.com/tonydzi/clawrush/blob/main/longreads/sgm-wikilinks-memory-2026-11-12.md) &nbsp;<sub>Nov 12, 2026</sub>
 - [11 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261111.md) &nbsp;<sub>Nov 12, 2026</sub>
-- [I asked my agents which folder was the working one. There were 94 more.](https://github.com/tonydzi/clawrush/blob/main/longreads/no-worktree-use-onair-2026-11-11.md) &nbsp;<sub>Nov 11, 2026</sub>
-- [Our AI memory finds about as much as Mem0 and says &quot;I don&#39;t know&quot; three times as often when the answer is not there. Here is what that costs.](https://github.com/tonydzi/clawrush/blob/main/longreads/memory-says-i-dont-know-2026-11-11.md) &nbsp;<sub>Nov 11, 2026</sub><!-- BLOG-POST-LIST:END -->
+- [I asked my agents which folder was the working one. There were 94 more.](https://github.com/tonydzi/clawrush/blob/main/longreads/no-worktree-use-onair-2026-11-11.md) &nbsp;<sub>Nov 11, 2026</sub><!-- BLOG-POST-LIST:END -->
 
 ## Working approach
 
