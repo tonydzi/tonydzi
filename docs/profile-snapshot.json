@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-13",
+  "as_of_utc": "2026-11-14",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -15,7 +15,7 @@
       "description": "Your agent needs a human's OK and nobody is at the terminal. Ask goes to a messenger, '+' comes back into the run, silence escalates then gives up. The hard part shipped too: decision classes, so the gate does not become a channel nobody reads. Stdlib-only, MIT.",
       "fork": false,
       "name": "agent-approval-gate",
-      "pushed_at": "2026-10-22T16:20:48Z",
+      "pushed_at": "2026-11-14T04:58:54Z",
       "url": "https://github.com/tonydzi/agent-approval-gate"
     },
     {
@@ -23,7 +23,7 @@
       "description": "Reproducible control-plane failures from a production multi-agent fleet: schedulers, registries, watchdogs. Independent casebook, not a benchmark (yet).",
       "fork": false,
       "name": "agent-control-plane-casebook",
-      "pushed_at": "2026-11-08T09:56:52Z",
+      "pushed_at": "2026-11-14T05:03:13Z",
       "url": "https://github.com/tonydzi/agent-control-plane-casebook"
     },
     {
@@ -31,7 +31,7 @@
       "description": "Red-team work on my own production agent fleet: written threat model, OWASP LLM Top 10 (2025) + MITRE ATLAS mapping with exact IDs including the uncovered rows, measured refusal AND over-refusal rates for the human-approval gate, prompt-injection write-up with consequences.",
       "fork": false,
       "name": "agent-fleet-red-team",
-      "pushed_at": "2026-10-11T16:31:23Z",
+      "pushed_at": "2026-11-14T04:59:28Z",
       "url": "https://github.com/tonydzi/agent-fleet-red-team"
     },
     {
@@ -39,7 +39,7 @@
       "description": "LEASH-8: an 8-domain control model for AI agents with delegated authority. Scorecard, approval-design checklist, plan-vs-authorize pattern. Patterns from a live production agent operation, sanitized. Free, MIT.",
       "fork": false,
       "name": "agent-leash",
-      "pushed_at": "2026-10-11T16:31:25Z",
+      "pushed_at": "2026-11-14T04:57:21Z",
       "url": "https://github.com/tonydzi/agent-leash"
     },
     {
@@ -47,7 +47,7 @@
       "description": "Integrity scenarios for agent runtimes, distilled from real fleet incidents — deterministic fault-injection checks against real SDKs",
       "fork": false,
       "name": "agent-runtime-integrity-bench",
-      "pushed_at": "2026-11-10T12:01:38Z",
+      "pushed_at": "2026-11-14T05:03:45Z",
       "url": "https://github.com/tonydzi/agent-runtime-integrity-bench"
     },
     {
@@ -55,7 +55,7 @@
       "description": "An open corpus of full working sessions with a coding agent: real transcripts from a running agent fleet, published a week later with personal data scrubbed.",
       "fork": false,
       "name": "agent-sessions",
-      "pushed_at": "2026-11-10T09:55:02Z",
+      "pushed_at": "2026-11-14T05:18:47Z",
       "url": "https://github.com/tonydzi/agent-sessions"
     },
     {
@@ -63,7 +63,7 @@
       "description": "Why parallel Claude Code, Codex, Cursor and Antigravity sessions make your machine crawl: per-session MCP copies, orphaned helpers, broad searches, and what actually helps",
       "fork": false,
       "name": "agent-slowdown",
-      "pushed_at": "2026-11-10T09:24:32Z",
+      "pushed_at": "2026-11-14T05:02:01Z",
       "url": "https://github.com/tonydzi/agent-slowdown"
     },
     {
@@ -71,7 +71,7 @@
       "description": "Discipline for the files your agent loads every session (CLAUDE.md, MEMORY.md): one nightly writer, measured budgets, pointer-only lines. Measured: MEMORY.md silently truncates at 200 lines/25KB; CLAUDE.md loads whole to 401KB and taxes every session.",
       "fork": false,
       "name": "always-loaded-diet",
-      "pushed_at": "2026-10-11T16:31:31Z",
+      "pushed_at": "2026-11-14T05:17:32Z",
       "url": "https://github.com/tonydzi/always-loaded-diet"
     },
     {
@@ -79,7 +79,7 @@
       "description": "Tools that produce evidence about what an AI agent actually did — gates, attestation, output verification, benchmarks. Inclusion bar: name the artifact a human can inspect later.",
       "fork": false,
       "name": "awesome-verified-agents",
-      "pushed_at": "2026-11-08T14:05:15Z",
+      "pushed_at": "2026-11-14T05:01:30Z",
       "url": "https://github.com/tonydzi/awesome-verified-agents"
     },
     {
@@ -87,7 +87,7 @@
       "description": "Turn a decade of raw lab panels into a queryable, provenance-tracked record. Deterministic rules decide what is true; the model only explains. Stdlib-only Python, no dependencies, no data.",
       "fork": false,
       "name": "blood-panel-pipeline",
-      "pushed_at": "2026-10-11T16:31:34Z",
+      "pushed_at": "2026-11-14T04:56:10Z",
       "url": "https://github.com/tonydzi/blood-panel-pipeline"
     },
     {
@@ -95,7 +95,7 @@
       "description": "Tiny receive-only library for a friend's coding agent: 13 text files, checksummed release updates with rollback (Mac, Linux, Windows)",
       "fork": false,
       "name": "brain-lite",
-      "pushed_at": "2026-11-06T22:19:23Z",
+      "pushed_at": "2026-11-14T05:51:10Z",
       "url": "https://github.com/tonydzi/brain-lite"
     },
     {
@@ -103,7 +103,7 @@
       "description": "Post-build quality gate for agent work: run it live, break it on purpose, adversarial multi-vendor panel. With a dated catalog of 8 failure classes that stay green in tests.",
       "fork": false,
       "name": "break-it-first",
-      "pushed_at": "2026-10-11T16:31:36Z",
+      "pushed_at": "2026-11-14T04:59:43Z",
       "url": "https://github.com/tonydzi/break-it-first"
     },
     {
@@ -111,7 +111,7 @@
       "description": "CharmOS / C(H+A)RM — open-source framework to manage humans AND AI agents as first-class relationships, on a personal second brain, driven by the RDR loop (Recall to Deep Research). Manifest-first, Apache-2.0.",
       "fork": false,
       "name": "charm-os",
-      "pushed_at": "2026-11-06T11:12:33Z",
+      "pushed_at": "2026-11-14T05:02:48Z",
       "url": "https://github.com/tonydzi/charm-os"
     },
     {
@@ -119,7 +119,7 @@
       "description": "Every number you publish is a claim. Prove it in CI: bind each figure in your README to the artifact it came from and fail the build when they drift. No LLM, no API key, no dependencies.",
       "fork": false,
       "name": "claim-check",
-      "pushed_at": "2026-10-11T16:31:40Z",
+      "pushed_at": "2026-11-14T05:17:14Z",
       "url": "https://github.com/tonydzi/claim-check"
     },
     {
@@ -127,7 +127,7 @@
       "description": "Make Claude Code behave consistently across repos, sessions and humans: rules-as-files governance with precedence, declined-decisions journal, objection sparring. Sanitized from a live production system. Free, MIT.",
       "fork": false,
       "name": "claude-bible",
-      "pushed_at": "2026-10-18T09:53:34Z",
+      "pushed_at": "2026-11-14T05:18:09Z",
       "url": "https://github.com/tonydzi/claude-bible"
     },
     {
@@ -135,7 +135,7 @@
       "description": "Five one-page Claude Code workflows for small-business teams, written for Approved Claude SMB Trainer cohorts to teach: memory between sessions, follow-up after a call, leads from the camera roll, session retro, approval gate in a messenger. Sanitized from a live system. MIT.",
       "fork": false,
       "name": "claude-code-workflows-for-smb",
-      "pushed_at": "2026-10-22T22:51:59Z",
+      "pushed_at": "2026-11-14T05:02:20Z",
       "url": "https://github.com/tonydzi/claude-code-workflows-for-smb"
     },
     {
@@ -143,7 +143,7 @@
       "description": "Claude Desktop on Windows will not reopen after an update and you reboot. A dead instance is holding the single-instance lock. This kills only the stale processes, relaunches, and snapshots the failing state so the bug can be reported with artifacts. One PowerShell file, MIT.",
       "fork": false,
       "name": "claude-desktop-watchdog",
-      "pushed_at": "2026-10-11T16:31:44Z",
+      "pushed_at": "2026-11-14T05:17:40Z",
       "url": "https://github.com/tonydzi/claude-desktop-watchdog"
     },
     {
@@ -151,7 +151,7 @@
       "description": "Strategy radar for your Claude Code sessions: where your effort goes — forward vs keeping the lights on. Zero deps, fully local.",
       "fork": false,
       "name": "claude-dev-star",
-      "pushed_at": "2026-10-11T16:31:46Z",
+      "pushed_at": "2026-11-14T05:14:37Z",
       "url": "https://github.com/tonydzi/claude-dev-star"
     },
     {
@@ -159,7 +159,7 @@
       "description": "Your Mac is not old -- it is holding thirty half-dead agent sessions. A dependency-free janitor for machines running Claude Code, plus the field procedure it came from.",
       "fork": false,
       "name": "claude-mac-patrol",
-      "pushed_at": "2026-10-18T23:13:27Z",
+      "pushed_at": "2026-11-14T04:58:28Z",
       "url": "https://github.com/tonydzi/claude-mac-patrol"
     },
     {
@@ -167,7 +167,7 @@
       "description": "Keep Claude Code's always-loaded MEMORY.md from silently truncating: budget guard, orphan coverage, verbatim domain folding into hubs. Deterministic, no LLM for the mechanical parts.",
       "fork": false,
       "name": "claude-memory-tidy",
-      "pushed_at": "2026-10-11T16:31:50Z",
+      "pushed_at": "2026-11-14T04:59:59Z",
       "url": "https://github.com/tonydzi/claude-memory-tidy"
     },
     {
@@ -175,7 +175,7 @@
       "description": "One-character category icons in Claude Desktop session titles, because the sidebar group API is gated off",
       "fork": false,
       "name": "claude-session-icons",
-      "pushed_at": "2026-10-11T16:31:52Z",
+      "pushed_at": "2026-11-14T04:58:10Z",
       "url": "https://github.com/tonydzi/claude-session-icons"
     },
     {
@@ -183,7 +183,7 @@
       "description": "SessionStart hook for Claude Code that warns when a session starts outside the machine's canonical project directory, where project memory, session history and CLAUDE.md are keyed to the start cwd.",
       "fork": false,
       "name": "claude-workdir-sentry",
-      "pushed_at": "2026-10-11T16:31:54Z",
+      "pushed_at": "2026-11-14T05:17:45Z",
       "url": "https://github.com/tonydzi/claude-workdir-sentry"
     },
     {
@@ -191,7 +191,7 @@
       "description": "Run AI agents across machines without state drift: consensus protocol (propose/counter/accept/commit), dual-rail message bus, ACK discipline, self-healing sync. Formerly claude-consensus. Free, MIT.",
       "fork": false,
       "name": "claw-consensus",
-      "pushed_at": "2026-11-11T02:03:52Z",
+      "pushed_at": "2026-11-14T05:36:20Z",
       "url": "https://github.com/tonydzi/claw-consensus"
     },
     {
@@ -199,7 +199,7 @@
       "description": "End-of-session retro ritual for coding agents: inventory what was built, route durable rules to one home each (door audit), archive, print the ready /compact paste-block.",
       "fork": false,
       "name": "claw-retro",
-      "pushed_at": "2026-10-11T16:31:57Z",
+      "pushed_at": "2026-11-14T04:56:45Z",
       "url": "https://github.com/tonydzi/claw-retro"
     },
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-13T07:41:16Z",
+      "pushed_at": "2026-11-14T05:02:44Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -215,7 +215,7 @@
       "description": "Become a Co-founder — open call by Palo Alto AI Research Lab: one operator, a fleet of autonomous AI agents, building in public.",
       "fork": false,
       "name": "cofounder",
-      "pushed_at": "2026-10-12T17:37:26Z",
+      "pushed_at": "2026-11-14T04:59:32Z",
       "url": "https://github.com/tonydzi/cofounder"
     },
     {
@@ -223,7 +223,7 @@
       "description": "Measured paste-block format that stops Claude Code /compact from erasing your decisions. 0/354 bare compacts honored CLAUDE.md instructions; inline block: 7/7 headers, 15/15 facts survived.",
       "fork": false,
       "name": "compact-canon",
-      "pushed_at": "2026-10-11T16:32:04Z",
+      "pushed_at": "2026-11-14T05:14:58Z",
       "url": "https://github.com/tonydzi/compact-canon"
     },
     {
@@ -231,7 +231,7 @@
       "description": "Your agent CLI is loading instruction files you did not put in the prompt. Ask each runtime what else is in its context and diff the answers. Bytes on disk are an upper bound; this measures the running session. Four rails, canary mode, stdlib-only, MIT.",
       "fork": false,
       "name": "context-contamination-probe",
-      "pushed_at": "2026-10-11T16:32:07Z",
+      "pushed_at": "2026-11-14T04:58:44Z",
       "url": "https://github.com/tonydzi/context-contamination-probe"
     },
     {
@@ -247,7 +247,7 @@
       "description": "Independent audit of CyberChainBench (arXiv:2606.26216): its 43.7%/23.4% exploit-vs-patch headline reproduces, but the two numbers are different estimands and the contamination slice rests on n=9.",
       "fork": false,
       "name": "cyberchainbench-audit",
-      "pushed_at": "2026-10-23T14:14:47Z",
+      "pushed_at": "2026-11-14T05:00:23Z",
       "url": "https://github.com/tonydzi/cyberchainbench-audit"
     },
     {
@@ -255,7 +255,7 @@
       "description": "Dashboards of Palo Alto AI Research Lab",
       "fork": false,
       "name": "dashboards",
-      "pushed_at": "2026-11-07T06:20:58Z",
+      "pushed_at": "2026-11-14T04:59:46Z",
       "url": "https://github.com/tonydzi/dashboards"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-13T08:22:39Z",
+      "pushed_at": "2026-11-14T09:47:52Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -271,7 +271,7 @@
       "description": "Roll a fix to N machines and prove it landed on each one: applied-vs-claimed accounting, canary waves, a verify that must read a fact, and a board that names who is behind. Stdlib-only, MIT.",
       "fork": false,
       "name": "fleet-deploy",
-      "pushed_at": "2026-10-20T05:47:09Z",
+      "pushed_at": "2026-11-14T05:18:19Z",
       "url": "https://github.com/tonydzi/fleet-deploy"
     },
     {
@@ -287,7 +287,7 @@
       "description": "Four production-readiness cookbooks for Grok: guardrails, grounded RAG with verifiable citations, evals, prompt-injection defense. Run end-to-end without an API key.",
       "fork": false,
       "name": "grok-recipes",
-      "pushed_at": "2026-10-19T19:23:03Z",
+      "pushed_at": "2026-11-14T05:01:41Z",
       "url": "https://github.com/tonydzi/grok-recipes"
     },
     {
@@ -295,7 +295,7 @@
       "description": "Pre-registered A/B/C benchmark: Superpowers vs OpenSpec vs baseline, on real brownfield ops code. Methodology frozen before runs; results published either way.",
       "fork": false,
       "name": "harness-abc-bench",
-      "pushed_at": "2026-10-11T16:32:20Z",
+      "pushed_at": "2026-11-14T05:17:49Z",
       "url": "https://github.com/tonydzi/harness-abc-bench"
     },
     {
@@ -303,7 +303,7 @@
       "description": "Join the Palo Alto AI Lab fleet: install the lab's 232 skills, run a daily routine that pulls and applies our updates, list your agent by one pull request. 15 minutes, one link, no account with us. MIT.",
       "fork": false,
       "name": "join-the-fleet",
-      "pushed_at": "2026-11-06T22:10:30Z",
+      "pushed_at": "2026-11-14T05:18:38Z",
       "url": "https://github.com/tonydzi/join-the-fleet"
     },
     {
@@ -311,7 +311,7 @@
       "description": "MCP server for the Lambda Cloud API: GPU prices, live capacity, cheapest-available lookup, and env-gated launch/terminate with a price cap. Read-only by default.",
       "fork": false,
       "name": "lambda-cloud-mcp",
-      "pushed_at": "2026-10-11T16:32:24Z",
+      "pushed_at": "2026-11-14T04:57:14Z",
       "url": "https://github.com/tonydzi/lambda-cloud-mcp"
     },
     {
@@ -319,7 +319,7 @@
       "description": "LangChain retriever for sqlite-graph-memory: vector + [[wikilink]] graph hop + rerank over your markdown notes. No server.",
       "fork": false,
       "name": "langchain-sqlite-graph-memory",
-      "pushed_at": "2026-11-10T09:23:32Z",
+      "pushed_at": "2026-11-14T05:45:26Z",
       "url": "https://github.com/tonydzi/langchain-sqlite-graph-memory"
     },
     {
@@ -327,7 +327,7 @@
       "description": "Reproducible MCP tool-poisoning (line-jumping) demo, contained by an independent plan-vs-authorize gate. Own testbed, mock server, fake secret — attacks nobody.",
       "fork": false,
       "name": "leash-poc",
-      "pushed_at": "2026-10-11T16:32:25Z",
+      "pushed_at": "2026-11-14T05:00:28Z",
       "url": "https://github.com/tonydzi/leash-poc"
     },
     {
@@ -335,7 +335,7 @@
       "description": "Your agent setup charges rent on every session, before it does any work. Three stdlib-only instruments: what your wiring costs per session, who burned yesterday, and which paid subscriptions are going undrawn. 0 LLM, 0 network, MIT.",
       "fork": false,
       "name": "llm-spend-audit",
-      "pushed_at": "2026-10-19T21:22:41Z",
+      "pushed_at": "2026-11-14T04:59:46Z",
       "url": "https://github.com/tonydzi/llm-spend-audit"
     },
     {
@@ -343,7 +343,7 @@
       "description": "Health-preserving pedagogy carried over to how neural networks are trained: pre-registered experiments on recovery, dosage and the cost of learning",
       "fork": false,
       "name": "machine-pedagogy",
-      "pushed_at": "2026-11-08T17:25:42Z",
+      "pushed_at": "2026-11-14T05:18:43Z",
       "url": "https://github.com/tonydzi/machine-pedagogy"
     },
     {
@@ -351,7 +351,7 @@
       "description": "One shared MCP daemon per machine instead of a stdio copy in every agent session: recipe, autostart templates for Windows/macOS/Linux, a watchdog that will not blind your live sessions, and the measurements to prove it",
       "fork": false,
       "name": "mcp-daemon-diet",
-      "pushed_at": "2026-11-09T10:59:50Z",
+      "pushed_at": "2026-11-14T05:00:04Z",
       "url": "https://github.com/tonydzi/mcp-daemon-diet"
     },
     {
@@ -359,7 +359,7 @@
       "description": "Benchmark: as-of queries, late facts and retractions in LLM agent memory (Mem0, Graphiti, bitemporal log) on LoCoMo temporal and probes",
       "fork": false,
       "name": "memory-over-time",
-      "pushed_at": "2026-11-09T19:34:18Z",
+      "pushed_at": "2026-11-14T05:14:52Z",
       "url": "https://github.com/tonydzi/memory-over-time"
     },
     {
@@ -367,7 +367,7 @@
       "description": "One question, nine independent paid LLM accounts in their strongest reasoning mode, and a published breakdown of where they DISAGREE. Failures included by rule.",
       "fork": false,
       "name": "nine-buckets",
-      "pushed_at": "2026-10-12T17:36:22Z",
+      "pushed_at": "2026-11-14T05:01:07Z",
       "url": "https://github.com/tonydzi/nine-buckets"
     },
     {
@@ -375,7 +375,7 @@
       "description": "Open up your internal work without leaking it: substitute personal data with plausible fakes of the same shape (not <REDACTED>), then gate the WHOLE tree before the push. Stdlib-only, with the eleven traps it cost us.",
       "fork": false,
       "name": "oss-publish",
-      "pushed_at": "2026-11-10T10:30:29Z",
+      "pushed_at": "2026-11-14T05:00:20Z",
       "url": "https://github.com/tonydzi/oss-publish"
     },
     {
@@ -383,7 +383,7 @@
       "description": "One MLP neuron (12,288 numbers) that makes Qwen3-8B answer as a tawny owl: weights, loader, verification, and context",
       "fork": false,
       "name": "owl-one-neuron",
-      "pushed_at": "2026-10-23T22:33:46Z",
+      "pushed_at": "2026-11-14T05:18:27Z",
       "url": "https://github.com/tonydzi/owl-one-neuron"
     },
     {
@@ -391,7 +391,7 @@
       "description": "One persona, one frozen memory, N models: how much of an agent's character survives a model swap? Harness + blind multi-lens judge panel + cross-vendor rank control + contamination probe. Results included: 7 models, spread 4.80 -> 2.20.",
       "fork": false,
       "name": "persona-portability-benchmark",
-      "pushed_at": "2026-11-10T19:30:31Z",
+      "pushed_at": "2026-11-14T05:02:28Z",
       "url": "https://github.com/tonydzi/persona-portability-benchmark"
     },
     {
@@ -399,7 +399,7 @@
       "description": "Skill: Plaud recording to honest transcript, who said what, people notes",
       "fork": false,
       "name": "plaud-to-people",
-      "pushed_at": "2026-10-27T11:35:14Z",
+      "pushed_at": "2026-11-14T05:02:37Z",
       "url": "https://github.com/tonydzi/plaud-to-people"
     },
     {
@@ -407,7 +407,7 @@
       "description": "Outbound ledger + daily harvest digest for your PRs and issues in other people's repos. One file, stdlib, gh CLI, zero LLM.",
       "fork": false,
       "name": "pr-watch",
-      "pushed_at": "2026-10-11T16:32:37Z",
+      "pushed_at": "2026-11-14T05:14:26Z",
       "url": "https://github.com/tonydzi/pr-watch"
     },
     {
@@ -415,7 +415,7 @@
       "description": "Audit layer for Python vulnerability-patching benchmarks: advisory-id leak census, fix-date vs model-cutoff census, hint ablation, self-report-gap scorer. Not another benchmark.",
       "fork": false,
       "name": "pyvulnpatch-probe",
-      "pushed_at": "2026-10-28T23:50:15Z",
+      "pushed_at": "2026-11-14T05:18:31Z",
       "url": "https://github.com/tonydzi/pyvulnpatch-probe"
     },
     {
@@ -423,7 +423,7 @@
       "description": "Review a PR by measuring which of its own guards its own test suite actually catches. Neutralise each guard, run their tests, report the removals nothing notices. Stdlib-only, no install. Claude Code skill + standalone tool.",
       "fork": false,
       "name": "red-first-review-skill",
-      "pushed_at": "2026-10-11T16:32:41Z",
+      "pushed_at": "2026-11-14T05:17:53Z",
       "url": "https://github.com/tonydzi/red-first-review-skill"
     },
     {
@@ -431,7 +431,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-11T18:54:59Z",
+      "pushed_at": "2026-11-14T05:45:21Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -439,7 +439,7 @@
       "description": "Nobody reviews themselves - and one reviewer model is one blind spot. Fan every change out to several model FAMILIES at once: verdict contract, quorum by family, honest skips, and an exit code that refuses to go green on one vendor. Stdlib-only, MIT.",
       "fork": false,
       "name": "secondop-panel",
-      "pushed_at": "2026-11-06T11:12:34Z",
+      "pushed_at": "2026-11-14T05:00:55Z",
       "url": "https://github.com/tonydzi/secondop-panel"
     },
     {
@@ -447,7 +447,7 @@
       "description": "One real bug, six coding agents in parallel, one zero-token gate. 5-minute live demo for AI Tinkerers SF.",
       "fork": false,
       "name": "six-agents-one-gate",
-      "pushed_at": "2026-10-11T16:32:46Z",
+      "pushed_at": "2026-11-14T04:57:46Z",
       "url": "https://github.com/tonydzi/six-agents-one-gate"
     },
     {
@@ -455,7 +455,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-13T06:20:17Z",
+      "pushed_at": "2026-11-14T05:48:39Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -463,7 +463,7 @@
       "description": "Two agents on two machines talking through a Telegram group: task, ACK, result, chase. No ports, no VPN, no server. Telegram bots cannot see each other, so this uses user sessions - the reason nobody else has built this. stdlib, MIT.",
       "fork": false,
       "name": "telegram-agent-bus",
-      "pushed_at": "2026-10-11T16:32:50Z",
+      "pushed_at": "2026-11-14T05:14:46Z",
       "url": "https://github.com/tonydzi/telegram-agent-bus"
     },
     {
@@ -471,7 +471,7 @@
       "description": "Connect Claude (or any MCP client) to your own Telegram in ~15 minutes: setup prompt for Claude Code/Codex, production patches (shared daemon, extra tools, multi-account), watchdog, and every gotcha that cost us hours. On top of chigwell/telegram-mcp.",
       "fork": false,
       "name": "telegram-mcp-kit",
-      "pushed_at": "2026-10-24T06:46:16Z",
+      "pushed_at": "2026-11-14T04:59:10Z",
       "url": "https://github.com/tonydzi/telegram-mcp-kit"
     },
     {
@@ -479,7 +479,7 @@
       "description": "The Journey — a build-in-public book of a 60-day human+AI collaboration. Two voices (Tony & Mycroft), human + machine readable. Palo Alto AI Research Lab.",
       "fork": false,
       "name": "the-journey",
-      "pushed_at": "2026-11-13T05:42:06Z",
+      "pushed_at": "2026-11-14T05:00:36Z",
       "url": "https://github.com/tonydzi/the-journey"
     },
     {
@@ -496,15 +496,23 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-12T12:34:06Z",
+      "pushed_at": "2026-11-13T12:05:57Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
+    },
+    {
+      "archived": false,
+      "description": "Semantic recall over a folder of markdown notes as a local HTTP + MCP memory backend for coding agents; pluggable stores: numpy, sqlite-vec, LanceDB, Qdrant, pgvector, chDB",
+      "fork": false,
+      "name": "vault-recall",
+      "pushed_at": "2026-11-14T00:34:41Z",
+      "url": "https://github.com/tonydzi/vault-recall"
     },
     {
       "archived": false,
       "description": "Catch fabricated RAG citations before they reach the user: a zero-token verbatim gate + a burden-of-proof judge, framework-agnostic.",
       "fork": false,
       "name": "verbatim-citation-gate",
-      "pushed_at": "2026-11-13T07:18:21Z",
+      "pushed_at": "2026-11-14T05:04:01Z",
       "url": "https://github.com/tonydzi/verbatim-citation-gate"
     },
     {
@@ -512,7 +520,7 @@
       "description": "Your LLM reviewer said APPROVE. Did it? A structured verdict contract: prompt rule + parser + exit-code gate in one stdlib file, with the 42 counterexamples that forced every line. Free, MIT.",
       "fork": false,
       "name": "verdict-contract",
-      "pushed_at": "2026-11-02T17:34:42Z",
+      "pushed_at": "2026-11-14T04:59:29Z",
       "url": "https://github.com/tonydzi/verdict-contract"
     },
     {
@@ -520,7 +528,7 @@
       "description": "Your scheduled job says exit 0 — prove it did the work. Three stdlib-only checks: output freshness, silent no-op detection, rollout proof by reading the fact back. Sanitized from a live agent fleet. Free, MIT.",
       "fork": false,
       "name": "verified-ops-starter",
-      "pushed_at": "2026-10-11T16:32:58Z",
+      "pushed_at": "2026-11-14T04:59:13Z",
       "url": "https://github.com/tonydzi/verified-ops-starter"
     },
     {
@@ -528,7 +536,7 @@
       "description": "Daily lessons: Claude Code and Codex for people who have never opened a terminal. For business owners, not programmers. Written from a running fleet of AI agents, not from theory.",
       "fork": false,
       "name": "vibe-teach",
-      "pushed_at": "2026-10-11T16:33:00Z",
+      "pushed_at": "2026-11-14T05:17:57Z",
       "url": "https://github.com/tonydzi/vibe-teach"
     },
     {
@@ -536,7 +544,7 @@
       "description": "Voice -> text -> your personal knowledge base. A primitive, not a platform: 4 small Python scripts turn voice notes into linked, tagged, searchable markdown.",
       "fork": false,
       "name": "voice2brain",
-      "pushed_at": "2026-10-11T16:33:02Z",
+      "pushed_at": "2026-11-14T04:58:00Z",
       "url": "https://github.com/tonydzi/voice2brain"
     },
     {
@@ -544,16 +552,16 @@
       "description": "Link WhatsApp to Claude (or any MCP client) in ~20 minutes: a live self-refreshing QR page that makes pairing actually work, production patches, and 12 field gotchas. On top of @sjawhar/whatsapp-mcp.",
       "fork": false,
       "name": "whatsapp-mcp-kit",
-      "pushed_at": "2026-10-28T23:24:40Z",
+      "pushed_at": "2026-11-14T05:00:36Z",
       "url": "https://github.com/tonydzi/whatsapp-mcp-kit"
     }
   ],
   "schema": "public-profile-snapshot/v1",
   "scope": {
     "own_archived": 0,
-    "own_public_non_fork": 68,
+    "own_public_non_fork": 69,
     "public_forks_excluded": 173,
-    "public_repositories": 241
+    "public_repositories": 242
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
