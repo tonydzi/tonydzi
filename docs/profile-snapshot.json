@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-14T05:02:44Z",
+      "pushed_at": "2026-11-15T08:51:45Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-14T09:47:52Z",
+      "pushed_at": "2026-11-15T08:24:45Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -479,7 +479,7 @@
       "description": "The Journey — a build-in-public book of a 60-day human+AI collaboration. Two voices (Tony & Mycroft), human + machine readable. Palo Alto AI Research Lab.",
       "fork": false,
       "name": "the-journey",
-      "pushed_at": "2026-11-14T05:00:36Z",
+      "pushed_at": "2026-11-15T05:37:51Z",
       "url": "https://github.com/tonydzi/the-journey"
     },
     {
@@ -496,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-15T01:35:08Z",
+      "pushed_at": "2026-11-15T05:30:58Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
