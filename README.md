@@ -129,7 +129,7 @@ The DOI links identify the individual research records; earlier versions remain 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
 <!-- BLOG-POST-LIST:START -->
-- [Seven local vector stores under one agent memory: in a 20,000-vector pilot only pgvector returned faster than our brute-force numpy scan](https://github.com/tonydzi/clawrush/blob/main/longreads/seven-engines-under-one-agent-memory-2026-11-13.md) &nbsp;<sub>Nov 14, 2026</sub>
+- [Seven local vector stores under one agent memory: in a 20,000-vector pilot only pgvector beat our brute-force numpy scan](https://github.com/tonydzi/clawrush/blob/main/longreads/seven-engines-under-one-agent-memory-2026-11-13.md) &nbsp;<sub>Nov 14, 2026</sub>
 - [12 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261112.md) &nbsp;<sub>Nov 13, 2026</sub>
 - [My agent remembers through the wikilinks I already wrote. No graph database, no server.](https://github.com/tonydzi/clawrush/blob/main/longreads/sgm-wikilinks-memory-2026-11-12.md) &nbsp;<sub>Nov 12, 2026</sub>
 - [11 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261111.md) &nbsp;<sub>Nov 12, 2026</sub>
