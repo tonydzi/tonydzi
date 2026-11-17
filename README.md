@@ -50,6 +50,12 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 
 ## Selected upstream fixes
 
+**November 2026 so far:** 17 pull requests merged into 12 upstream projects, and [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) shipped four releases (v0.3.5 to v0.3.8) on PyPI and became installable as a Claude Code plugin.
+
+- [Google ADK for Go #1299](https://github.com/google/adk-go/pull/1299): workflow node references now go through the same `config_path` containment check as agent references, so a workflow config can no longer load and instantiate a node from anywhere on the filesystem. Merged 10 November 2026.
+- [Qwen Code #13312](https://github.com/QwenLM/qwen-code/pull/13312) and [#14855](https://github.com/QwenLM/qwen-code/pull/14855): name the capped MCP server timeout in read-timeout warnings; characterize leader delivery and terminal state per host class in tests. Merged 8 and 16 November 2026.
+- [MCP Memory Service #1913](https://github.com/doobidoo/mcp-memory-service/pull/1913), [#1924](https://github.com/doobidoo/mcp-memory-service/pull/1924), [#1923](https://github.com/doobidoo/mcp-memory-service/pull/1923): a three-part series that keeps each memory in its own store on the Cloudflare and hybrid backends, so a per-store credential cannot read another store. Plan agreed with the maintainer first; merged 8 to 10 November 2026.
+- [MTEB #5898](https://github.com/embeddings-benchmark/mteb/pull/5898): documentation fix for the random-encoder baseline model name in the dataset guide. Merged 16 November 2026.
 - [Microsoft Semantic Kernel #14371](https://github.com/microsoft/semantic-kernel/pull/14371): pin the validated address for Python OpenAPI-plugin requests, closing a check/use gap. Merged 5 October 2026.
 - [Google ADK for Go #1543](https://github.com/google/adk-go/pull/1543): images and PDFs (`InlineData`/`FileData` parts) now reach both OpenAI endpoints instead of failing as an unsupported payload; closes #1333, design agreed in the review thread. Merged 16 October 2026.
 - [Google Chrome DevTools MCP #2852](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/2852): documentation fix for which extension tools are available from the CLI. Merged 20 October 2026.
