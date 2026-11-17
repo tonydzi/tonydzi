@@ -62,9 +62,9 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 These are contributions to other owners' public repositories. Merged work, open proposals and closed submissions remain distinct in the [full contribution ledger](https://tonydzi.github.io/contributions/).
 
 <!-- PROFILE-ACTIVITY:START -->
-Live from the GitHub API, verified 2026-11-16 UTC. Own repositories and awesome-/registry-list entries are not counted.
+Live from the GitHub API, verified 2026-11-17 UTC. Own repositories and awesome-/registry-list entries are not counted.
 
-**85 pull requests merged into 50 upstream projects** (8 of them at large tech companies and labs) · **49 more open in review** across 46 projects · [full list with live status](https://tonydzi.github.io/contributions/)
+**86 pull requests merged into 50 upstream projects** (8 of them at large tech companies and labs) · **50 more open in review** across 47 projects · [full list with live status](https://tonydzi.github.io/contributions/)
 
 Merged, large vendors first:
 
@@ -73,7 +73,7 @@ Merged, large vendors first:
 - **ChromeDevTools/chrome-devtools-mcp**: [1 merged](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-20.
 - **google-gemini/cookbook**: [1 merged](https://github.com/google-gemini/cookbook/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-08-17.
 - **NVIDIA/SkillSpector**: [1 merged](https://github.com/NVIDIA/SkillSpector/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-10-14.
-- **QwenLM/qwen-code**: [3 merged](https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-08.
+- **QwenLM/qwen-code**: [4 merged](https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-16.
 - **bytedance/deer-flow**: [1 merged](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-30.
 - **UKGovernmentBEIS/inspect\_ai**: [1 merged](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-01.
 - **embeddings-benchmark/mteb**: [1 merged](https://github.com/embeddings-benchmark/mteb/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-16.
@@ -86,9 +86,9 @@ In review now:
 - **microsoft/semantic-kernel**: [Python: document connector extras and optional dependency compatibility](https://github.com/microsoft/semantic-kernel/pull/14355), opened 2026-09-01.
 - **anthropics/claude-cookbooks**: [fix: convert remaining broken sre\_bot\_slack.py links in SRE cookbook](https://github.com/anthropics/claude-cookbooks/pull/799), opened 2026-07-25.
 - **openai/openai-cookbook**: [Add cookbook: check citation faithfulness in RAG with a zero-token gate](https://github.com/openai/openai-cookbook/pull/2880), opened 2026-07-24.
-- **QwenLM/qwen-code**: [test\(core\): characterize leader delivery and terminal state per host class](https://github.com/QwenLM/qwen-code/pull/14855), opened 2026-10-20.
 - **huggingface/cookbook**: [Add self-verifying search agent recipe](https://github.com/huggingface/cookbook/pull/366), opened 2026-07-24.
-- **lancedb/vectordb-recipes**: [Add agent memory over a markdown vault example](https://github.com/lancedb/vectordb-recipes/pull/363), opened 2026-11-16.
+- **doobidoo/mcp-memory-service**: [fix\(cloudflare\): set get\_by\_hash\_is\_store\_scoped and close the write gaps first \(\#1915\)](https://github.com/doobidoo/mcp-memory-service/pull/2054), opened 2026-11-17.
+- **TencentCloud/TencentDB-Agent-Memory**: [fix\(l2\): cap the agent read tool output to avoid context\_length\_exceeded](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1999), opened 2026-11-17.
 <!-- PROFILE-ACTIVITY:END -->
 
 ## Current research and experiments
