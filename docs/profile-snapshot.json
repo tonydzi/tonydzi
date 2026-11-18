@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-17",
+  "as_of_utc": "2026-11-18",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -55,7 +55,7 @@
       "description": "An open corpus of full working sessions with a coding agent: real transcripts from a running agent fleet, published a week later with personal data scrubbed.",
       "fork": false,
       "name": "agent-sessions",
-      "pushed_at": "2026-11-14T05:18:47Z",
+      "pushed_at": "2026-11-17T15:01:12Z",
       "url": "https://github.com/tonydzi/agent-sessions"
     },
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-17T08:40:52Z",
+      "pushed_at": "2026-11-18T09:35:13Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-17T08:07:16Z",
+      "pushed_at": "2026-11-18T08:28:52Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -431,7 +431,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-17T08:33:10Z",
+      "pushed_at": "2026-11-18T02:53:45Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -439,7 +439,7 @@
       "description": "Nobody reviews themselves - and one reviewer model is one blind spot. Fan every change out to several model FAMILIES at once: verdict contract, quorum by family, honest skips, and an exit code that refuses to go green on one vendor. Stdlib-only, MIT.",
       "fork": false,
       "name": "secondop-panel",
-      "pushed_at": "2026-11-14T05:00:55Z",
+      "pushed_at": "2026-11-18T01:58:07Z",
       "url": "https://github.com/tonydzi/secondop-panel"
     },
     {
@@ -455,7 +455,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-17T09:22:32Z",
+      "pushed_at": "2026-11-17T20:05:40Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -496,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-16T12:39:02Z",
+      "pushed_at": "2026-11-17T13:11:17Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -560,8 +560,8 @@
   "scope": {
     "own_archived": 0,
     "own_public_non_fork": 69,
-    "public_forks_excluded": 178,
-    "public_repositories": 247
+    "public_forks_excluded": 187,
+    "public_repositories": 256
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
