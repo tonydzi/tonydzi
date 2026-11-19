@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-18",
+  "as_of_utc": "2026-11-19",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -95,7 +95,7 @@
       "description": "Tiny receive-only library for a friend's coding agent: 13 text files, checksummed release updates with rollback (Mac, Linux, Windows)",
       "fork": false,
       "name": "brain-lite",
-      "pushed_at": "2026-11-17T08:01:14Z",
+      "pushed_at": "2026-11-18T18:52:14Z",
       "url": "https://github.com/tonydzi/brain-lite"
     },
     {
@@ -191,7 +191,7 @@
       "description": "Run AI agents across machines without state drift: consensus protocol (propose/counter/accept/commit), dual-rail message bus, ACK discipline, self-healing sync. Formerly claude-consensus. Free, MIT.",
       "fork": false,
       "name": "claw-consensus",
-      "pushed_at": "2026-11-16T00:10:17Z",
+      "pushed_at": "2026-11-18T18:49:30Z",
       "url": "https://github.com/tonydzi/claw-consensus"
     },
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-18T09:35:13Z",
+      "pushed_at": "2026-11-18T18:55:19Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-18T08:28:52Z",
+      "pushed_at": "2026-11-19T04:28:27Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -303,7 +303,7 @@
       "description": "Join the Palo Alto AI Lab fleet: install the lab's 232 skills, run a daily routine that pulls and applies our updates, list your agent by one pull request. 15 minutes, one link, no account with us. MIT.",
       "fork": false,
       "name": "join-the-fleet",
-      "pushed_at": "2026-11-14T05:18:38Z",
+      "pushed_at": "2026-11-18T18:52:04Z",
       "url": "https://github.com/tonydzi/join-the-fleet"
     },
     {
@@ -391,7 +391,7 @@
       "description": "One persona, one frozen memory, N models: how much of an agent's character survives a model swap? Harness + blind multi-lens judge panel + cross-vendor rank control + contamination probe. Results included: 7 models, spread 4.80 -> 2.20.",
       "fork": false,
       "name": "persona-portability-benchmark",
-      "pushed_at": "2026-11-14T05:02:28Z",
+      "pushed_at": "2026-11-18T19:39:51Z",
       "url": "https://github.com/tonydzi/persona-portability-benchmark"
     },
     {
@@ -431,7 +431,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-18T02:53:45Z",
+      "pushed_at": "2026-11-18T18:51:57Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -455,7 +455,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-17T20:05:40Z",
+      "pushed_at": "2026-11-18T18:51:01Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -496,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-17T13:11:17Z",
+      "pushed_at": "2026-11-18T12:57:43Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -520,7 +520,7 @@
       "description": "Your LLM reviewer said APPROVE. Did it? A structured verdict contract: prompt rule + parser + exit-code gate in one stdlib file, with the 42 counterexamples that forced every line. Free, MIT.",
       "fork": false,
       "name": "verdict-contract",
-      "pushed_at": "2026-11-14T04:59:29Z",
+      "pushed_at": "2026-11-18T18:52:00Z",
       "url": "https://github.com/tonydzi/verdict-contract"
     },
     {
@@ -552,7 +552,7 @@
       "description": "Link WhatsApp to Claude (or any MCP client) in ~20 minutes: a live self-refreshing QR page that makes pairing actually work, production patches, and 12 field gotchas. On top of @sjawhar/whatsapp-mcp.",
       "fork": false,
       "name": "whatsapp-mcp-kit",
-      "pushed_at": "2026-11-14T05:00:36Z",
+      "pushed_at": "2026-11-19T01:36:08Z",
       "url": "https://github.com/tonydzi/whatsapp-mcp-kit"
     }
   ],
@@ -591,23 +591,23 @@
         "url": "https://github.com/huggingface/cookbook/pull/366"
       },
       {
-        "created_at": "2026-11-17T08:36:59Z",
-        "repository": "doobidoo/mcp-memory-service",
-        "title": "fix(cloudflare): set get_by_hash_is_store_scoped and close the write gaps first (#1915)",
-        "url": "https://github.com/doobidoo/mcp-memory-service/pull/2054"
-      },
-      {
         "created_at": "2026-11-17T02:32:03Z",
         "repository": "TencentCloud/TencentDB-Agent-Memory",
         "title": "fix(l2): cap the agent read tool output to avoid context_length_exceeded",
         "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1999"
+      },
+      {
+        "created_at": "2026-11-16T02:01:50Z",
+        "repository": "lancedb/vectordb-recipes",
+        "title": "Add agent memory over a markdown vault example",
+        "url": "https://github.com/lancedb/vectordb-recipes/pull/363"
       }
     ],
     "large_vendor_projects": 8,
-    "merged": 86,
+    "merged": 87,
     "merged_projects": 50,
-    "open": 50,
-    "open_projects": 47,
+    "open": 49,
+    "open_projects": 46,
     "projects": [
       {
         "last": "2026-10-05",
@@ -650,6 +650,11 @@
         "repository": "UKGovernmentBEIS/inspect_ai"
       },
       {
+        "last": "2026-11-18",
+        "merged": 5,
+        "repository": "doobidoo/mcp-memory-service"
+      },
+      {
         "last": "2026-11-16",
         "merged": 1,
         "repository": "embeddings-benchmark/mteb"
@@ -658,11 +663,6 @@
         "last": "2026-11-14",
         "merged": 1,
         "repository": "osaurus-ai/osaurus"
-      },
-      {
-        "last": "2026-11-10",
-        "merged": 4,
-        "repository": "doobidoo/mcp-memory-service"
       },
       {
         "last": "2026-11-09",
