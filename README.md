@@ -135,11 +135,11 @@ The DOI links identify the individual research records; earlier versions remain 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
 <!-- BLOG-POST-LIST:START -->
+- [I asked an AI to shrink my CLAUDE.md. I got an 854-row table and an eval that lied to me first](https://github.com/tonydzi/clawrush/blob/main/longreads/canon-as-table-2026-11-18.md) &nbsp;<sub>Nov 18, 2026</sub>
 - [Daily longread, 17 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261117.md) &nbsp;<sub>Nov 18, 2026</sub>
 - [How we grow our GitHub: 87 merged PRs in 51 projects, 33 agent lanes, and what four merges in one repo had in common](https://github.com/tonydzi/clawrush/blob/main/longreads/how-we-grow-our-github-2026-11-17.md) &nbsp;<sub>Nov 17, 2026</sub>
 - [Daily longread, 16 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261116.md) &nbsp;<sub>Nov 17, 2026</sub>
-- [Daily longread, 13 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261113.md) &nbsp;<sub>Nov 16, 2026</sub>
-- [Seven local vector stores under one agent memory: in a 20,000-vector pilot only pgvector beat our brute-force numpy scan](https://github.com/tonydzi/clawrush/blob/main/longreads/seven-engines-under-one-agent-memory-2026-11-13.md) &nbsp;<sub>Nov 14, 2026</sub><!-- BLOG-POST-LIST:END -->
+- [Daily longread, 13 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261113.md) &nbsp;<sub>Nov 16, 2026</sub><!-- BLOG-POST-LIST:END -->
 
 ## Working approach
 
