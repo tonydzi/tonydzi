@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-19",
+  "as_of_utc": "2026-11-20",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -39,7 +39,7 @@
       "description": "LEASH-8: an 8-domain control model for AI agents with delegated authority. Scorecard, approval-design checklist, plan-vs-authorize pattern. Patterns from a live production agent operation, sanitized. Free, MIT.",
       "fork": false,
       "name": "agent-leash",
-      "pushed_at": "2026-11-14T04:57:21Z",
+      "pushed_at": "2026-11-20T10:19:32Z",
       "url": "https://github.com/tonydzi/agent-leash"
     },
     {
@@ -63,7 +63,7 @@
       "description": "Why parallel Claude Code, Codex, Cursor and Antigravity sessions make your machine crawl: per-session MCP copies, orphaned helpers, broad searches, and what actually helps",
       "fork": false,
       "name": "agent-slowdown",
-      "pushed_at": "2026-11-16T08:48:34Z",
+      "pushed_at": "2026-11-19T11:57:52Z",
       "url": "https://github.com/tonydzi/agent-slowdown"
     },
     {
@@ -103,7 +103,7 @@
       "description": "Post-build quality gate for agent work: run it live, break it on purpose, adversarial multi-vendor panel. With a dated catalog of 8 failure classes that stay green in tests.",
       "fork": false,
       "name": "break-it-first",
-      "pushed_at": "2026-11-14T04:59:43Z",
+      "pushed_at": "2026-11-20T10:19:34Z",
       "url": "https://github.com/tonydzi/break-it-first"
     },
     {
@@ -111,7 +111,7 @@
       "description": "CharmOS / C(H+A)RM — open-source framework to manage humans AND AI agents as first-class relationships, on a personal second brain, driven by the RDR loop (Recall to Deep Research). Manifest-first, Apache-2.0.",
       "fork": false,
       "name": "charm-os",
-      "pushed_at": "2026-11-14T05:02:48Z",
+      "pushed_at": "2026-11-20T10:19:36Z",
       "url": "https://github.com/tonydzi/charm-os"
     },
     {
@@ -127,7 +127,7 @@
       "description": "Make Claude Code behave consistently across repos, sessions and humans: rules-as-files governance with precedence, declined-decisions journal, objection sparring. Sanitized from a live production system. Free, MIT.",
       "fork": false,
       "name": "claude-bible",
-      "pushed_at": "2026-11-14T05:18:09Z",
+      "pushed_at": "2026-11-20T10:19:38Z",
       "url": "https://github.com/tonydzi/claude-bible"
     },
     {
@@ -199,7 +199,7 @@
       "description": "End-of-session retro ritual for coding agents: inventory what was built, route durable rules to one home each (door audit), archive, print the ready /compact paste-block.",
       "fork": false,
       "name": "claw-retro",
-      "pushed_at": "2026-11-14T04:56:45Z",
+      "pushed_at": "2026-11-20T10:19:40Z",
       "url": "https://github.com/tonydzi/claw-retro"
     },
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-18T18:55:19Z",
+      "pushed_at": "2026-11-19T17:38:06Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -223,7 +223,7 @@
       "description": "Measured paste-block format that stops Claude Code /compact from erasing your decisions. 0/354 bare compacts honored CLAUDE.md instructions; inline block: 7/7 headers, 15/15 facts survived.",
       "fork": false,
       "name": "compact-canon",
-      "pushed_at": "2026-11-14T05:14:58Z",
+      "pushed_at": "2026-11-20T10:19:42Z",
       "url": "https://github.com/tonydzi/compact-canon"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-19T04:28:27Z",
+      "pushed_at": "2026-11-20T08:27:56Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -311,7 +311,7 @@
       "description": "MCP server for the Lambda Cloud API: GPU prices, live capacity, cheapest-available lookup, and env-gated launch/terminate with a price cap. Read-only by default.",
       "fork": false,
       "name": "lambda-cloud-mcp",
-      "pushed_at": "2026-11-14T04:57:14Z",
+      "pushed_at": "2026-11-20T10:19:44Z",
       "url": "https://github.com/tonydzi/lambda-cloud-mcp"
     },
     {
@@ -319,7 +319,7 @@
       "description": "LangChain retriever for sqlite-graph-memory: vector + [[wikilink]] graph hop + rerank over your markdown notes. No server.",
       "fork": false,
       "name": "langchain-sqlite-graph-memory",
-      "pushed_at": "2026-11-17T07:54:23Z",
+      "pushed_at": "2026-11-20T10:19:51Z",
       "url": "https://github.com/tonydzi/langchain-sqlite-graph-memory"
     },
     {
@@ -431,7 +431,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-18T18:51:57Z",
+      "pushed_at": "2026-11-20T02:52:59Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -439,7 +439,7 @@
       "description": "Nobody reviews themselves - and one reviewer model is one blind spot. Fan every change out to several model FAMILIES at once: verdict contract, quorum by family, honest skips, and an exit code that refuses to go green on one vendor. Stdlib-only, MIT.",
       "fork": false,
       "name": "secondop-panel",
-      "pushed_at": "2026-11-18T01:58:07Z",
+      "pushed_at": "2026-11-20T10:19:54Z",
       "url": "https://github.com/tonydzi/secondop-panel"
     },
     {
@@ -455,7 +455,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-18T18:51:01Z",
+      "pushed_at": "2026-11-20T10:19:57Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -463,7 +463,7 @@
       "description": "Two agents on two machines talking through a Telegram group: task, ACK, result, chase. No ports, no VPN, no server. Telegram bots cannot see each other, so this uses user sessions - the reason nobody else has built this. stdlib, MIT.",
       "fork": false,
       "name": "telegram-agent-bus",
-      "pushed_at": "2026-11-14T05:14:46Z",
+      "pushed_at": "2026-11-20T10:19:46Z",
       "url": "https://github.com/tonydzi/telegram-agent-bus"
     },
     {
@@ -471,7 +471,7 @@
       "description": "Connect Claude (or any MCP client) to your own Telegram in ~15 minutes: setup prompt for Claude Code/Codex, production patches (shared daemon, extra tools, multi-account), watchdog, and every gotcha that cost us hours. On top of chigwell/telegram-mcp.",
       "fork": false,
       "name": "telegram-mcp-kit",
-      "pushed_at": "2026-11-14T04:59:10Z",
+      "pushed_at": "2026-11-19T12:56:18Z",
       "url": "https://github.com/tonydzi/telegram-mcp-kit"
     },
     {
@@ -496,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-18T12:57:43Z",
+      "pushed_at": "2026-11-19T12:53:45Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -512,7 +512,7 @@
       "description": "Catch fabricated RAG citations before they reach the user: a zero-token verbatim gate + a burden-of-proof judge, framework-agnostic.",
       "fork": false,
       "name": "verbatim-citation-gate",
-      "pushed_at": "2026-11-16T15:01:27Z",
+      "pushed_at": "2026-11-20T10:19:49Z",
       "url": "https://github.com/tonydzi/verbatim-citation-gate"
     },
     {
@@ -560,8 +560,8 @@
   "scope": {
     "own_archived": 0,
     "own_public_non_fork": 69,
-    "public_forks_excluded": 187,
-    "public_repositories": 256
+    "public_forks_excluded": 188,
+    "public_repositories": 257
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
@@ -591,16 +591,16 @@
         "url": "https://github.com/huggingface/cookbook/pull/366"
       },
       {
+        "created_at": "2026-11-19T12:45:44Z",
+        "repository": "topoteretes/cognee-community",
+        "title": "feat(connector): add Obsidian vault data-source connector (cognee#4725)",
+        "url": "https://github.com/topoteretes/cognee-community/pull/693"
+      },
+      {
         "created_at": "2026-11-17T02:32:03Z",
         "repository": "TencentCloud/TencentDB-Agent-Memory",
         "title": "fix(l2): cap the agent read tool output to avoid context_length_exceeded",
         "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1999"
-      },
-      {
-        "created_at": "2026-11-16T02:01:50Z",
-        "repository": "lancedb/vectordb-recipes",
-        "title": "Add agent memory over a markdown vault example",
-        "url": "https://github.com/lancedb/vectordb-recipes/pull/363"
       }
     ],
     "large_vendor_projects": 8,

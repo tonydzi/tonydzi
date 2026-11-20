@@ -68,7 +68,7 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 These are contributions to other owners' public repositories. Merged work, open proposals and closed submissions remain distinct in the [full contribution ledger](https://tonydzi.github.io/contributions/).
 
 <!-- PROFILE-ACTIVITY:START -->
-Live from the GitHub API, verified 2026-11-19 UTC. Own repositories and awesome-/registry-list entries are not counted.
+Live from the GitHub API, verified 2026-11-20 UTC. Own repositories and awesome-/registry-list entries are not counted.
 
 **87 pull requests merged into 50 upstream projects** (8 of them at large tech companies and labs) · **49 more open in review** across 46 projects · [full list with live status](https://tonydzi.github.io/contributions/)
 
@@ -93,8 +93,8 @@ In review now:
 - **anthropics/claude-cookbooks**: [fix: convert remaining broken sre\_bot\_slack.py links in SRE cookbook](https://github.com/anthropics/claude-cookbooks/pull/799), opened 2026-07-25.
 - **openai/openai-cookbook**: [Add cookbook: check citation faithfulness in RAG with a zero-token gate](https://github.com/openai/openai-cookbook/pull/2880), opened 2026-07-24.
 - **huggingface/cookbook**: [Add self-verifying search agent recipe](https://github.com/huggingface/cookbook/pull/366), opened 2026-07-24.
+- **topoteretes/cognee-community**: [feat\(connector\): add Obsidian vault data-source connector \(cognee\#4725\)](https://github.com/topoteretes/cognee-community/pull/693), opened 2026-11-19.
 - **TencentCloud/TencentDB-Agent-Memory**: [fix\(l2\): cap the agent read tool output to avoid context\_length\_exceeded](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1999), opened 2026-11-17.
-- **lancedb/vectordb-recipes**: [Add agent memory over a markdown vault example](https://github.com/lancedb/vectordb-recipes/pull/363), opened 2026-11-16.
 <!-- PROFILE-ACTIVITY:END -->
 
 ## Current research and experiments
