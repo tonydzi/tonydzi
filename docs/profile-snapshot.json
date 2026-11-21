@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-20",
+  "as_of_utc": "2026-11-21",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-19T17:38:06Z",
+      "pushed_at": "2026-11-21T08:37:46Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-20T08:27:56Z",
+      "pushed_at": "2026-11-21T04:24:14Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -431,7 +431,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-20T02:52:59Z",
+      "pushed_at": "2026-11-21T02:51:39Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -439,7 +439,7 @@
       "description": "Nobody reviews themselves - and one reviewer model is one blind spot. Fan every change out to several model FAMILIES at once: verdict contract, quorum by family, honest skips, and an exit code that refuses to go green on one vendor. Stdlib-only, MIT.",
       "fork": false,
       "name": "secondop-panel",
-      "pushed_at": "2026-11-20T10:19:54Z",
+      "pushed_at": "2026-11-21T04:29:52Z",
       "url": "https://github.com/tonydzi/secondop-panel"
     },
     {
@@ -455,7 +455,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-20T10:19:57Z",
+      "pushed_at": "2026-11-21T01:48:46Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -471,7 +471,7 @@
       "description": "Connect Claude (or any MCP client) to your own Telegram in ~15 minutes: setup prompt for Claude Code/Codex, production patches (shared daemon, extra tools, multi-account), watchdog, and every gotcha that cost us hours. On top of chigwell/telegram-mcp.",
       "fork": false,
       "name": "telegram-mcp-kit",
-      "pushed_at": "2026-11-19T12:56:18Z",
+      "pushed_at": "2026-11-21T01:35:14Z",
       "url": "https://github.com/tonydzi/telegram-mcp-kit"
     },
     {
@@ -479,7 +479,7 @@
       "description": "The Journey — a build-in-public book of a 60-day human+AI collaboration. Two voices (Tony & Mycroft), human + machine readable. Palo Alto AI Research Lab.",
       "fork": false,
       "name": "the-journey",
-      "pushed_at": "2026-11-17T05:36:42Z",
+      "pushed_at": "2026-11-21T05:37:10Z",
       "url": "https://github.com/tonydzi/the-journey"
     },
     {
@@ -496,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-19T12:53:45Z",
+      "pushed_at": "2026-11-20T18:46:02Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -512,7 +512,7 @@
       "description": "Catch fabricated RAG citations before they reach the user: a zero-token verbatim gate + a burden-of-proof judge, framework-agnostic.",
       "fork": false,
       "name": "verbatim-citation-gate",
-      "pushed_at": "2026-11-20T10:19:49Z",
+      "pushed_at": "2026-11-21T04:29:43Z",
       "url": "https://github.com/tonydzi/verbatim-citation-gate"
     },
     {
