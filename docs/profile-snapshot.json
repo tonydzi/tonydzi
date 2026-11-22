@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-21",
+  "as_of_utc": "2026-11-22",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -79,7 +79,7 @@
       "description": "Tools that produce evidence about what an AI agent actually did — gates, attestation, output verification, benchmarks. Inclusion bar: name the artifact a human can inspect later.",
       "fork": false,
       "name": "awesome-verified-agents",
-      "pushed_at": "2026-11-14T05:01:30Z",
+      "pushed_at": "2026-11-21T13:37:35Z",
       "url": "https://github.com/tonydzi/awesome-verified-agents"
     },
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-21T08:37:46Z",
+      "pushed_at": "2026-11-21T16:48:20Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-21T04:24:14Z",
+      "pushed_at": "2026-11-22T08:10:50Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -496,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-20T18:46:02Z",
+      "pushed_at": "2026-11-22T05:30:33Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -504,7 +504,7 @@
       "description": "Semantic recall over a folder of markdown notes as a local HTTP + MCP memory backend for coding agents; pluggable stores: numpy, sqlite-vec, LanceDB, Qdrant, pgvector, chDB",
       "fork": false,
       "name": "vault-recall",
-      "pushed_at": "2026-11-17T07:54:50Z",
+      "pushed_at": "2026-11-21T12:47:16Z",
       "url": "https://github.com/tonydzi/vault-recall"
     },
     {
