@@ -135,11 +135,11 @@ The DOI links identify the individual research records; earlier versions remain 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
 <!-- BLOG-POST-LIST:START -->
+- [A study note became a podcast file. It has not become a publication yet.](https://github.com/tonydzi/clawrush/blob/main/longreads/study-note-to-podcast-publication-checklist-2026-11-21.md) &nbsp;<sub>Nov 21, 2026</sub>
+- [When a reranker makes memory search worse](https://github.com/tonydzi/clawrush/blob/main/longreads/reranking-memory-search-2026-11-21.md) &nbsp;<sub>Nov 21, 2026</sub>
 - [Our Claude Code calls go cold after 60 idle minutes. Our Codex calls go cold slowly, over a day. A log study and its limits.](https://github.com/tonydzi/clawrush/blob/main/longreads/prompt-cache-lifetime-codex-vs-claude-code-2026-11-20.md) &nbsp;<sub>Nov 20, 2026</sub>
 - [Daily longread, 19 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261119.md) &nbsp;<sub>Nov 19, 2026</sub>
-- [Daily longread, 18 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261118.md) &nbsp;<sub>Nov 19, 2026</sub>
-- [I asked an AI to shrink my CLAUDE.md. I got an 854-row table and an eval that lied to me first](https://github.com/tonydzi/clawrush/blob/main/longreads/canon-as-table-2026-11-18.md) &nbsp;<sub>Nov 18, 2026</sub>
-- [Daily longread, 17 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261117.md) &nbsp;<sub>Nov 18, 2026</sub><!-- BLOG-POST-LIST:END -->
+- [Daily longread, 18 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261118.md) &nbsp;<sub>Nov 19, 2026</sub><!-- BLOG-POST-LIST:END -->
 
 ## Working approach
 
