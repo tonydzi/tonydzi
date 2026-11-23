@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-22",
+  "as_of_utc": "2026-11-23",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -49,14 +49,6 @@
       "name": "agent-runtime-integrity-bench",
       "pushed_at": "2026-11-14T05:03:45Z",
       "url": "https://github.com/tonydzi/agent-runtime-integrity-bench"
-    },
-    {
-      "archived": false,
-      "description": "An open corpus of full working sessions with a coding agent: real transcripts from a running agent fleet, published a week later with personal data scrubbed.",
-      "fork": false,
-      "name": "agent-sessions",
-      "pushed_at": "2026-11-17T15:01:12Z",
-      "url": "https://github.com/tonydzi/agent-sessions"
     },
     {
       "archived": false,
@@ -207,7 +199,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-21T16:48:20Z",
+      "pushed_at": "2026-11-23T07:30:57Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +255,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-22T08:10:50Z",
+      "pushed_at": "2026-11-23T08:14:12Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -431,7 +423,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-21T02:51:39Z",
+      "pushed_at": "2026-11-23T06:50:46Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -479,7 +471,7 @@
       "description": "The Journey — a build-in-public book of a 60-day human+AI collaboration. Two voices (Tony & Mycroft), human + machine readable. Palo Alto AI Research Lab.",
       "fork": false,
       "name": "the-journey",
-      "pushed_at": "2026-11-21T05:37:10Z",
+      "pushed_at": "2026-11-23T05:36:33Z",
       "url": "https://github.com/tonydzi/the-journey"
     },
     {
@@ -496,7 +488,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-22T05:30:33Z",
+      "pushed_at": "2026-11-22T12:28:59Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -559,9 +551,9 @@
   "schema": "public-profile-snapshot/v1",
   "scope": {
     "own_archived": 0,
-    "own_public_non_fork": 69,
+    "own_public_non_fork": 68,
     "public_forks_excluded": 188,
-    "public_repositories": 257
+    "public_repositories": 256
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
