@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-23",
+  "as_of_utc": "2026-11-24",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -41,6 +41,14 @@
       "name": "agent-leash",
       "pushed_at": "2026-11-20T10:19:32Z",
       "url": "https://github.com/tonydzi/agent-leash"
+    },
+    {
+      "archived": false,
+      "description": "Claude Code and Codex marketplace: text-only agent skills and plugins by tonydzi",
+      "fork": false,
+      "name": "agent-plugins",
+      "pushed_at": "2026-11-24T13:28:31Z",
+      "url": "https://github.com/tonydzi/agent-plugins"
     },
     {
       "archived": false,
@@ -159,7 +167,7 @@
       "description": "Keep Claude Code's always-loaded MEMORY.md from silently truncating: budget guard, orphan coverage, verbatim domain folding into hubs. Deterministic, no LLM for the mechanical parts.",
       "fork": false,
       "name": "claude-memory-tidy",
-      "pushed_at": "2026-11-14T04:59:59Z",
+      "pushed_at": "2026-11-24T01:33:56Z",
       "url": "https://github.com/tonydzi/claude-memory-tidy"
     },
     {
@@ -199,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-23T07:30:57Z",
+      "pushed_at": "2026-11-24T13:20:20Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -236,7 +244,7 @@
     },
     {
       "archived": false,
-      "description": "Independent audit of CyberChainBench (arXiv:2606.26216): its 43.7%/23.4% exploit-vs-patch headline reproduces, but the two numbers are different estimands and the contamination slice rests on n=9.",
+      "description": "Independent audit of CyberChainBench (arXiv:2606.26216): the 23.4% patch figure reproduces from the release; the 43.7% exploit figure cannot be checked because its subset is not released. The two are different estimands; the contamination slice rests on n=9.",
       "fork": false,
       "name": "cyberchainbench-audit",
       "pushed_at": "2026-11-17T07:58:04Z",
@@ -255,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-23T08:14:12Z",
+      "pushed_at": "2026-11-24T08:50:09Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -423,7 +431,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-23T06:50:46Z",
+      "pushed_at": "2026-11-24T13:25:32Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -447,7 +455,7 @@
       "description": "Agent memory for Claude Code, Cursor, Codex: MCP server + Graph RAG over your Obsidian or markdown notes, a search layer for a Karpathy-style LLM Wiki. Wikilinks are the graph, SQLite the only store.",
       "fork": false,
       "name": "sqlite-graph-memory",
-      "pushed_at": "2026-11-21T01:48:46Z",
+      "pushed_at": "2026-11-23T14:16:13Z",
       "url": "https://github.com/tonydzi/sqlite-graph-memory"
     },
     {
@@ -488,7 +496,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-22T12:28:59Z",
+      "pushed_at": "2026-11-23T14:28:12Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -551,9 +559,9 @@
   "schema": "public-profile-snapshot/v1",
   "scope": {
     "own_archived": 0,
-    "own_public_non_fork": 68,
-    "public_forks_excluded": 188,
-    "public_repositories": 256
+    "own_public_non_fork": 69,
+    "public_forks_excluded": 189,
+    "public_repositories": 258
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
@@ -583,23 +591,23 @@
         "url": "https://github.com/huggingface/cookbook/pull/366"
       },
       {
+        "created_at": "2026-11-24T02:20:39Z",
+        "repository": "modelscope/FunASR",
+        "title": "fix(mcp): return JSON-RPC errors for malformed frames instead of exiting",
+        "url": "https://github.com/modelscope/FunASR/pull/3945"
+      },
+      {
         "created_at": "2026-11-19T12:45:44Z",
         "repository": "topoteretes/cognee-community",
         "title": "feat(connector): add Obsidian vault data-source connector (cognee#4725)",
         "url": "https://github.com/topoteretes/cognee-community/pull/693"
-      },
-      {
-        "created_at": "2026-11-17T02:32:03Z",
-        "repository": "TencentCloud/TencentDB-Agent-Memory",
-        "title": "fix(l2): cap the agent read tool output to avoid context_length_exceeded",
-        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1999"
       }
     ],
     "large_vendor_projects": 8,
     "merged": 87,
     "merged_projects": 50,
-    "open": 49,
-    "open_projects": 46,
+    "open": 50,
+    "open_projects": 47,
     "projects": [
       {
         "last": "2026-10-05",
