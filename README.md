@@ -68,9 +68,9 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 These are contributions to other owners' public repositories. Merged work, open proposals and closed submissions remain distinct in the [full contribution ledger](https://tonydzi.github.io/contributions/).
 
 <!-- PROFILE-ACTIVITY:START -->
-Live from the GitHub API, verified 2026-11-24 UTC. Own repositories and awesome-/registry-list entries are not counted.
+Live from the GitHub API, verified 2026-11-25 UTC. Own repositories and awesome-/registry-list entries are not counted.
 
-**87 pull requests merged into 50 upstream projects** (8 of them at large tech companies and labs) · **50 more open in review** across 47 projects · [full list with live status](https://tonydzi.github.io/contributions/)
+**88 pull requests merged into 51 upstream projects** (8 of them at large tech companies and labs) · **49 more open in review** across 46 projects · [full list with live status](https://tonydzi.github.io/contributions/)
 
 Merged, large vendors first:
 
@@ -82,10 +82,10 @@ Merged, large vendors first:
 - **QwenLM/qwen-code**: [4 merged](https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-16.
 - **bytedance/deer-flow**: [1 merged](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-30.
 - **UKGovernmentBEIS/inspect\_ai**: [1 merged](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-09-01.
+- **modelscope/FunASR**: [1 merged](https://github.com/modelscope/FunASR/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-24.
 - **doobidoo/mcp-memory-service**: [5 merged](https://github.com/doobidoo/mcp-memory-service/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-18.
 - **embeddings-benchmark/mteb**: [1 merged](https://github.com/embeddings-benchmark/mteb/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-16.
 - **osaurus-ai/osaurus**: [1 merged](https://github.com/osaurus-ai/osaurus/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-14.
-- **zhayujie/CowAgent**: [1 merged](https://github.com/zhayujie/CowAgent/pulls?q=is%3Apr+is%3Amerged+author%3Atonydzi), last 2026-11-09.
 
 In review now:
 
@@ -93,8 +93,8 @@ In review now:
 - **anthropics/claude-cookbooks**: [fix: convert remaining broken sre\_bot\_slack.py links in SRE cookbook](https://github.com/anthropics/claude-cookbooks/pull/799), opened 2026-07-25.
 - **openai/openai-cookbook**: [Add cookbook: check citation faithfulness in RAG with a zero-token gate](https://github.com/openai/openai-cookbook/pull/2880), opened 2026-07-24.
 - **huggingface/cookbook**: [Add self-verifying search agent recipe](https://github.com/huggingface/cookbook/pull/366), opened 2026-07-24.
-- **modelscope/FunASR**: [fix\(mcp\): return JSON-RPC errors for malformed frames instead of exiting](https://github.com/modelscope/FunASR/pull/3945), opened 2026-11-24.
 - **topoteretes/cognee-community**: [feat\(connector\): add Obsidian vault data-source connector \(cognee\#4725\)](https://github.com/topoteretes/cognee-community/pull/693), opened 2026-11-19.
+- **TencentCloud/TencentDB-Agent-Memory**: [fix\(l2\): cap the agent read tool output to avoid context\_length\_exceeded](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1999), opened 2026-11-17.
 <!-- PROFILE-ACTIVITY:END -->
 
 ## Current research and experiments
