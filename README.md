@@ -135,11 +135,11 @@ The DOI links identify the individual research records; earlier versions remain 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
 <!-- BLOG-POST-LIST:START -->
+- [Daily longread, 25 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261125.md) &nbsp;<sub>Nov 25, 2026</sub>
 - [Daily longread, 24 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261124.md) &nbsp;<sub>Nov 24, 2026</sub>
 - [gpt-transcribe vs gpt-4o-transcribe on 24 real voice notes: better scores, and one silent failure mode](https://github.com/tonydzi/clawrush/blob/main/longreads/gpt-transcribe-vs-gpt-4o-transcribe-2026-11-24.md) &nbsp;<sub>Nov 24, 2026</sub>
 - [Daily longread, 23 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261123.md) &nbsp;<sub>Nov 23, 2026</sub>
-- [Daily longread, 20 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261120.md) &nbsp;<sub>Nov 22, 2026</sub>
-- [A study note became a podcast file. It has not become a publication yet.](https://github.com/tonydzi/clawrush/blob/main/longreads/study-note-to-podcast-publication-checklist-2026-11-21.md) &nbsp;<sub>Nov 21, 2026</sub><!-- BLOG-POST-LIST:END -->
+- [Daily longread, 20 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261120.md) &nbsp;<sub>Nov 22, 2026</sub><!-- BLOG-POST-LIST:END -->
 
 ## Working approach
 
