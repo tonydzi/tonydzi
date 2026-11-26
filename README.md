@@ -68,9 +68,9 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 These are contributions to other owners' public repositories. Merged work, open proposals and closed submissions remain distinct in the [full contribution ledger](https://tonydzi.github.io/contributions/).
 
 <!-- PROFILE-ACTIVITY:START -->
-Live from the GitHub API, verified 2026-11-25 UTC. Own repositories and awesome-/registry-list entries are not counted.
+Live from the GitHub API, verified 2026-11-26 UTC. Own repositories and awesome-/registry-list entries are not counted.
 
-**88 pull requests merged into 51 upstream projects** (8 of them at large tech companies and labs) · **49 more open in review** across 46 projects · [full list with live status](https://tonydzi.github.io/contributions/)
+**88 pull requests merged into 51 upstream projects** (8 of them at large tech companies and labs) · **52 more open in review** across 48 projects · [full list with live status](https://tonydzi.github.io/contributions/)
 
 Merged, large vendors first:
 
@@ -93,8 +93,8 @@ In review now:
 - **anthropics/claude-cookbooks**: [fix: convert remaining broken sre\_bot\_slack.py links in SRE cookbook](https://github.com/anthropics/claude-cookbooks/pull/799), opened 2026-07-25.
 - **openai/openai-cookbook**: [Add cookbook: check citation faithfulness in RAG with a zero-token gate](https://github.com/openai/openai-cookbook/pull/2880), opened 2026-07-24.
 - **huggingface/cookbook**: [Add self-verifying search agent recipe](https://github.com/huggingface/cookbook/pull/366), opened 2026-07-24.
-- **topoteretes/cognee-community**: [feat\(connector\): add Obsidian vault data-source connector \(cognee\#4725\)](https://github.com/topoteretes/cognee-community/pull/693), opened 2026-11-19.
-- **TencentCloud/TencentDB-Agent-Memory**: [fix\(l2\): cap the agent read tool output to avoid context\_length\_exceeded](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1999), opened 2026-11-17.
+- **doobidoo/mcp-memory-service**: [fix\(sync\): forward delta-sync events a hybrid hub applied to its secondary \(\#1506, part 1 of 2\)](https://github.com/doobidoo/mcp-memory-service/pull/2135), opened 2026-11-26.
+- **doobidoo/mcp-memory-service**: [fix\(sync\): forward delta-sync events a hybrid hub applies to its secondary \(\#1506\)](https://github.com/doobidoo/mcp-memory-service/pull/2134), opened 2026-11-26.
 <!-- PROFILE-ACTIVITY:END -->
 
 ## Current research and experiments
