@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-26",
+  "as_of_utc": "2026-11-27",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -55,7 +55,7 @@
       "description": "Integrity scenarios for agent runtimes, distilled from real fleet incidents — deterministic fault-injection checks against real SDKs",
       "fork": false,
       "name": "agent-runtime-integrity-bench",
-      "pushed_at": "2026-11-14T05:03:45Z",
+      "pushed_at": "2026-11-27T05:56:27Z",
       "url": "https://github.com/tonydzi/agent-runtime-integrity-bench"
     },
     {
@@ -79,7 +79,7 @@
       "description": "Tools that produce evidence about what an AI agent actually did — gates, attestation, output verification, benchmarks. Inclusion bar: name the artifact a human can inspect later.",
       "fork": false,
       "name": "awesome-verified-agents",
-      "pushed_at": "2026-11-21T13:37:35Z",
+      "pushed_at": "2026-11-26T14:36:46Z",
       "url": "https://github.com/tonydzi/awesome-verified-agents"
     },
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-26T09:52:45Z",
+      "pushed_at": "2026-11-27T08:47:28Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-26T04:23:58Z",
+      "pushed_at": "2026-11-27T04:24:11Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -297,6 +297,14 @@
       "name": "harness-abc-bench",
       "pushed_at": "2026-11-14T05:17:49Z",
       "url": "https://github.com/tonydzi/harness-abc-bench"
+    },
+    {
+      "archived": false,
+      "description": "Search the last 14 days of ALL your coding-agent sessions (Claude Code, Codex, Gemini CLI) in one place. One Python file, stdlib + SQLite FTS5, no LLM, no server. Works without distillation.",
+      "fork": false,
+      "name": "hot-session-search",
+      "pushed_at": "2026-11-26T13:37:49Z",
+      "url": "https://github.com/tonydzi/hot-session-search"
     },
     {
       "archived": false,
@@ -361,6 +369,14 @@
       "name": "memory-over-time",
       "pushed_at": "2026-11-17T07:54:30Z",
       "url": "https://github.com/tonydzi/memory-over-time"
+    },
+    {
+      "archived": false,
+      "description": "Quick code-graded eval of every LLM you can reach: Claude, Codex, Cursor, Gemini, DeepSeek, Kimi, Qwen, GLM, Grok. Paste one prompt to your agent.",
+      "fork": false,
+      "name": "model-eval-kit",
+      "pushed_at": "2026-11-26T14:17:32Z",
+      "url": "https://github.com/tonydzi/model-eval-kit"
     },
     {
       "archived": false,
@@ -431,7 +447,7 @@
       "description": "A second brain for Claude Code and Codex that keeps receipts, following Karpathy's LLM Wiki pattern: the agent keeps your markdown vault. Skills as a plugin marketplace, opt-in memory over MCP, vault templates, a CRM engine. MIT.",
       "fork": false,
       "name": "second-brain-starter-kit",
-      "pushed_at": "2026-11-24T13:25:32Z",
+      "pushed_at": "2026-11-27T03:37:55Z",
       "url": "https://github.com/tonydzi/second-brain-starter-kit"
     },
     {
@@ -479,7 +495,7 @@
       "description": "The Journey — a build-in-public book of a 60-day human+AI collaboration. Two voices (Tony & Mycroft), human + machine readable. Palo Alto AI Research Lab.",
       "fork": false,
       "name": "the-journey",
-      "pushed_at": "2026-11-25T05:39:40Z",
+      "pushed_at": "2026-11-27T05:35:46Z",
       "url": "https://github.com/tonydzi/the-journey"
     },
     {
@@ -496,7 +512,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-25T14:12:18Z",
+      "pushed_at": "2026-11-26T13:48:23Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -559,9 +575,9 @@
   "schema": "public-profile-snapshot/v1",
   "scope": {
     "own_archived": 0,
-    "own_public_non_fork": 69,
+    "own_public_non_fork": 71,
     "public_forks_excluded": 191,
-    "public_repositories": 260
+    "public_repositories": 262
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
@@ -585,28 +601,28 @@
         "url": "https://github.com/openai/openai-cookbook/pull/2880"
       },
       {
+        "created_at": "2026-11-27T02:03:54Z",
+        "repository": "QwenLM/qwen-code",
+        "title": "fix(serve): treat an unreadable core count as no CPU signal in load admission",
+        "url": "https://github.com/QwenLM/qwen-code/pull/18477"
+      },
+      {
         "created_at": "2026-07-24T06:41:13Z",
         "repository": "huggingface/cookbook",
         "title": "Add self-verifying search agent recipe",
         "url": "https://github.com/huggingface/cookbook/pull/366"
       },
       {
-        "created_at": "2026-11-26T03:53:29Z",
-        "repository": "doobidoo/mcp-memory-service",
-        "title": "fix(sync): forward delta-sync events a hybrid hub applied to its secondary (#1506, part 1 of 2)",
-        "url": "https://github.com/doobidoo/mcp-memory-service/pull/2135"
-      },
-      {
-        "created_at": "2026-11-26T03:39:27Z",
-        "repository": "doobidoo/mcp-memory-service",
-        "title": "fix(sync): forward delta-sync events a hybrid hub applies to its secondary (#1506)",
-        "url": "https://github.com/doobidoo/mcp-memory-service/pull/2134"
+        "created_at": "2026-11-26T02:15:47Z",
+        "repository": "osaurus-ai/osaurus",
+        "title": "docs: fix stale undo-log references (FileOperationLog, ShellMutationLog)",
+        "url": "https://github.com/osaurus-ai/osaurus/pull/3552"
       }
     ],
     "large_vendor_projects": 8,
-    "merged": 88,
+    "merged": 89,
     "merged_projects": 51,
-    "open": 52,
+    "open": 51,
     "open_projects": 48,
     "projects": [
       {
@@ -650,14 +666,14 @@
         "repository": "UKGovernmentBEIS/inspect_ai"
       },
       {
+        "last": "2026-11-27",
+        "merged": 6,
+        "repository": "doobidoo/mcp-memory-service"
+      },
+      {
         "last": "2026-11-24",
         "merged": 1,
         "repository": "modelscope/FunASR"
-      },
-      {
-        "last": "2026-11-18",
-        "merged": 5,
-        "repository": "doobidoo/mcp-memory-service"
       },
       {
         "last": "2026-11-16",
