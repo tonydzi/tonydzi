@@ -68,9 +68,9 @@ Everything else is a smaller tool or an experiment, listed in the [catalog](docs
 These are contributions to other owners' public repositories. Merged work, open proposals and closed submissions remain distinct in the [full contribution ledger](https://tonydzi.github.io/contributions/).
 
 <!-- PROFILE-ACTIVITY:START -->
-Live from the GitHub API, verified 2026-11-27 UTC. Own repositories and awesome-/registry-list entries are not counted.
+Live from the GitHub API, verified 2026-11-28 UTC. Own repositories and awesome-/registry-list entries are not counted.
 
-**89 pull requests merged into 51 upstream projects** (8 of them at large tech companies and labs) · **51 more open in review** across 48 projects · [full list with live status](https://tonydzi.github.io/contributions/)
+**89 pull requests merged into 51 upstream projects** (8 of them at large tech companies and labs) · **55 more open in review** across 52 projects · [full list with live status](https://tonydzi.github.io/contributions/)
 
 Merged, large vendors first:
 
@@ -94,7 +94,7 @@ In review now:
 - **openai/openai-cookbook**: [Add cookbook: check citation faithfulness in RAG with a zero-token gate](https://github.com/openai/openai-cookbook/pull/2880), opened 2026-07-24.
 - **QwenLM/qwen-code**: [fix\(serve\): treat an unreadable core count as no CPU signal in load admission](https://github.com/QwenLM/qwen-code/pull/18477), opened 2026-11-27.
 - **huggingface/cookbook**: [Add self-verifying search agent recipe](https://github.com/huggingface/cookbook/pull/366), opened 2026-07-24.
-- **osaurus-ai/osaurus**: [docs: fix stale undo-log references \(FileOperationLog, ShellMutationLog\)](https://github.com/osaurus-ai/osaurus/pull/3552), opened 2026-11-26.
+- **anima-research/agent-framework**: [fix\(mcpl\): an initialize error with no string message says the server gave none, with its code](https://github.com/anima-research/agent-framework/pull/1074), opened 2026-11-28.
 <!-- PROFILE-ACTIVITY:END -->
 
 ## Current research and experiments

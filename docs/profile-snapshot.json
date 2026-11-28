@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27",
+  "as_of_utc": "2026-11-28",
   "owner": "tonydzi",
   "repositories": [
     {
@@ -39,7 +39,7 @@
       "description": "LEASH-8: an 8-domain control model for AI agents with delegated authority. Scorecard, approval-design checklist, plan-vs-authorize pattern. Patterns from a live production agent operation, sanitized. Free, MIT.",
       "fork": false,
       "name": "agent-leash",
-      "pushed_at": "2026-11-20T10:19:32Z",
+      "pushed_at": "2026-11-28T04:24:44Z",
       "url": "https://github.com/tonydzi/agent-leash"
     },
     {
@@ -79,7 +79,7 @@
       "description": "Tools that produce evidence about what an AI agent actually did — gates, attestation, output verification, benchmarks. Inclusion bar: name the artifact a human can inspect later.",
       "fork": false,
       "name": "awesome-verified-agents",
-      "pushed_at": "2026-11-26T14:36:46Z",
+      "pushed_at": "2026-11-28T01:41:04Z",
       "url": "https://github.com/tonydzi/awesome-verified-agents"
     },
     {
@@ -111,7 +111,7 @@
       "description": "CharmOS / C(H+A)RM — open-source framework to manage humans AND AI agents as first-class relationships, on a personal second brain, driven by the RDR loop (Recall to Deep Research). Manifest-first, Apache-2.0.",
       "fork": false,
       "name": "charm-os",
-      "pushed_at": "2026-11-20T10:19:36Z",
+      "pushed_at": "2026-11-28T04:24:47Z",
       "url": "https://github.com/tonydzi/charm-os"
     },
     {
@@ -127,7 +127,7 @@
       "description": "Make Claude Code behave consistently across repos, sessions and humans: rules-as-files governance with precedence, declined-decisions journal, objection sparring. Sanitized from a live production system. Free, MIT.",
       "fork": false,
       "name": "claude-bible",
-      "pushed_at": "2026-11-25T01:58:22Z",
+      "pushed_at": "2026-11-28T04:24:43Z",
       "url": "https://github.com/tonydzi/claude-bible"
     },
     {
@@ -191,7 +191,7 @@
       "description": "Run AI agents across machines without state drift: consensus protocol (propose/counter/accept/commit), dual-rail message bus, ACK discipline, self-healing sync. Formerly claude-consensus. Free, MIT.",
       "fork": false,
       "name": "claw-consensus",
-      "pushed_at": "2026-11-18T18:49:30Z",
+      "pushed_at": "2026-11-28T04:24:45Z",
       "url": "https://github.com/tonydzi/claw-consensus"
     },
     {
@@ -207,7 +207,7 @@
       "description": "C(H+A)RM build diary — a CRM for Human & Agent collaboration, built in public with Claude Code. Framework: github.com/tonydzi/charm-os. English diary, longreads & reusable artifacts. RU: Telegram @ClawRus.",
       "fork": false,
       "name": "clawrush",
-      "pushed_at": "2026-11-27T08:47:28Z",
+      "pushed_at": "2026-11-28T06:57:23Z",
       "url": "https://github.com/tonydzi/clawrush"
     },
     {
@@ -263,7 +263,7 @@
       "description": "226 deep-research reports from Palo Alto AI Research Lab, distilled. Why we ran each one, and what we got. Multi-model methodology: every question fanned out to several frontier models, then reconciled. CC BY 4.0.",
       "fork": false,
       "name": "deep-research",
-      "pushed_at": "2026-11-27T04:24:11Z",
+      "pushed_at": "2026-11-28T08:06:47Z",
       "url": "https://github.com/tonydzi/deep-research"
     },
     {
@@ -375,7 +375,7 @@
       "description": "Quick code-graded eval of every LLM you can reach: Claude, Codex, Cursor, Gemini, DeepSeek, Kimi, Qwen, GLM, Grok. Paste one prompt to your agent.",
       "fork": false,
       "name": "model-eval-kit",
-      "pushed_at": "2026-11-26T14:17:32Z",
+      "pushed_at": "2026-11-28T01:33:32Z",
       "url": "https://github.com/tonydzi/model-eval-kit"
     },
     {
@@ -512,7 +512,7 @@
       "description": "START HERE — Anton Dziatkovskii, one page of proof",
       "fork": false,
       "name": "tonydzi.github.io",
-      "pushed_at": "2026-11-26T13:48:23Z",
+      "pushed_at": "2026-11-27T13:45:20Z",
       "url": "https://github.com/tonydzi/tonydzi.github.io"
     },
     {
@@ -576,8 +576,8 @@
   "scope": {
     "own_archived": 0,
     "own_public_non_fork": 71,
-    "public_forks_excluded": 191,
-    "public_repositories": 262
+    "public_forks_excluded": 192,
+    "public_repositories": 263
   },
   "source": "GitHub public REST repositories and GraphQL merged/open PR search",
   "upstream_pull_requests": {
@@ -613,17 +613,17 @@
         "url": "https://github.com/huggingface/cookbook/pull/366"
       },
       {
-        "created_at": "2026-11-26T02:15:47Z",
-        "repository": "osaurus-ai/osaurus",
-        "title": "docs: fix stale undo-log references (FileOperationLog, ShellMutationLog)",
-        "url": "https://github.com/osaurus-ai/osaurus/pull/3552"
+        "created_at": "2026-11-28T05:33:36Z",
+        "repository": "anima-research/agent-framework",
+        "title": "fix(mcpl): an initialize error with no string message says the server gave none, with its code",
+        "url": "https://github.com/anima-research/agent-framework/pull/1074"
       }
     ],
     "large_vendor_projects": 8,
     "merged": 89,
     "merged_projects": 51,
-    "open": 51,
-    "open_projects": 48,
+    "open": 55,
+    "open_projects": 52,
     "projects": [
       {
         "last": "2026-10-05",
