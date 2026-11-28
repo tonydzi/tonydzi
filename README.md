@@ -135,11 +135,11 @@ The DOI links identify the individual research records; earlier versions remain 
 [Clawrush](https://github.com/tonydzi/clawrush) records what was built, what broke and what was learned. The feed below updates automatically. [The Journey](https://github.com/tonydzi/the-journey) is the longer build-in-public book, with human-readable chapters and a machine-readable edition.
 
 <!-- BLOG-POST-LIST:START -->
-- [Why a 250-line skill file erases an AI cofounder persona, and how a 9-line tail anchor recovers it across 7 LLMs](https://github.com/tonydzi/clawrush/blob/main/longreads/kaper-tail-anchor-recency-bias-eval-2026-11-26.md) &nbsp;<sub>Nov 26, 2026</sub>
-- [Вычитка frontier-моделью: codex / gpt-6-astra &lpar;122 с, дословно&rpar;](https://github.com/tonydzi/clawrush/blob/main/longreads/kaper-tail-anchor-recency-bias-eval-2026-11-26.md.proofread.md) &nbsp;<sub>Nov 26, 2026</sub>
-- [Вычитка frontier-моделью: agy / gemini-4-hydrogen-low &lpar;24 с, дословно&rpar;](https://github.com/tonydzi/clawrush/blob/main/longreads/cofounder-consistency-73-frontier-efforts-2026-11-26.md.proofread.md) &nbsp;<sub>Nov 26, 2026</sub>
-- [Why 100% on IFEval collapses to 0% on a 120 KB agent canon across 73 frontier pairs](https://github.com/tonydzi/clawrush/blob/main/longreads/cofounder-consistency-73-frontier-efforts-2026-11-26.md) &nbsp;<sub>Nov 26, 2026</sub>
-- [Daily longread, 26 November 2026](https://github.com/tonydzi/clawrush/blob/main/longreads/20261126.md) &nbsp;<sub>Nov 26, 2026</sub><!-- BLOG-POST-LIST:END -->
+- [We Tested 12 AI Agent Harnesses on an 8-Machine Fleet: Why 394K Stars Can Wreck Your Security and Token Budget](https://github.com/tonydzi/clawrush/blob/main/longreads/ai-agent-harnesses-benchmark-8-machine-fleet-2026-11-28.md) &nbsp;<sub>Nov 28, 2026</sub>
+- [The Secret of the Effort Knob: Why Low Effort Makes an AI Cofounder a Bold Pirate and High Effort Turns It Into a Diplomat](https://github.com/tonydzi/clawrush/blob/main/longreads/effort-knob-pirate-vs-diplomat-2026-11-28.md) &nbsp;<sub>Nov 28, 2026</sub>
+- [14-Day Hot Agent Memory: Why 80%+ of Operational Agent Recall Lives in the Last Two Weeks &lpar;And How a 20ms Cold Layer Covers the Rest&rpar;](https://github.com/tonydzi/clawrush/blob/main/longreads/hot-agent-memory-14-day-window-2026-11-28.md) &nbsp;<sub>Nov 28, 2026</sub>
+- [Benchmarking LLM Gateways in a Multi-Agent Fleet: 216 Live Calls on llmapi.ai vs OpenRouter](https://github.com/tonydzi/clawrush/blob/main/longreads/llm-gateways-llmapi-vs-openrouter-216-calls-2026-11-28.md) &nbsp;<sub>Nov 28, 2026</sub>
+- [Why We Turned Off Our Cross-Encoder Reranker, Found 38.5% Silent Chunk Truncation, and Tested Mem0, Zep/Graphiti, and SQLite on Their Own Benchmarks](https://github.com/tonydzi/clawrush/blob/main/longreads/rag-chunking-and-reranker-ablation-2026-11-28.md) &nbsp;<sub>Nov 28, 2026</sub><!-- BLOG-POST-LIST:END -->
 
 ## Working approach
 
